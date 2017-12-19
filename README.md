@@ -24,3 +24,13 @@ JohnDoeWorld
 3. 准备开发。
 
 ## REFERENCE
+
+画面风格参考
++ 有边缘的像素画
+  + [BS Kaizou Tyoujin Shubibinman Zero](https://www.spriters-resource.com/snes/bskaizou/?source=genre)
+  + [Futari wa Pretty Cure](https://www.spriters-resource.com/game_boy_advance/prettycure/?source=genre)
+  + [Castle in the Darkness](https://www.spriters-resource.com/pc_computer/castleinthedarkness/?source=genre)
++ 无边缘的像素画
+  + [Hack9 / GHost9 Saga](https://www.spriters-resource.com/pc_computer/hack9ghost9saga/?source=genre)
++ 恶魔城画风 
+  + [Koumajou Densetsu II](https://www.spriters-resource.com/pc_computer/koumajoudensetsuiistrangersrequiem/?source=genre)
