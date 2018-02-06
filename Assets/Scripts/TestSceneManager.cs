@@ -39,13 +39,13 @@ public class TestSceneManager : MonoBehaviour {
 
 	}
 
-	public List<Vector3Int> HasLadder(GameObject gObj, Direction direction) {
-		List<Vector3Int> posList = new List<Vector3Int>();
+	public List<Vector3> HasLadder(GameObject gObj, Direction direction) {
+		List<Vector3> posList = new List<Vector3>();
 
 		Collider2D collider = gObj.GetComponent<Collider2D>();
 
 		if (collider == null) return posList;
-		Bounds bounds = ladderCollider.bounds;
+		Bounds bounds = collider.bounds;
 		Vector3 centerPoint = collider.bounds.center;
 
 		if (direction == Direction.Up) {
@@ -54,10 +54,11 @@ public class TestSceneManager : MonoBehaviour {
 			直接使用gObj的中心点，检测其是否在梯子中
 			 */
 			Vector3 vec3 = centerPoint;
+			Debug.Log(vec3);
 			Vector3Int cellPos = ladderTilemap.WorldToCell(vec3);
 			bool collision = ladderTilemap.GetTile(cellPos) != null;
 			if (collision) {
-				Vector3Int temp = ladderTilemap.WorldToCell(vec3);
+				Vector3 temp = ladderTilemap.CellToWorld(cellPos);
 				posList.Add(temp);
 			}
 		} else if (direction == Direction.Down) {
@@ -67,10 +68,11 @@ public class TestSceneManager : MonoBehaviour {
 			 */
 			Vector3 vec3 = centerPoint;
 			vec3.y -= bounds.extents.y + CHECKING_DELTA;
+			Debug.Log(vec3);
 			Vector3Int cellPos = ladderTilemap.WorldToCell(vec3);
 			bool collision = ladderTilemap.GetTile(cellPos) != null;
 			if (collision) {
-				Vector3Int temp = ladderTilemap.WorldToCell(vec3);
+				Vector3 temp = ladderTilemap.CellToWorld(cellPos);
 				posList.Add(temp);
 			}
 		} else {
@@ -78,5 +80,9 @@ public class TestSceneManager : MonoBehaviour {
 		}
 
 		return posList;
+	}
+
+	public Vector3Int GetCellPos(GameObject gObj) {
+		return ladderTilemap.WorldToCell(gObj.transform.position);
 	}
 }
