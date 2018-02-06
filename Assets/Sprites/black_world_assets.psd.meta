@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 70701211318f31b40a7ccbd099d44c63
+timeCreated: 1517900739
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: black_world_assets_0
+    21300002: black_world_assets_1
+    21300004: black_world_assets_2
+    21300006: black_world_assets_3
+    21300008: black_world_assets_4
+    21300010: black_world_assets_5
+    21300012: black_world_assets_6
+    21300014: black_world_assets_7
+    21300016: black_world_assets_8
+    21300018: black_world_assets_9
+    21300020: black_world_assets_10
+    21300022: black_world_assets_11
+    21300024: black_world_assets_12
+    21300026: black_world_assets_13
+    21300028: black_world_assets_14
+    21300030: black_world_assets_15
+    21300032: black_world_assets_16
+    21300034: black_world_assets_17
+    21300036: black_world_assets_18
+    21300038: black_world_assets_19
+    21300040: black_world_assets_20
+    21300042: black_world_assets_21
+    21300044: black_world_assets_22
+    21300046: black_world_assets_23
+    21300048: black_world_assets_24
+    21300050: black_world_assets_25
+    21300052: black_world_assets_26
+    21300054: black_world_assets_27
+    21300056: black_world_assets_28
+    21300058: black_world_assets_29
+    21300060: black_world_assets_30
+    21300062: black_world_assets_31
+    21300064: black_world_assets_32
+    21300066: black_world_assets_33
+    21300068: black_world_assets_34
+    21300070: black_world_assets_35
+    21300072: black_world_assets_36
+    21300074: black_world_assets_37
+    21300076: black_world_assets_38
+    21300078: black_world_assets_39
+    21300080: black_world_assets_40
+    21300082: black_world_assets_41
+    21300084: black_world_assets_42
+    21300086: black_world_assets_43
+    21300088: black_world_assets_44
+    21300090: black_world_assets_45
+    21300092: black_world_assets_46
+    21300094: black_world_assets_47
+    21300096: black_world_assets_48
+    21300098: black_world_assets_49
+    21300100: black_world_assets_50
+    21300102: black_world_assets_51
+    21300104: black_world_assets_52
+    21300106: black_world_assets_53
+    21300108: black_world_assets_54
+    21300110: black_world_assets_55
+    21300112: black_world_assets_56
+    21300114: black_world_assets_57
+    21300116: black_world_assets_58
+    21300118: black_world_assets_59
+    21300120: black_world_assets_60
+    21300122: black_world_assets_61
+    21300124: black_world_assets_62
+    21300126: black_world_assets_63
+    21300128: black_world_assets_64
+    21300130: black_world_assets_65
+    21300132: black_world_assets_66
+    21300134: black_world_assets_67
+    21300136: black_world_assets_68
+    21300138: black_world_assets_69
+    21300140: black_world_assets_70
+    21300142: black_world_assets_71
+    21300144: black_world_assets_72
+    21300146: black_world_assets_73
+    21300148: black_world_assets_74
+    21300150: black_world_assets_75
+    21300152: black_world_assets_76
+    21300154: black_world_assets_77
+    21300156: black_world_assets_78
+    21300158: black_world_assets_79
+    21300160: black_world_assets_80
+    21300162: black_world_assets_81
+    21300164: black_world_assets_82
+    21300166: black_world_assets_83
+    21300168: black_world_assets_84
+    21300170: black_world_assets_85
+    21300172: black_world_assets_86
+    21300174: black_world_assets_87
+    21300176: black_world_assets_88
+    21300178: black_world_assets_89
+    21300180: black_world_assets_90
+    21300182: black_world_assets_91
+    21300184: black_world_assets_92
+    21300186: black_world_assets_93
+    21300188: black_world_assets_94
+    21300190: black_world_assets_95
+    21300192: black_world_assets_96
+    21300194: black_world_assets_97
+    21300196: black_world_assets_98
+    21300198: black_world_assets_99
+    21300200: black_world_assets_100
+    21300202: black_world_assets_101
+    21300204: black_world_assets_102
+    21300206: black_world_assets_103
+    21300208: black_world_assets_104
+    21300210: black_world_assets_105
+    21300212: black_world_assets_106
+    21300214: black_world_assets_107
+    21300216: black_world_assets_108
+    21300218: black_world_assets_109
+    21300220: black_world_assets_110
+    21300222: black_world_assets_111
+    21300224: black_world_assets_112
+    21300226: black_world_assets_113
+    21300228: black_world_assets_114
+    21300230: black_world_assets_115
+    21300232: black_world_assets_116
+    21300234: black_world_assets_117
+    21300236: black_world_assets_118
+    21300238: black_world_assets_119
+    21300240: black_world_assets_120
+    21300242: black_world_assets_121
+    21300244: black_world_assets_122
+    21300246: black_world_assets_123
+    21300248: black_world_assets_124
+    21300250: black_world_assets_125
+    21300252: black_world_assets_126
+    21300254: black_world_assets_127
+    21300256: black_world_assets_128
+    21300258: black_world_assets_129
+    21300260: black_world_assets_130
+    21300262: black_world_assets_131
+    21300264: black_world_assets_132
+    21300266: black_world_assets_133
+    21300268: black_world_assets_134
+    21300270: black_world_assets_135
+    21300272: black_world_assets_136
+    21300274: black_world_assets_137
+    21300276: black_world_assets_138
+    21300278: black_world_assets_139
+    21300280: black_world_assets_140
+    21300282: black_world_assets_141
+    21300284: black_world_assets_142
+    21300286: black_world_assets_143
+    21300288: black_world_assets_144
+    21300290: black_world_assets_145
+    21300292: black_world_assets_146
+    21300294: black_world_assets_147
+    21300296: black_world_assets_148
+    21300298: black_world_assets_149
+    21300300: black_world_assets_150
+    21300302: black_world_assets_151
+    21300304: black_world_assets_152
+    21300306: black_world_assets_153
+    21300308: black_world_assets_154
+    21300310: black_world_assets_155
+    21300312: black_world_assets_156
+    21300314: black_world_assets_157
+    21300316: black_world_assets_158
+    21300318: black_world_assets_159
+    21300320: black_world_assets_160
+    21300322: black_world_assets_161
+    21300324: black_world_assets_162
+    21300326: black_world_assets_163
+    21300328: black_world_assets_164
+    21300330: black_world_assets_165
+    21300332: black_world_assets_166
+    21300334: black_world_assets_167
+    21300336: black_world_assets_168
+    21300338: black_world_assets_169
+    21300340: black_world_assets_170
+    21300342: black_world_assets_171
+    21300344: black_world_assets_172
+    21300346: black_world_assets_173
+    21300348: black_world_assets_174
+    21300350: black_world_assets_175
+    21300352: black_world_assets_176
+    21300354: black_world_assets_177
+    21300356: black_world_assets_178
+    21300358: black_world_assets_179
+    21300360: black_world_assets_180
+    21300362: black_world_assets_181
+    21300364: black_world_assets_182
+    21300366: black_world_assets_183
+    21300368: black_world_assets_184
+    21300370: black_world_assets_185
+    21300372: black_world_assets_186
+    21300374: black_world_assets_187
+    21300376: black_world_assets_188
+    21300378: black_world_assets_189
+    21300380: black_world_assets_190
+    21300382: black_world_assets_191
+    21300384: black_world_assets_192
+    21300386: black_world_assets_193
+    21300388: black_world_assets_194
+    21300390: black_world_assets_195
+    21300392: black_world_assets_196
+    21300394: black_world_assets_197
+    21300396: black_world_assets_198
+    21300398: black_world_assets_199
+    21300400: black_world_assets_200
+    21300402: black_world_assets_201
+    21300404: black_world_assets_202
+    21300406: black_world_assets_203
+    21300408: black_world_assets_204
+    21300410: black_world_assets_205
+    21300412: black_world_assets_206
+    21300414: black_world_assets_207
+    21300416: black_world_assets_208
+    21300418: black_world_assets_209
+    21300420: black_world_assets_210
+    21300422: black_world_assets_211
+    21300424: black_world_assets_212
+    21300426: black_world_assets_213
+    21300428: black_world_assets_214
+    21300430: black_world_assets_215
+    21300432: black_world_assets_216
+    21300434: black_world_assets_217
+    21300436: black_world_assets_218
+    21300438: black_world_assets_219
+    21300440: black_world_assets_220
+    21300442: black_world_assets_221
+    21300444: black_world_assets_222
+    21300446: black_world_assets_223
+    21300448: black_world_assets_224
+    21300450: black_world_assets_225
+    21300452: black_world_assets_226
+    21300454: black_world_assets_227
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black_world_assets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
