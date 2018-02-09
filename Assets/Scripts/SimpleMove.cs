@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class SimpleMove : MonoBehaviour {
 
 	private GameObject controlObject;
-	private TestSceneManager manager;
+	private BaseSceneManager manager;
 	private Rigidbody2D thisRigidbody;
 	public float speed = 0.1f;
 
@@ -21,7 +21,7 @@ public class SimpleMove : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		controlObject = this.gameObject;
-		manager = TestSceneManager.instance;
+		manager = BaseSceneManager.instance;
 		thisRigidbody = gameObject.GetComponent<Rigidbody2D>();
 	}
 
@@ -29,7 +29,7 @@ public class SimpleMove : MonoBehaviour {
 	void Update() {
 		Vector2 prevPos = controlObject.transform.position;
 		if (Input.GetKey(KeyCode.W)) {
-			var ret = manager.HasLadder(gameObject, TestSceneManager.Direction.Up);
+			var ret = manager.HasLadder(gameObject, BaseSceneManager.Direction.Up);
 			if (state != MovingObjectState.Climbing) {
 				if (ret.Count != 0) {
 					Debug.Log(ret[0]);
@@ -48,7 +48,7 @@ public class SimpleMove : MonoBehaviour {
 			}
 		}
 		if (Input.GetKey(KeyCode.S)) {
-			var ret = manager.HasLadder(gameObject, TestSceneManager.Direction.Down);
+			var ret = manager.HasLadder(gameObject, BaseSceneManager.Direction.Down);
 			if (state != MovingObjectState.Climbing) {
 				if (ret.Count != 0) {
 					Debug.Log(ret[0]);
