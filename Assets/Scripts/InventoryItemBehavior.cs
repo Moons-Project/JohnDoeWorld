@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryItemBehavior : MonoBehaviour {
 
-	public Item item;
+	[HideInInspector]
+	public int inventoryItemIndex = -1;
 
 	private BaseSceneManager manager;
 
@@ -21,10 +23,18 @@ public class InventoryItemBehavior : MonoBehaviour {
 	}
 
 	void OnMouseOver() {
-		descriptionId = manager.ShowDescription(item);
+		descriptionId = manager.ShowDescription(inventoryItemIndex);
 	}
 
 	void OnMouseExit() {
 		manager.UnshowDescription(descriptionId);
+	}
+
+	public void UpdateData() {
+		InventroyItem invItem = manager.inventoryDataset[inventoryItemIndex];
+		// TODO: 改变图片
+		// 改变数字
+		Text text = GetComponentInChildren<Text>();
+		text.text = invItem.count.ToString();
 	}
 }

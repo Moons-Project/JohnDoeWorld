@@ -21,7 +21,13 @@ public class BaseSceneManager : MonoBehaviour {
 	private TilemapCollider2D ladderCollider;
 	private TilemapCollider2D platformCollider;
 
+	[HideInInspector]
+	public List<InventroyItem> inventoryDataset;
+	private List<GameObject> inventorySlots;
+	public int inventorySize = 20;
+
 	public static BaseSceneManager instance;
+	public ItemManager itemManager;
 
 	public static readonly float CHECKING_DELTA = 0.3f;
 	public enum Direction {
@@ -33,8 +39,10 @@ public class BaseSceneManager : MonoBehaviour {
 	}
 
 	void Awake() {
-		if (instance == null)
+		if (instance == null) {
 			instance = this;
+			itemManager = ItemManager.instance;
+		}
 	}
 
 	// Use this for initialization
@@ -44,18 +52,16 @@ public class BaseSceneManager : MonoBehaviour {
 
 		itemDescriptionRectTransform = itemDescription.transform as RectTransform;
 
-		// Test add inventory
-		Equipment equipment = new Equipment();
-		equipment.name = "测试";
-		equipment.description = "测试描述";
-		equipment.swordAddition = 1;
-		equipment.magicAddition = -1;
-		equipment.lifeAddition = 3;
-		equipment.rigidityAddition = 1.5f;
-
-		GameObject item = Instantiate(InventoryItemPrefab);
-		item.GetComponent<InventoryItemBehavior>().item = equipment;
-		item.transform.parent = Inventory.transform;
+		// Init Inventory
+	 inventoryDataset = new List<InventroyItem>();
+	 inventorySlots = new List<GameObject>();
+	 for (int i = 0; i < inventorySize; ++i) {
+		 	inventoryDataset.Add(null);
+		 	GameObject inventoryItemPrefab = Instantiate(InventoryItemPrefab);
+			inventoryItemPrefab.GetComponent<InventoryItemBehavior>().inventoryItemIndex = i;
+			inventoryItemPrefab.transform.SetParent(Inventory.transform);
+		 	inventorySlots.Add(inventoryItemPrefab);
+	 }
 	}
 
 	// Update is called once per frame
@@ -127,10 +133,19 @@ public class BaseSceneManager : MonoBehaviour {
 		"<color=cyan>{1}</color>\n" +
 		"<color=grey>{2}</color>\n";
 
-	public int ShowDescription(Item item) {
-		string name = item.name;
+	public int ShowDescription(int index) {
+		// Debug.Log(index);
+		var invItem = inventoryDataset[index];
+
+		// Debug.Log(inventoryDataset.Count);
+
+		if (invItem == null) return -1;
+
+		Item item = invItem.item;
+
+		ItemManager.ItemInfo info;
+		itemManager.itemDict.TryGetValue(item.id, out info);
 		string effect = "";
-		string description = item.description;
 		if (item is Equipment) {
 			Equipment equipment = item as Equipment;
 			effect = string.Format("剑术 {0}\n魔力 {1}\n刚性 {2}\n生命 {3}",
@@ -141,9 +156,9 @@ public class BaseSceneManager : MonoBehaviour {
 		}
 
 		itemDescription.GetComponentInChildren<Text>().text = string.Format(templateDescription,
-			name,
+			info.name,
 			effect,
-			description
+			info.description
 		);
 
 		itemDescription.SetActive(true);
@@ -153,5 +168,43 @@ public class BaseSceneManager : MonoBehaviour {
 
 	public void UnshowDescription(int id) {
 		if (showDescriptionId == id) itemDescription.SetActive(false);
+	}
+
+	private int FindEmptyDataset() {
+		int index = 0;
+		for (; index < inventoryDataset.Count; ++index) {
+			var invItem = inventoryDataset[index];
+			if (invItem == null) return index;
+		}
+		return -1;
+	}
+
+	public bool AddItem(Item item, int count = 1) {
+		// 查询是否已经有此物品
+		int index = 0;
+		for (; index < inventoryDataset.Count; ++index) {
+			var invItem = inventoryDataset[index];
+			if (invItem != null && invItem.item.id == item.id) {
+				break;
+			}
+		}
+
+		if (index >= inventoryDataset.Count) {
+			// 当前没有此物品，添加到空位置
+			int newIndex = FindEmptyDataset();
+			if (newIndex == -1) return false;
+			inventoryDataset[newIndex] = new InventroyItem(item, count);
+			UpdateItemGObj(newIndex);
+		} else {
+			// 有此物品，叠加
+			inventoryDataset[index].count += count;
+			UpdateItemGObj(index);
+		}
+
+		return true;
+	}
+
+	public void UpdateItemGObj(int index) {
+		inventorySlots[index].GetComponent<InventoryItemBehavior>().UpdateData();
 	}
 }

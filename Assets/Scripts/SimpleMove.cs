@@ -77,6 +77,19 @@ public class SimpleMove : MonoBehaviour {
 		}
 		controlObject.transform.position = prevPos;
 
+		if (Input.GetKey(KeyCode.O)) {
+			
+			// Test add inventory
+			Equipment equipment = new Equipment(1);
+			equipment.swordAddition = 1;
+			equipment.magicAddition = -1;
+			equipment.lifeAddition = 3;
+			equipment.rigidityAddition = 1.5f;
+			manager.AddItem(equipment);
+
+			DontDestroyOnLoad(gameObject);
+		}
+
 	}
 
 	void OnMouseDown() {

@@ -4,17 +4,10 @@ using UnityEngine;
 
 [System.Serializable]
 public class Item {
-	public string name;
-	public string description;
+	public int id;
 
-	public Item() {
-		name = "";
-		description = "无描述";
-	}
-
-	public Item(string name, string description) {
-		this.name = name;
-		this.description = description;
+	public Item(int id) {
+		this.id = id;
 	}
 
 	// 对目标使用的效果

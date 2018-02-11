@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "idName": "SimpleSword",
+      "name": "简易剑",
+      "description": "就是一把普通的剑"
+    },
+    {
+      "id": 2,
+      "idName": "SimpleArmor",
+      "name": "简易护甲",
+      "description": "就是一套普通的护甲"
+    },
+    {
+      "id": 3,
+      "idName": "SimplePotion",
+      "name": "简易药水",
+      "description": "就是一瓶普通的药水"
+    }
+  ]
+}
