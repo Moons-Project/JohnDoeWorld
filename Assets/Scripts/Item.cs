@@ -11,5 +11,5 @@ public class Item {
 	}
 
 	// 对目标使用的效果
-	public void UseTo(GameObject target) {}
+	public void UseTo(GameObject target) { }
 }

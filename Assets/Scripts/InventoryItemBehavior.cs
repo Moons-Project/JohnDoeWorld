@@ -13,13 +13,13 @@ public class InventoryItemBehavior : MonoBehaviour {
 	private int descriptionId = -1;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
 		manager = BaseSceneManager.instance;
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-		
+	void Update() {
+
 	}
 
 	void OnMouseOver() {

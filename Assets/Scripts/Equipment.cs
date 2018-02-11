@@ -1,6 +1,6 @@
 [System.Serializable]
 public class Equipment : Item {
-  public Equipment(int id) : base(id) {}
+  public Equipment(int id) : base(id) { }
 
   public float swordAddition = 0f;
   public float magicAddition = 0f;

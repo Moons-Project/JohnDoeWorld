@@ -14,12 +14,12 @@ public class SimpleMove : MonoBehaviour {
 		Idling,
 		Moving,
 		Climbing,
-	};
+		};
 
-	private MovingObjectState state;
+		private MovingObjectState state;
 
-	// Use this for initialization
-	void Start() {
+		// Use this for initialization
+		void Start() {
 		controlObject = this.gameObject;
 		manager = BaseSceneManager.instance;
 		thisRigidbody = gameObject.GetComponent<Rigidbody2D>();
@@ -77,8 +77,8 @@ public class SimpleMove : MonoBehaviour {
 		}
 		controlObject.transform.position = prevPos;
 
-		if (Input.GetKey(KeyCode.O)) {
-			
+		if (Input.GetKeyDown(KeyCode.O)) {
+
 			// Test add inventory
 			Equipment equipment = new Equipment(1);
 			equipment.swordAddition = 1;
@@ -88,6 +88,10 @@ public class SimpleMove : MonoBehaviour {
 			manager.AddItem(equipment);
 
 			DontDestroyOnLoad(gameObject);
+		}
+
+		if (Input.GetKeyDown(KeyCode.I)) {
+			manager.ToggleInventory();
 		}
 
 	}

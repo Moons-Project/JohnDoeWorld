@@ -53,15 +53,15 @@ public class BaseSceneManager : MonoBehaviour {
 		itemDescriptionRectTransform = itemDescription.transform as RectTransform;
 
 		// Init Inventory
-	 inventoryDataset = new List<InventroyItem>();
-	 inventorySlots = new List<GameObject>();
-	 for (int i = 0; i < inventorySize; ++i) {
-		 	inventoryDataset.Add(null);
-		 	GameObject inventoryItemPrefab = Instantiate(InventoryItemPrefab);
+		inventoryDataset = new List<InventroyItem>();
+		inventorySlots = new List<GameObject>();
+		for (int i = 0; i < inventorySize; ++i) {
+			inventoryDataset.Add(null);
+			GameObject inventoryItemPrefab = Instantiate(InventoryItemPrefab);
 			inventoryItemPrefab.GetComponent<InventoryItemBehavior>().inventoryItemIndex = i;
 			inventoryItemPrefab.transform.SetParent(Inventory.transform);
-		 	inventorySlots.Add(inventoryItemPrefab);
-	 }
+			inventorySlots.Add(inventoryItemPrefab);
+		}
 	}
 
 	// Update is called once per frame
@@ -126,6 +126,23 @@ public class BaseSceneManager : MonoBehaviour {
 
 	public Vector3Int GetCellPos(GameObject gObj) {
 		return ladderTilemap.WorldToCell(gObj.transform.position);
+	}
+
+	private bool isInventoryOpen = false;
+
+	public void OpenInventory() {
+		isInventoryOpen = true;
+		UICamera.gameObject.SetActive(true);
+	}
+
+	public void CloseInventory() {
+		isInventoryOpen = false;
+		UICamera.gameObject.SetActive(false);
+	}
+
+	public void ToggleInventory() {
+		isInventoryOpen = !isInventoryOpen;
+		UICamera.gameObject.SetActive(isInventoryOpen);
 	}
 
 	private int showDescriptionId = 1;
