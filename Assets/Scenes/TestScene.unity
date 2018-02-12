@@ -1704,11 +1704,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1705484064 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1481472842500224, guid: 293de3c7a3debdc4dbdf65ebfc24ea92,
-    type: 2}
-  m_PrefabInternal: {fileID: 1893144655}
 --- !u!224 &1705484065 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224370440875311246, guid: 293de3c7a3debdc4dbdf65ebfc24ea92,
@@ -2060,35 +2055,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2105148347}
-  - component: {fileID: 2105148346}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2105148346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2105148345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6d0e118d54d12c47b66ccc2a446e54c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ladderTilemap: {fileID: 112991094}
-  platformTilemap: {fileID: 244664444}
-  UICanvas: {fileID: 629040265}
-  itemDescription: {fileID: 1705484064}
-  UICamera: {fileID: 383086913}
-  Inventory: {fileID: 86779862}
-  InventoryItemPrefab: {fileID: 1552728907548922, guid: 54645808f9d34094cb7b7e2ee1a437b3,
-    type: 2}
-  inventoryDataset: []
-  inventorySize: 20
 --- !u!4 &2105148347
 Transform:
   m_ObjectHideFlags: 0
@@ -2096,7 +2069,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2105148345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.432596, y: 0.39531302, z: 1.8388672}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

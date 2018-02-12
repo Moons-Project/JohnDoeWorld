@@ -8,30 +8,25 @@ public class InventoryItemBehavior : MonoBehaviour {
   [HideInInspector]
   public int inventoryItemIndex = -1;
 
-  private BaseSceneManager manager;
+  private GameManager manager;
 
   private int descriptionId = -1;
 
   // Use this for initialization
   void Start() {
-    manager = BaseSceneManager.instance;
-  }
-
-  // Update is called once per frame
-  void Update() {
-
+    manager = GameManager.instance;
   }
 
   void OnMouseOver() {
-    descriptionId = manager.ShowDescription(inventoryItemIndex);
+    descriptionId = manager.sysUIManager.ShowDescription(inventoryItemIndex);
   }
 
   void OnMouseExit() {
-    manager.UnshowDescription(descriptionId);
+    manager.sysUIManager.UnshowDescription(descriptionId);
   }
 
   public void UpdateData() {
-    InventroyItem invItem = manager.inventoryDataset[inventoryItemIndex];
+    InventroyItem invItem = manager.inventoryManager.inventoryDataset[inventoryItemIndex];
     // TODO: 改变图片
     // 改变数字
     Text text = GetComponentInChildren<Text>();

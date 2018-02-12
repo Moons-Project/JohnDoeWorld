@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class SimpleMove : MonoBehaviour {
 
   private GameObject controlObject;
-  private BaseSceneManager manager;
+  private GameManager manager;
   private Rigidbody2D thisRigidbody;
   public float speed = 0.1f;
 
@@ -21,7 +21,7 @@ public class SimpleMove : MonoBehaviour {
     // Use this for initialization
     void Start() {
     controlObject = this.gameObject;
-    manager = BaseSceneManager.instance;
+    manager = GameManager.instance;
     thisRigidbody = gameObject.GetComponent<Rigidbody2D>();
   }
 
@@ -29,7 +29,7 @@ public class SimpleMove : MonoBehaviour {
   void Update() {
     Vector2 prevPos = controlObject.transform.position;
     if (Input.GetKey(KeyCode.W)) {
-      var ret = manager.HasLadder(gameObject, BaseSceneManager.Direction.Up);
+      var ret = manager.tilemapManager.HasLadder(gameObject, TilemapManager.Direction.Up);
       if (state != MovingObjectState.Climbing) {
         if (ret.Count != 0) {
           Debug.Log(ret[0]);
@@ -48,7 +48,7 @@ public class SimpleMove : MonoBehaviour {
       }
     }
     if (Input.GetKey(KeyCode.S)) {
-      var ret = manager.HasLadder(gameObject, BaseSceneManager.Direction.Down);
+      var ret = manager.tilemapManager.HasLadder(gameObject, TilemapManager.Direction.Down);
       if (state != MovingObjectState.Climbing) {
         if (ret.Count != 0) {
           Debug.Log(ret[0]);
@@ -73,7 +73,7 @@ public class SimpleMove : MonoBehaviour {
       prevPos.x += speed;
     }
     if (Input.GetKey(KeyCode.Space)) {
-      Debug.Log(manager.GetCellPos(gameObject));
+      Debug.Log(manager.tilemapManager.GetCellPos(gameObject));
     }
     controlObject.transform.position = prevPos;
 
@@ -85,13 +85,13 @@ public class SimpleMove : MonoBehaviour {
       equipment.magicAddition = -1;
       equipment.lifeAddition = 3;
       equipment.rigidityAddition = 1.5f;
-      manager.AddItem(equipment);
+      manager.inventoryManager.AddItem(equipment);
 
       DontDestroyOnLoad(gameObject);
     }
 
     if (Input.GetKeyDown(KeyCode.I)) {
-      manager.ToggleInventory();
+      manager.sysUIManager.ToggleInventory();
     }
 
   }
