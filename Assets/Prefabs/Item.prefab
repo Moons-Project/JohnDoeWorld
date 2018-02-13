@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 224967370412549256}
   - component: {fileID: 212069432016824654}
   - component: {fileID: 61246953973864276}
-  - component: {fileID: 114462157421823372}
+  - component: {fileID: 114642232638067244}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -71,7 +71,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
---- !u!114 &114462157421823372
+--- !u!114 &114642232638067244
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,12 +79,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552728907548922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e5ea3cc1beb4344ba4958a7d846dbc3, type: 3}
+  m_Script: {fileID: 11500000, guid: 45b29ce968a15804fbf65f525b7715ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item:
-    name: "EX\u5496\u55B1\u68D2"
-    description: "\u603B\u4E4B\u5F88\u5C4C\u5C31\u662F\u4E86"
+  inventoryItemIndex: -1
 --- !u!114 &114868145048511168
 MonoBehaviour:
   m_ObjectHideFlags: 1

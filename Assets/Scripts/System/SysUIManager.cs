@@ -21,6 +21,11 @@ public class SysUIManager : MonoBehaviour {
     if (instance == null) {
       instance = this;
     }
+
+    // DontDestroyOnLoad(UICanvas.gameObject);
+    // DontDestroyOnLoad(UICamera.gameObject);
+    // DontDestroyOnLoad(itemDescription);
+    // DontDestroyOnLoad(inventory);
   }
 
   // Use this for initialization

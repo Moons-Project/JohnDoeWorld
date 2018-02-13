@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -17,5 +18,6 @@ public class GameManager : MonoBehaviour {
     if (instance == null) {
       instance = this;
     }
+    DontDestroyOnLoad(gameObject.transform.parent.gameObject);
   }
 }

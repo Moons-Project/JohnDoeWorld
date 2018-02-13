@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class SimpleMove : MonoBehaviour {
+public class SystemTestScript : MonoBehaviour {
 
   private GameObject controlObject;
   private GameManager manager;
@@ -35,7 +35,6 @@ public class SimpleMove : MonoBehaviour {
           Debug.Log(ret[0]);
           state = MovingObjectState.Climbing;
           thisRigidbody.bodyType = RigidbodyType2D.Kinematic;
-          // prevPos.x = ret[0].x;
         } else {
           Debug.Log("No ladders.");
         }
@@ -54,7 +53,6 @@ public class SimpleMove : MonoBehaviour {
           Debug.Log(ret[0]);
           state = MovingObjectState.Climbing;
           thisRigidbody.bodyType = RigidbodyType2D.Kinematic;
-          // prevPos.x = ret[0].x;
         } else {
           Debug.Log("No ladders.");
         }
@@ -86,8 +84,6 @@ public class SimpleMove : MonoBehaviour {
       equipment.lifeAddition = 3;
       equipment.rigidityAddition = 1.5f;
       manager.inventoryManager.AddItem(equipment);
-
-      DontDestroyOnLoad(gameObject);
     }
 
     if (Input.GetKeyDown(KeyCode.I)) {
