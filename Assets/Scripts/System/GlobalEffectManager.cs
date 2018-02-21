@@ -30,4 +30,24 @@ public class GlobalEffectManager : MonoBehaviour {
   public void SwitchScene() {
     effectAnimator.Play("switch_scene");
   }
+
+  public void _SwitchScene(string sceneName) {
+    AnimationEvent evt = new AnimationEvent();
+    evt.stringParameter = sceneName;
+    evt.time = 1.0f;
+    evt.functionName = "__SwitchScene";
+    
+    effectAnimator.Play("switch_scene");
+    Debug.Log("In _SwitchScene");
+    // Find clip
+    AnimationClip clip = null;
+    foreach (var c in effectAnimator.runtimeAnimatorController.animationClips) {
+      if (c.name == "switch_scene") {
+        clip = c;
+        break;
+      }
+    }
+    Debug.Log(clip);
+    clip.AddEvent(evt);
+  }
 }

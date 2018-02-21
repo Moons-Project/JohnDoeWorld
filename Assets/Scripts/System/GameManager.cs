@@ -21,4 +21,8 @@ public class GameManager : MonoBehaviour {
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
   }
+
+  public void SwitchScene(string sceneName) {
+    globalEffectManager._SwitchScene(sceneName);
+  }
 }
