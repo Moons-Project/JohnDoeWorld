@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }
   public SysUIManager sysUIManager { get { return SysUIManager.instance; } }
   public TilemapManager tilemapManager { get { return TilemapManager.instance; } }
+  public GlobalEffectManager globalEffectManager { get { return GlobalEffectManager.instance; } }
 
   void Awake() {
     if (instance == null) {

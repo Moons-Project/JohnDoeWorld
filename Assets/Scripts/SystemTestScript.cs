@@ -90,6 +90,13 @@ public class SystemTestScript : MonoBehaviour {
       manager.sysUIManager.ToggleInventory();
     }
 
+    if (Input.GetKeyDown(KeyCode.B)) {
+      manager.globalEffectManager.Flash();
+    }
+
+    if (Input.GetKeyDown(KeyCode.V)) {
+      manager.globalEffectManager.SwitchScene();
+    }
   }
 
   void OnMouseDown() {
