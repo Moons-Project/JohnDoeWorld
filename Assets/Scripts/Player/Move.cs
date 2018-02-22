@@ -13,7 +13,7 @@ public class Move : MonoBehaviour {
   private Animator animator;
 
 
-  private bool isFacingRight;
+  private bool isFacingRight = true;
 
   // Use this for initialization
   void Start() {
@@ -34,13 +34,17 @@ public class Move : MonoBehaviour {
     float velocityX = horizontalAxis * maxVelocityX;
     float velocityY = CanJump(jumpButtonDown) ? maxVelocityY : body.velocity.y;
     animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
-    animator.SetFloat("velocityY", Mathf.Abs(body.velocity.y));
+    animator.SetBool("isGround", checkIsGround());
     body.velocity = new Vector2(velocityX, velocityY);
   }
 
+  bool checkIsGround() {
+    return true;
+  }
   bool CanJump(bool jumpButtonDown) {
-    bool isGround = true;
-    return jumpButtonDown && isGround;
+    bool isGround = checkIsGround();
+    bool canJump = jumpButtonDown && isGround;
+    return canJump;
   }
 
   void UpdateFacing(float horizontalAxis) {
