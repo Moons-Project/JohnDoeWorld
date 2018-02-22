@@ -27,7 +27,7 @@ public class InputManager : MonoBehaviour {
     float horizontalAxis = Input.GetAxis("Horizontal");
     bool jumpButtonDown = Input.GetButtonDown("Jump");
     if (player) {
-      player.GetComponent<Move>().move(horizontalAxis, jumpButtonDown);
+      player.GetComponent<Act>().move(horizontalAxis, jumpButtonDown);
     }
   }
 }

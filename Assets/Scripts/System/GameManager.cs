@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour {
 
   public static GameManager instance;
 
-  public InputManager inputManager {get { return InputManager.instance;}}
+  public InputManager inputManager { get { return InputManager.instance; } }
   public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }

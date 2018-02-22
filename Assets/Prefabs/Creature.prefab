@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 114489061814179664}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Body
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 114739230835008832}
   m_Layer: 0
   m_Name: Weapon
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -319,6 +319,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb1d1fd8a4866e4a85a387407f1eb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sword: 100
+  magic: 100
+  rigidity: 100
+  life: 100
+  talent: 100
+  skillLevel: 010000000100000001000000
 --- !u!114 &114599745431458182
 MonoBehaviour:
   m_ObjectHideFlags: 1
