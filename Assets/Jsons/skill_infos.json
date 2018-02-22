@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "idName": "SimpleAttack",
+      "name": "簡單攻擊",
+      "description": "測試性攻擊",
+      "damage": [
+        1.1,
+        1.2,
+        1.3]
+    }
+  ]
+}
