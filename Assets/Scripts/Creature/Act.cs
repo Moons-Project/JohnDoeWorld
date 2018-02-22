@@ -12,6 +12,8 @@ public class Act : MonoBehaviour {
 
   private Rigidbody2D body;
   private Animator animator;
+  private Attack attack;
+  private Info info;
   // private int groundLayerMask;
 
 
@@ -21,20 +23,24 @@ public class Act : MonoBehaviour {
   void Start() {
     body = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
+    attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
+    info = transform.GetChild(1).gameObject.GetComponent<Info>();
   }
 
   // Update is called once per frame
   void Update() {
   }
 
-  public void move(float horizontalAxis, bool jumpButtonDown) {
-    UpdateFacing(horizontalAxis);
+  public void act(InputInfo inputInfo) {
+    UpdateFacing(inputInfo.horizontalAxis);
 
-    float velocityX = horizontalAxis * maxVelocityX;
-    float velocityY = CanJump(jumpButtonDown) ? maxVelocityY : body.velocity.y;
+    float velocityX = inputInfo.horizontalAxis * maxVelocityX;
+    float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
     animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
     animator.SetBool("isGround", checkIsGround());
     body.velocity = new Vector2(velocityX, velocityY);
+
+    if (inputInfo.fire1ButtonDown) attack.UseSkill(1, info);
   }
 
   bool checkIsGround() {

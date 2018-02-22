@@ -8112,6 +8112,57 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1512208107
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -17.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114739230835008832, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1782627269}
+    - target: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_Name
+      value: Creature (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1586233459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8216,3 +8267,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1782627269 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1853460438938326, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1512208107}

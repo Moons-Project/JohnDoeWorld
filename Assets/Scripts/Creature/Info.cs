@@ -17,9 +17,18 @@ public class Info : MonoBehaviour {
     
   }
 
-  void OnTriggerEnter(Collider other) {
-    if (other.CompareTag("weapon")) {
-      
+  public BasicInfo getFinalInfo() {
+    // add equiment info
+    // add buff info
+    return this.basicInfo;
+  } 
+
+  void OnTriggerEnter2D(Collider2D other) {
+    if (other.CompareTag("Weapon")) {
+      float defense = basicInfo.rigidity;
+      float finalDamage = other.gameObject.GetComponent<Attack>().Damage - defense;
+      basicInfo.life -= finalDamage;
+      Debug.Log(finalDamage);
     }
   }
 }
