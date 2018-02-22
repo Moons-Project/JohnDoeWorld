@@ -76,4 +76,16 @@ public class MusicManager : MonoBehaviour {
     audioSource.Play();
     return audioSource;
   }
+
+  public void ChangeBGMVolume(float number) {
+    BGMAudioSource.volume = number / 100f;
+  }
+
+  public void ChangeSEVolume(float number) {
+    float res = number / 100f;
+    AudioSourcePrefab.GetComponent<AudioSource>().volume = res;
+    foreach (var source in SEAudioSourceList) {
+      source.volume = res;
+    }
+  }
 }
