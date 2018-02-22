@@ -6,11 +6,13 @@ public class Move : MonoBehaviour {
 
   public float maxVelocityX= 10f;
   public float maxVelocityY = 5f;
+  public LayerMask groundMask;
 
 
 
   private Rigidbody2D body;
   private Animator animator;
+  // private int groundLayerMask;
 
 
   private bool isFacingRight = true;
@@ -19,6 +21,7 @@ public class Move : MonoBehaviour {
   void Start() {
     body = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
+    // groundLayerMask = LayerMask.GetMask("Ground");
   }
 
   // Update is called once per frame
@@ -39,7 +42,11 @@ public class Move : MonoBehaviour {
   }
 
   bool checkIsGround() {
-    return true;
+    // Cast a ray straight down.
+     var distance = GetComponent<SpriteRenderer>().bounds.size.y / 2 + 0.1f;
+     var hit = Physics2D.Raycast(transform.position, Vector2.down, distance, groundMask);
+     // If it hits something...
+     return hit;
   }
   bool CanJump(bool jumpButtonDown) {
     bool isGround = checkIsGround();
