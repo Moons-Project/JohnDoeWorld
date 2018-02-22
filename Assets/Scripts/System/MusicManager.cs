@@ -1,0 +1,79 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MusicManager : MonoBehaviour {
+  public static MusicManager instance;
+  
+  public GameObject AudioSourcesGObj;
+  public GameObject AudioSourcePrefab;
+
+  private GameObject BGMSource;
+  private AudioSource BGMAudioSource;
+
+  private List<AudioSource> SEAudioSourceList;
+
+  private Dictionary<string, AudioClip> BGMDict, SEDict;
+
+  void Awake() {
+    if (instance == null) {
+      instance = this;
+    }
+    BGMDict = new Dictionary<string, AudioClip>();
+    SEDict = new Dictionary<string, AudioClip>();
+
+    ImportResources();
+
+    BGMSource = Instantiate(AudioSourcePrefab, AudioSourcesGObj.transform);
+    BGMAudioSource = BGMSource.GetComponent<AudioSource>();
+    BGMAudioSource.loop = true;
+
+    SEAudioSourceList = new List<AudioSource>();
+  }
+
+  void ImportResources() {
+    Object[] bgms = Resources.LoadAll("Musics/BGM", typeof(AudioClip));
+    Object[] ses = Resources.LoadAll("Musics/SE", typeof(AudioClip));
+
+    foreach (var clip in bgms) {
+      BGMDict.Add(clip.name, clip as AudioClip);
+    }
+
+    foreach (var clip in ses) {
+      SEDict.Add(clip.name, clip as AudioClip);
+    }
+  }
+
+  public void PlayBGM(string name) {
+    BGMAudioSource.clip = BGMDict[name];
+    BGMAudioSource.Play();
+  }
+
+  public void StopBGM() {
+    BGMAudioSource.Stop();
+  }
+
+  public AudioSource PlaySE(string name) {
+    AudioSource audioSource = null;
+    bool found = false;
+
+    // Find in pool
+    foreach (var source in SEAudioSourceList) {
+      if (source.isPlaying == false) {
+        audioSource = source;
+        found = true;
+      }
+    }
+
+    // Not found, make one and add it to pool
+    if (!found) {
+      var SESource = Instantiate(AudioSourcePrefab, AudioSourcesGObj.transform) as GameObject;
+      audioSource = SESource.GetComponent<AudioSource>();
+      SEAudioSourceList.Add(audioSource);
+    }
+    
+    audioSource.clip = SEDict[name];
+    audioSource.Play();
+    return audioSource;
+  }
+}

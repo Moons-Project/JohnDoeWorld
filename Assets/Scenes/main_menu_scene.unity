@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 610590529}
   - component: {fileID: 610590528}
   - component: {fileID: 610590527}
+  - component: {fileID: 610590530}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
@@ -382,6 +383,36 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 610590525}
+--- !u!114 &610590530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 610590525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 87c3f5bff8e40264b80dfce83780337b, type: 3}
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &678235603
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +498,7 @@ GameObject:
   - component: {fileID: 726475707}
   - component: {fileID: 726475706}
   - component: {fileID: 726475705}
+  - component: {fileID: 726475708}
   m_Layer: 5
   m_Name: Setting Button
   m_TagString: Untagged
@@ -567,6 +599,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 726475703}
+--- !u!114 &726475708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 726475703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &769033066
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +623,7 @@ GameObject:
   - component: {fileID: 769033070}
   - component: {fileID: 769033069}
   - component: {fileID: 769033068}
+  - component: {fileID: 769033071}
   m_Layer: 5
   m_Name: Help Button
   m_TagString: Untagged
@@ -678,6 +724,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 769033066}
+--- !u!114 &769033071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769033066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &776232086
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +969,7 @@ GameObject:
   - component: {fileID: 1173888659}
   - component: {fileID: 1173888658}
   - component: {fileID: 1173888657}
+  - component: {fileID: 1173888660}
   m_Layer: 5
   m_Name: Exit Button
   m_TagString: Untagged
@@ -1010,6 +1070,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173888655}
+--- !u!114 &1173888660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173888655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1286526541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1209,7 @@ GameObject:
   - component: {fileID: 1315686442}
   - component: {fileID: 1315686441}
   - component: {fileID: 1315686440}
+  - component: {fileID: 1315686443}
   m_Layer: 5
   m_Name: Start Game Button
   m_TagString: Untagged
@@ -1247,6 +1321,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1315686438}
+--- !u!114 &1315686443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1315686438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1001 &1336131384
 Prefab:
   m_ObjectHideFlags: 0
@@ -1286,9 +1373,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1686457929069292, guid: 24b27262d1f131e4db91bba25ad776d3, type: 2}
+      propertyPath: m_Name
+      value: AudioSources
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24b27262d1f131e4db91bba25ad776d3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1340917396 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1686457929069292, guid: 24b27262d1f131e4db91bba25ad776d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1336131384}
 --- !u!1 &1565565522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1453,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1565565522}
+--- !u!1 &1633923063 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1586079976678836, guid: 24b27262d1f131e4db91bba25ad776d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1336131384}
+--- !u!114 &1633923070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1633923063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72a08f3d536c34408c51cd0cc4b2c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSourcesGObj: {fileID: 1340917396}
+  AudioSourcePrefab: {fileID: 1887942535922156, guid: bfd941dfbe6b44144ba8434a62bad61c,
+    type: 2}
 --- !u!1 &1736443276
 GameObject:
   m_ObjectHideFlags: 0

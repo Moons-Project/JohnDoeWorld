@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
   public SysUIManager sysUIManager { get { return SysUIManager.instance; } }
   public TilemapManager tilemapManager { get { return TilemapManager.instance; } }
   public GlobalEffectManager globalEffectManager { get { return GlobalEffectManager.instance; } }
+  public MusicManager musicManager { get { return MusicManager.instance; } }  
 
   void Awake() {
     if (instance == null) {
