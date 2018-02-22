@@ -21,17 +21,13 @@ public class Move : MonoBehaviour {
   void Start() {
     body = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
-    // groundLayerMask = LayerMask.GetMask("Ground");
   }
 
   // Update is called once per frame
   void Update() {
   }
 
-  void FixedUpdate() {
-    float horizontalAxis = Input.GetAxis("Horizontal");
-    bool jumpButtonDown = Input.GetButtonDown("Jump");
-
+  public void move(float horizontalAxis, bool jumpButtonDown) {
     UpdateFacing(horizontalAxis);
 
     float velocityX = horizontalAxis * maxVelocityX;

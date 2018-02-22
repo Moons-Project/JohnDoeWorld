@@ -1,20 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
   public static GameManager instance;
 
+  public InputManager inputManager {get { return InputManager.instance;}}
+  public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }
   public SysUIManager sysUIManager { get { return SysUIManager.instance; } }
   public TilemapManager tilemapManager { get { return TilemapManager.instance; } }
   public GlobalEffectManager globalEffectManager { get { return GlobalEffectManager.instance; } }
-  public MusicManager musicManager { get { return MusicManager.instance; } }  
+  public MusicManager musicManager { get { return MusicManager.instance; } }
 
   void Awake() {
     if (instance == null) {
