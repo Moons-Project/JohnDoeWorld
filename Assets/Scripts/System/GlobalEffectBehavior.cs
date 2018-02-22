@@ -9,4 +9,9 @@ public class GlobalEffectBehavior : MonoBehaviour {
     Debug.Log("Switching to scene '" + sceneName + "'");
     SceneManager.LoadSceneAsync(sceneName);
   }
+
+  public void __SwitchScene(object clip) {
+    AnimationClip clipReal = clip as AnimationClip;
+    clipReal.events = new AnimationEvent[0];
+  }
 }

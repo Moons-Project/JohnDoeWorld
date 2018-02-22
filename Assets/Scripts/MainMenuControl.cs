@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuControl : MonoBehaviour {
 
+  public Camera MainMenuCamera;
+
   GameManager manager;
 
   // Use this for initialization
@@ -14,10 +16,13 @@ public class MainMenuControl : MonoBehaviour {
   
   // Update is called once per frame
   void Update () {
-    
+    // if (Input.GetKeyDown(KeyCode.Return)) {
+    //   StartGame();
+    // }
   }
 
   public void StartGame() {
+    MainMenuCamera.depth = -1;
     manager.SwitchScene("test_scene");
   }
 }

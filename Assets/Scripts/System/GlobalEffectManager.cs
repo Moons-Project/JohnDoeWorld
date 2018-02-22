@@ -8,6 +8,7 @@ public class GlobalEffectManager : MonoBehaviour {
   public GameObject effectGObj;
 
   private Animator effectAnimator;
+  private GameObject effectCanvasGObj;
 
   private GameManager manager;
 
@@ -21,6 +22,7 @@ public class GlobalEffectManager : MonoBehaviour {
   void Start () {
     manager = GameManager.instance;
     effectAnimator = effectGObj.GetComponent<Animator>();
+    effectCanvasGObj = effectGObj.transform.parent.gameObject;
   }
 
   public void Flash() {
@@ -32,11 +34,6 @@ public class GlobalEffectManager : MonoBehaviour {
   }
 
   public void _SwitchScene(string sceneName) {
-    AnimationEvent evt = new AnimationEvent();
-    evt.stringParameter = sceneName;
-    evt.time = 1.0f;
-    evt.functionName = "__SwitchScene";
-    
     effectAnimator.Play("switch_scene");
     Debug.Log("In _SwitchScene");
     // Find clip
@@ -47,6 +44,13 @@ public class GlobalEffectManager : MonoBehaviour {
         break;
       }
     }
+
+    AnimationEvent evt = new AnimationEvent();
+    evt.stringParameter = sceneName;
+    evt.objectReferenceParameter = clip;
+    evt.time = 0.83f;
+    evt.functionName = "__SwitchScene";
+    
     Debug.Log(clip);
     clip.AddEvent(evt);
   }
