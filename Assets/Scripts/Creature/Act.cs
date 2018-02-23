@@ -32,8 +32,10 @@ public class Act : MonoBehaviour {
   }
 
   public void act(InputInfo inputInfo) {
-    if (false) {
-
+    // test can climb
+    bool canClimb = false;
+    if (canClimb) {
+      animator.SetBool("isGround", true);
     } else {
       UpdateFacing(inputInfo.horizontalAxis);
 
@@ -41,11 +43,11 @@ public class Act : MonoBehaviour {
       float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
       animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
       animator.SetBool("isGround", checkIsGround());
+      animator.SetBool("isGround", false);
       body.velocity = new Vector2(velocityX, velocityY);
 
       if (inputInfo.fire1ButtonDown) attack.UseSkill(1, info);
     }
-
   }
 
   bool checkIsGround() {

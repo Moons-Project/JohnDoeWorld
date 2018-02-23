@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9e2d4364da1111349b808463d12bb5de
-timeCreated: 1519232786
+timeCreated: 1519400491
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -53,7 +53,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -110,10 +110,10 @@ TextureImporter:
       name: john_cube_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1125
-        width: 50
-        height: 50
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,10 +124,10 @@ TextureImporter:
       name: john_cube_1
       rect:
         serializedVersion: 2
-        x: 124
-        y: 1125
-        width: 54
-        height: 50
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: john_cube_2
       rect:
         serializedVersion: 2
-        x: 225
-        y: 1125
-        width: 56
-        height: 51
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: john_cube_3
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1125
-        width: 54
-        height: 50
+        x: 600
+        y: 1000
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,38 +166,10 @@ TextureImporter:
       name: john_cube_4
       rect:
         serializedVersion: 2
-        x: 425
-        y: 1125
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: john_cube_5
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 1124
-        width: 51
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: john_cube_6
-      rect:
-        serializedVersion: 2
-        x: 625
-        y: 1125
-        width: 51
-        height: 50
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
