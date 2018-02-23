@@ -18,25 +18,34 @@ public class MainMenuControl : MonoBehaviour {
     manager.musicManager.PlayBGM("title_bgm");
   }
 
+  private int count = 0;
   // Update is called once per frame
   void Update() {
     if (Input.GetKeyDown(KeyCode.A)) {
-      manager.musicManager.PlaySE("main_menu_hover");
+      ++count;
+      string text = "这是第 " + count + " 句话";
+      manager.dialogManager.ShowDialog("系统", text);
     }
     if (Input.GetKeyDown(KeyCode.B)) {
-      manager.musicManager.StopBGM();
+      manager.dialogManager.ShowDialog(null, "这是一句很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的话");
     }
-    if (Input.GetKeyDown(KeyCode.N)) {
-      manager.musicManager.PlayBGM("title_bgm");
+    if (Input.GetKeyDown(KeyCode.C)) {
+      manager.dialogManager.SkipDialog();
     }
-    if (Input.GetKeyDown(KeyCode.P)) {
-      manager.SwitchScene("scene_1");
+    if (Input.GetKeyDown(KeyCode.D)) {
+      manager.dialogManager.ShowDialog("Jane", "测试JaneJaneJaneJaneJaneJane");
+    }
+    if (Input.GetKeyDown(KeyCode.E)) {
+      manager.dialogManager.ShowDialog("John", "测试JohnJohnJohnJohnJohnJohn", DialogManager.WhichImage.RightImage);
+    }
+    if (Input.GetKeyDown(KeyCode.F)) {
+      manager.dialogManager.HideDialog();
     }
   }
 
   public void StartGame() {
-    MainMenuCamera.depth = -1;
-    manager.SwitchScene("test_scene");
+    // MainMenuCamera.depth = -1;
+    manager.SwitchScene("scene_1");
   }
 
   public void Setting() {

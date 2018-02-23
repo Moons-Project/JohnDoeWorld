@@ -51,3 +51,6 @@ TagManager:
   - name: Frontground
     uniqueID: 2626768809
     locked: 0
+  - name: SysUI
+    uniqueID: 2886090525
+    locked: 0

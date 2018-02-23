@@ -5,16 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class GlobalEffectBehavior : MonoBehaviour {
 
-  // public void __SwitchScene(string sceneName) {
-  //   Debug.Log("Switching to scene '" + sceneName + "'");
-  //   SceneManager.LoadSceneAsync(sceneName);
-  // }
+  private GameManager manager;
 
-  // public void __SwitchScene(object clip) {
-  //   Debug.Log("Remove events");
-  //   AnimationClip clipReal = clip as AnimationClip;
-  //   clipReal.events = new AnimationEvent[0];
-  // }
+  void Start() {
+    manager = GameManager.instance;
+  }
+
+  public void RemoveEventByFunctionName(AnimationClip clip, string functionName) {
+    Debug.Log("Removing Event " + functionName);
+    List<AnimationEvent> events = new List<AnimationEvent>();
+    foreach (var item in clip.events) {
+      if (item.functionName != functionName) {
+        events.Add(item);
+      }
+    }
+    clip.events = events.ToArray();
+    for (int i = 0; i < clip.events.Length; ++i) {
+      Debug.Log(i + " " + clip.events[i].functionName);
+    }
+  }
 
   public void __SwitchScene(AnimationEvent evt) {
     string sceneName = evt.stringParameter;
@@ -22,8 +31,12 @@ public class GlobalEffectBehavior : MonoBehaviour {
     
     Debug.Log("Switching to scene '" + sceneName + "'");
     SceneManager.LoadSceneAsync(sceneName);
-    Debug.Log("Remove events");
     AnimationClip clipReal = clip as AnimationClip;
-    clipReal.events = new AnimationEvent[0];    
+    RemoveEventByFunctionName(clipReal, "__SwitchScene");
+  }
+
+  public void EffectEnd() {
+    Debug.Log("Effect End");
+    manager.globalEffectManager.effectCamera.depth = -10;
   }
 }
