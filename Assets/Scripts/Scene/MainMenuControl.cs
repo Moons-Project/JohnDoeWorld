@@ -20,22 +20,11 @@ public class MainMenuControl : MonoBehaviour {
 
   // Update is called once per frame
   void Update() {
-    if (Input.GetKeyDown(KeyCode.A)) {
-      manager.musicManager.PlaySE("main_menu_hover");
-    }
-    if (Input.GetKeyDown(KeyCode.B)) {
-      manager.musicManager.StopBGM();
-    }
-    if (Input.GetKeyDown(KeyCode.N)) {
-      manager.musicManager.PlayBGM("title_bgm");
-    }
-    // if (Input.GetKeyDown(KeyCode.P)) {
-    //   manager.SwitchScene("scene_1");
-    // }
+
   }
 
   public void StartGame() {
-    MainMenuCamera.depth = -1;
+    // MainMenuCamera.depth = -1;
     manager.SwitchScene("scene_1");
   }
 

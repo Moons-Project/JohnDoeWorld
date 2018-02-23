@@ -6,6 +6,7 @@ public class GlobalEffectManager : MonoBehaviour {
 
   public static GlobalEffectManager instance;
   public GameObject effectGObj;
+  public Camera effectCamera;
 
   private Animator effectAnimator;
   private GameObject effectCanvasGObj;
@@ -23,17 +24,29 @@ public class GlobalEffectManager : MonoBehaviour {
     manager = GameManager.instance;
     effectAnimator = effectGObj.GetComponent<Animator>();
     effectCanvasGObj = effectGObj.transform.parent.gameObject;
+
+    // Add an event to all the clips
+    foreach (var clip in effectAnimator.runtimeAnimatorController.animationClips) {
+      AnimationEvent evt = new AnimationEvent();
+      evt.time = clip.length;
+      evt.functionName = "EffectEnd";
+      evt.messageOptions = SendMessageOptions.DontRequireReceiver;
+      clip.AddEvent(evt);
+    }
   }
 
   public void Flash() {
+    effectCamera.depth = 10;
     effectAnimator.Play("flash");
   }
 
   public void SwitchScene() {
+    effectCamera.depth = 10;
     effectAnimator.Play("switch_scene");
   }
 
   public void _SwitchScene(string sceneName) {
+    effectCamera.depth = 10;
     effectAnimator.Play("switch_scene");
     Debug.Log("In _SwitchScene");
     // Find clip

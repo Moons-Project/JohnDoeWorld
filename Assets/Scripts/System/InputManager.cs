@@ -6,6 +6,8 @@ public class InputManager : MonoBehaviour {
   public GameObject player;
   public static InputManager instance;
 
+  private GameManager manager;
+
   void Awake() {
     if (instance == null) {
       instance = this;
@@ -14,7 +16,7 @@ public class InputManager : MonoBehaviour {
 
   // Use this for initialization
   void Start() {
-
+    manager = GameManager.instance;
   }
 
   // Update is called once per frame
@@ -25,6 +27,9 @@ public class InputManager : MonoBehaviour {
   void FixedUpdate() {
     if (player) {
       player.GetComponent<Act>().act(InputInfo.getInputInfo());
+    }
+    if (Input.GetKeyDown(KeyCode.F5)) {
+      manager.sysUIManager.ToggleCheat();
     }
   }
 }
