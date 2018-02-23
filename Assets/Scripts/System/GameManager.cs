@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour {
   public GlobalEffectManager globalEffectManager { get { return GlobalEffectManager.instance; } }
   public MusicManager musicManager { get { return MusicManager.instance; } }
 
+  public string lastVDoorName = "";
+
   void Awake() {
     if (instance == null) {
       instance = this;
