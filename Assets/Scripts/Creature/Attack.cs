@@ -30,7 +30,7 @@ public class Attack : MonoBehaviour {
 
   public void startSKill() {
     BasicInfo finalInfo = info.getFinalInfo();
-    Damage = skill.damage[info.skillLevel[skillIndex]] * finalInfo.sword;
+    Damage = skill.damage[info.skillLevel[skillIndex] - 1] * finalInfo.sword;
   }
 
   public void endSkill() {
@@ -39,7 +39,7 @@ public class Attack : MonoBehaviour {
 
   void OnTriggerEnter2D(Collider2D other) {
     // 檢測tag為Body且不是自身 
-    if (other.CompareTag("Body") && other.gameObject != info.gameObject) {
+    if (other.CompareTag("Body") && info != null && other.gameObject != info.gameObject) {
       GameManager.instance.musicManager.PlaySE("main_menu_hover");
     }
   }

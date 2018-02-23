@@ -32,15 +32,20 @@ public class Act : MonoBehaviour {
   }
 
   public void act(InputInfo inputInfo) {
-    UpdateFacing(inputInfo.horizontalAxis);
+    if (false) {
 
-    float velocityX = inputInfo.horizontalAxis * maxVelocityX;
-    float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
-    animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
-    animator.SetBool("isGround", checkIsGround());
-    body.velocity = new Vector2(velocityX, velocityY);
+    } else {
+      UpdateFacing(inputInfo.horizontalAxis);
 
-    if (inputInfo.fire1ButtonDown) attack.UseSkill(1, info);
+      float velocityX = inputInfo.horizontalAxis * maxVelocityX;
+      float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
+      animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
+      animator.SetBool("isGround", checkIsGround());
+      body.velocity = new Vector2(velocityX, velocityY);
+
+      if (inputInfo.fire1ButtonDown) attack.UseSkill(1, info);
+    }
+
   }
 
   bool checkIsGround() {
