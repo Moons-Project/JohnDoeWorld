@@ -29,14 +29,14 @@ public class MainMenuControl : MonoBehaviour {
     if (Input.GetKeyDown(KeyCode.N)) {
       manager.musicManager.PlayBGM("title_bgm");
     }
-    if (Input.GetKeyDown(KeyCode.P)) {
-      manager.SwitchScene("scene_1");
-    }
+    // if (Input.GetKeyDown(KeyCode.P)) {
+    //   manager.SwitchScene("scene_1");
+    // }
   }
 
   public void StartGame() {
     MainMenuCamera.depth = -1;
-    manager.SwitchScene("test_scene");
+    manager.SwitchScene("scene_1");
   }
 
   public void Setting() {
