@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
   public TilemapManager tilemapManager { get { return TilemapManager.instance; } }
   public GlobalEffectManager globalEffectManager { get { return GlobalEffectManager.instance; } }
   public MusicManager musicManager { get { return MusicManager.instance; } }
+  public DialogManager dialogManager { get { return DialogManager.instance; } }
 
   public string lastVDoorName = "";
 

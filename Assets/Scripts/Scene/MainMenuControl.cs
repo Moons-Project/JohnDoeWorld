@@ -18,9 +18,29 @@ public class MainMenuControl : MonoBehaviour {
     manager.musicManager.PlayBGM("title_bgm");
   }
 
+  private int count = 0;
   // Update is called once per frame
   void Update() {
-
+    if (Input.GetKeyDown(KeyCode.A)) {
+      ++count;
+      string text = "这是第 " + count + " 句话";
+      manager.dialogManager.ShowDialog("系统", text);
+    }
+    if (Input.GetKeyDown(KeyCode.B)) {
+      manager.dialogManager.ShowDialog(null, "这是一句很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的话");
+    }
+    if (Input.GetKeyDown(KeyCode.C)) {
+      manager.dialogManager.SkipDialog();
+    }
+    if (Input.GetKeyDown(KeyCode.D)) {
+      manager.dialogManager.ShowDialog("Jane", "测试JaneJaneJaneJaneJaneJane");
+    }
+    if (Input.GetKeyDown(KeyCode.E)) {
+      manager.dialogManager.ShowDialog("John", "测试JohnJohnJohnJohnJohnJohn", DialogManager.WhichImage.RightImage);
+    }
+    if (Input.GetKeyDown(KeyCode.F)) {
+      manager.dialogManager.HideDialog();
+    }
   }
 
   public void StartGame() {
