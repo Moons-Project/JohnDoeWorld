@@ -2,7 +2,7 @@
   "data": [
     {
       "id": 1,
-      "idName": "SimpleAttack",
+      "idName": "BasicAttack",
       "name": "簡單攻擊",
       "description": "測試性攻擊",
       "damage": [

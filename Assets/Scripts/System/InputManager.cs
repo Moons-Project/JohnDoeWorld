@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour {
-
   public GameObject player;
   public static InputManager instance;
 
@@ -24,10 +23,8 @@ public class InputManager : MonoBehaviour {
   }
 
   void FixedUpdate() {
-    float horizontalAxis = Input.GetAxis("Horizontal");
-    bool jumpButtonDown = Input.GetButtonDown("Jump");
     if (player) {
-      player.GetComponent<Act>().move(horizontalAxis, jumpButtonDown);
+      player.GetComponent<Act>().act(InputInfo.getInputInfo());
     }
   }
 }
