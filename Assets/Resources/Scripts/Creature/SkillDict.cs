@@ -11,7 +11,7 @@ public class SkillDict {
   }
 
   public Dictionary<int, SkillItem> itemDict;
-  private static string ITEM_INFOS_PATH = "Assets/Jsons/skill_infos.json";
+  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/skill_infos.json";
 
   private static SkillDict _instance;
   public static SkillDict instance {

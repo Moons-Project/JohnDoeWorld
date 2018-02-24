@@ -39,9 +39,8 @@ public class SysUIManager : MonoBehaviour {
     // Init Inventory
     inventorySlots = new List<GameObject>();
     for (int i = 0; i < inventorySize; ++i) {
-      GameObject prefab = Instantiate(inventoryItemPrefab);
+      GameObject prefab = Instantiate(inventoryItemPrefab, inventory.transform);
       prefab.GetComponent<InventoryItemBehavior>().inventoryItemIndex = i;
-      prefab.transform.SetParent(inventory.transform);
       inventorySlots.Add(prefab);
     }
   }
