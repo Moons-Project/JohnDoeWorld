@@ -140,10 +140,10 @@ public class SysUIManager : MonoBehaviour {
     if (item is Equipment) {
       Equipment equipment = item as Equipment;
       effect = string.Format("剑术 {0}\n魔力 {1}\n刚性 {2}\n生命 {3}",
-        equipment.swordAddition.ToString("+#;-#;0"),
-        equipment.magicAddition.ToString("+#;-#;0"),
-        equipment.rigidityAddition.ToString("+#;-#;0"),
-        equipment.lifeAddition.ToString("+#;-#;0"));
+        equipment.addition.sword.ToString("+#;-#;0"),
+        equipment.addition.magic.ToString("+#;-#;0"),
+        equipment.addition.rigidity.ToString("+#;-#;0"),
+        equipment.addition.life.ToString("+#;-#;0"));
     }
 
     itemDescription.GetComponentInChildren<Text>().text = string.Format(templateDescription,

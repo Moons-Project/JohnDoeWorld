@@ -7,30 +7,19 @@ public class Attack : MonoBehaviour {
   private float damage;
   public float Damage { get { return damage; } private set {damage = value;} }
 
-  private SkillItem skill;
   private int skillIndex;
-  private Info info;
+  private SkillItem skill;
+  private Creature creature;
 
-  // Use this for initialization
-  void Start() {
-
-  }
-
-  // Update is called once per frame
-  void Update() {
-
-  }
-
-  public void UseSkill(int index, Info info) {
+  public void UseSkill(int index, Creature creature) {
     skillIndex = index - 1;
-    this.info = info;
-    this.skill = GameManager.instance.skillDict.itemDict[info.skillList[skillIndex]];
+    this.creature = creature;
+    this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
     GetComponent<Animator>().Play(skill.idName);
   }
 
   public void startSKill() {
-    BasicInfo finalInfo = info.getFinalInfo();
-    Damage = skill.damage[info.skillLevel[skillIndex] - 1] * finalInfo.sword;
+    Damage = skill.damage[creature.skillLevel[skillIndex] - 1] * creature.currentInfo.sword;
   }
 
   public void endSkill() {
@@ -38,9 +27,15 @@ public class Attack : MonoBehaviour {
   }
 
   void OnTriggerEnter2D(Collider2D other) {
-    // 檢測tag為Body且不是自身 
-    if (other.CompareTag("Body") && info != null && other.gameObject != info.gameObject) {
+    // 檢測tag為Body 且不是自身Creature 
+    if (other.CompareTag("Body") && 
+        creature != null && 
+        creature != other.transform.parent.gameObject) {
+      // 音效（動畫）可以和技能相關，故放置在此
       GameManager.instance.musicManager.PlaySE("main_menu_hover");
+      other.transform.parent.gameObject.GetComponent<Animator>().Play("BeHit");
+      // 技能結果
+      other.transform.parent.gameObject.GetComponent<Creature>().skillResult(Damage);
     }
   }
 }

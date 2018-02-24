@@ -35,12 +35,12 @@ public class TilemapManager : MonoBehaviour {
     Vector3 centerPoint = collider.bounds.center;
 
     if (direction == Direction.Up) {
-      /* 
+      /*
       检测上方梯子
       直接使用gObj的中心点，检测其是否在梯子中
        */
       Vector3 vec3 = centerPoint;
-      Debug.Log(vec3);
+      // Debug.Log(vec3);
       Vector3Int cellPos = ladderTilemap.WorldToCell(vec3);
       bool collision = ladderTilemap.GetTile(cellPos) != null;
       if (collision) {
@@ -48,13 +48,13 @@ public class TilemapManager : MonoBehaviour {
         posList.Add(temp);
       }
     } else if (direction == Direction.Down) {
-      /* 
+      /*
       检测下方梯子
       使用gObj的下边界中心，检测其是否在梯子中
        */
       Vector3 vec3 = centerPoint;
       vec3.y -= bounds.extents.y + CHECKING_DELTA;
-      Debug.Log(vec3);
+      // Debug.Log(vec3);
       Vector3Int cellPos = ladderTilemap.WorldToCell(vec3);
       bool collision = ladderTilemap.GetTile(cellPos) != null;
       if (collision) {
@@ -71,5 +71,5 @@ public class TilemapManager : MonoBehaviour {
   public Vector3Int GetCellPos(GameObject gObj) {
     return ladderTilemap.WorldToCell(gObj.transform.position);
   }
-  
+
 }
