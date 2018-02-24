@@ -9,7 +9,6 @@ public class Act : MonoBehaviour {
   public LayerMask groundMask;
 
 
-
   private Rigidbody2D body;
   private Animator animator;
   private Attack attack;
@@ -21,29 +20,33 @@ public class Act : MonoBehaviour {
 
   // Use this for initialization
   void Start() {
-    body = GetComponent<Rigidbody2D>();
-    animator = GetComponent<Animator>();
     attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
     info = transform.GetChild(1).gameObject.GetComponent<Info>();
+  }
+  void Awake() {
+    body = GetComponent<Rigidbody2D>();
+    animator = GetComponent<Animator>();
   }
 
   // Update is called once per frame
   void Update() {
+    animator.SetBool("isGround", checkIsGround());
   }
 
   public void act(InputInfo inputInfo) {
     // test can climb
-    bool canClimb = false;
+    bool canClimb = false && GameManager.instance.tilemapManager.FindLadderPosition(gameObject, inputInfo.horizontalAxis > 0 ? TilemapManager.Direction.Up : TilemapManager.Direction.Down).Count > 0;
     if (canClimb) {
-      animator.SetBool("isGround", true);
+      animator.SetBool("isClimbing", true);
     } else {
       UpdateFacing(inputInfo.horizontalAxis);
 
       float velocityX = inputInfo.horizontalAxis * maxVelocityX;
+      // Debug.Log(body);
       float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
       animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
       animator.SetBool("isGround", checkIsGround());
-      animator.SetBool("isGround", false);
+      animator.SetBool("isClimbing", false);
       body.velocity = new Vector2(velocityX, velocityY);
 
       if (inputInfo.fire1ButtonDown) attack.UseSkill(1, info);
