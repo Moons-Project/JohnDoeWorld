@@ -41,6 +41,21 @@ public class MainMenuControl : MonoBehaviour {
     if (Input.GetKeyDown(KeyCode.F)) {
       manager.dialogManager.HideDialog();
     }
+    if (Input.GetKeyDown(KeyCode.I)) {
+      manager.sysUIManager.ToggleInventory();
+    }
+    if (Input.GetKeyDown(KeyCode.O)) {
+      // Test add inventory
+      Equipment equipment = new Equipment(1);
+      equipment.swordAddition = 1;
+      equipment.magicAddition = -1;
+      equipment.lifeAddition = 3;
+      equipment.rigidityAddition = 1.5f;
+      manager.inventoryManager.AddItem(equipment);
+    }
+    if (Input.GetKeyDown(KeyCode.G)) {
+      manager.scriptManager.PlayScript("test_script");
+    }
   }
 
   public void StartGame() {

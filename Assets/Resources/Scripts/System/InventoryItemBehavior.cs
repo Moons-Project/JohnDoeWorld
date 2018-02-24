@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class InventoryItemBehavior : MonoBehaviour {
 
   [HideInInspector]
@@ -10,11 +11,16 @@ public class InventoryItemBehavior : MonoBehaviour {
 
   private GameManager manager;
 
+  private BoxCollider2D collider;
+  private RectTransform rectTransform;
+
   private int descriptionId = -1;
 
   // Use this for initialization
   void Start() {
     manager = GameManager.instance;
+    collider = GetComponent<BoxCollider2D>();
+    rectTransform = GetComponent<RectTransform>();
   }
 
   void OnMouseOver() {
@@ -31,5 +37,9 @@ public class InventoryItemBehavior : MonoBehaviour {
     // 改变数字
     Text text = GetComponentInChildren<Text>();
     text.text = invItem.count.ToString();
+  }
+
+  void OnGUI() {
+    collider.size = rectTransform.sizeDelta;
   }
 }

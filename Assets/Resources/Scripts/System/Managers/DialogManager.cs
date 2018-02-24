@@ -101,11 +101,16 @@ public class DialogManager : MonoBehaviour {
     dialogTypewriter.Skip();
   }
 
+  public delegate void DialogEndHandler();
+  public event DialogEndHandler DialogEnd;
+
   public void OnDialogPress() {
     if (dialogTypewriter.typing) {
       dialogTypewriter.Skip();
     } else {
-      HideDialog();
+      if (DialogEnd != null) {
+        DialogEnd();
+      }
     }
   }
 }

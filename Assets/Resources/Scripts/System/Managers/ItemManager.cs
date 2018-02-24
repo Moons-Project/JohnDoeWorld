@@ -18,7 +18,7 @@ public class ItemManager {
   }
 
   public Dictionary<int, ItemInfo> itemDict;
-  private static string ITEM_INFOS_PATH = "Assets/Jsons/item_infos.json";
+  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/item_infos.json";
 
   private static ItemManager _instance;
   public static ItemManager instance {

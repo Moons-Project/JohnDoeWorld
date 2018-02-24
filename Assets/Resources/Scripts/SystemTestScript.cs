@@ -79,10 +79,10 @@ public class SystemTestScript : MonoBehaviour {
 
       // Test add inventory
       Equipment equipment = new Equipment(1);
-      equipment.addition.sword = 1;
-      equipment.addition.magic = -1;
-      equipment.addition.life = 3;
-      equipment.addition.rigidity = 1.5f;
+      equipment.swordAddition = 1;
+      equipment.magicAddition = -1;
+      equipment.lifeAddition = 3;
+      equipment.rigidityAddition = 1.5f;
       manager.inventoryManager.AddItem(equipment);
     }
 
