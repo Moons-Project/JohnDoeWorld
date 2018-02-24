@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "idName": "PoisonBuff",
+      "name": "毒",
+      "description": "中毒状态",
+      "addition": {
+        "sword": 0,
+        "magic": 0,
+        "rigidity": 0,
+        "life": 0,
+        "talent": 0
+      },
+      "shouldUpdate": true
+    },
+    {
+      "id": 2,
+      "idName": "SwordBuff",
+      "name": "剑术专注",
+      "description": "提升一定剑术能力值",
+      "addition": {
+        "sword": 10,
+        "magic": 0,
+        "rigidity": 0,
+        "life": 0,
+        "talent": 0
+      },
+      "shouldUpdate": false
+    }
+  ]
+}

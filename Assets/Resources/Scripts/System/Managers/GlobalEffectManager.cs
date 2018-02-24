@@ -9,9 +9,7 @@ public class GlobalEffectManager : MonoBehaviour {
   public Camera effectCamera;
 
   private Animator effectAnimator;
-  private GameObject effectCanvasGObj;
-
-  private GameManager manager;
+  // private GameObject effectCanvasGObj;
 
   void Awake() {
     if (instance == null) {
@@ -21,9 +19,8 @@ public class GlobalEffectManager : MonoBehaviour {
 
   // Use this for initialization
   void Start () {
-    manager = GameManager.instance;
     effectAnimator = effectGObj.GetComponent<Animator>();
-    effectCanvasGObj = effectGObj.transform.parent.gameObject;
+    // effectCanvasGObj = effectGObj.transform.parent.gameObject;
 
     // Add an event to all the clips
     foreach (var clip in effectAnimator.runtimeAnimatorController.animationClips) {

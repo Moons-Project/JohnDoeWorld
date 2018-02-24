@@ -11,7 +11,7 @@ public class InventoryItemBehavior : MonoBehaviour {
 
   private GameManager manager;
 
-  private BoxCollider2D collider;
+  private BoxCollider2D boxCollider2D;
   private RectTransform rectTransform;
 
   private int descriptionId = -1;
@@ -19,7 +19,7 @@ public class InventoryItemBehavior : MonoBehaviour {
   // Use this for initialization
   void Start() {
     manager = GameManager.instance;
-    collider = GetComponent<BoxCollider2D>();
+    boxCollider2D = GetComponent<BoxCollider2D>();
     rectTransform = GetComponent<RectTransform>();
   }
 
@@ -40,6 +40,6 @@ public class InventoryItemBehavior : MonoBehaviour {
   }
 
   void OnGUI() {
-    collider.size = rectTransform.sizeDelta;
+    boxCollider2D.size = rectTransform.sizeDelta;
   }
 }

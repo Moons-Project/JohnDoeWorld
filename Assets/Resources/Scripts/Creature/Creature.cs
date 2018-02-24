@@ -17,6 +17,22 @@ public class Creature : MonoBehaviour {
   // public Equipment[] equipmentList = new Equipment[0] {};
   // public Buff[] buffList = new Buff[0] {};
 
+  private class CreatureBuff {
+    public Buff buff;
+    public float totalTime;
+
+    public float cumulateTime;
+
+    public CreatureBuff(Buff buff, float totalTime) {
+      this.buff = buff;
+      this.cumulateTime = 0;
+      this.totalTime = totalTime;
+    }
+  }
+
+  private List<CreatureBuff> cBuffList;
+  private HashSet<CreatureBuff> cBuffToDel;
+
   private Rigidbody2D body;
   private Animator animator;
   private Attack attack;
@@ -26,6 +42,8 @@ public class Creature : MonoBehaviour {
   // Use this for initialization
   void Start() {
     attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
+    cBuffList = new List<CreatureBuff>();
+    cBuffToDel = new HashSet<CreatureBuff>();
   }
 
   void Awake() {
@@ -37,8 +55,26 @@ public class Creature : MonoBehaviour {
 
   // Update is called once per frame
   void Update() {
-    animator.SetBool("isGround", checkIsGround());
+    animator.SetBool("isGround", CheckIsGround());
     animator.SetFloat("currentHP", currentHP);
+
+    foreach (var cBuff in cBuffList) {
+      // Debug.Log(cBuff.buff);
+      cBuff.cumulateTime += Time.deltaTime;
+      if (cBuff.cumulateTime >= cBuff.totalTime) {
+        cBuffToDel.Add(cBuff);
+        continue;
+      }
+      if (cBuff.buff.shouldUpdate) {
+        cBuff.buff.BuffEffect(this, cBuff.cumulateTime);
+      }
+    }
+
+    // Delete the buff that is over
+    foreach (var cBuff in cBuffToDel) {
+      RemoveCBuff(cBuff);
+    }
+    cBuffToDel.Clear();
   }
 
   public void Act(InputInfo inputInfo) {
@@ -57,7 +93,7 @@ public class Creature : MonoBehaviour {
       // Debug.Log(body);
       float velocityY = CanJump(inputInfo.jumpButtonDown) ? maxVelocityY : body.velocity.y;
       animator.SetFloat("velocityX", Mathf.Abs(body.velocity.x));
-      animator.SetBool("isGround", checkIsGround());
+      animator.SetBool("isGround", CheckIsGround());
       animator.SetBool("isClimbing", false);
 
       body.bodyType = RigidbodyType2D.Dynamic;
@@ -72,7 +108,7 @@ public class Creature : MonoBehaviour {
     }
   }
 
-  bool checkIsGround() {
+  bool CheckIsGround() {
     // Cast a ray straight down.
     var distance = GetComponent<SpriteRenderer>().bounds.size.y / 2 + 0.1f;
     var hit = Physics2D.Raycast(transform.position, Vector2.down, distance, groundMask);
@@ -81,7 +117,7 @@ public class Creature : MonoBehaviour {
   }
 
   bool CanJump(bool jumpButtonDown) {
-    bool isGround = checkIsGround();
+    bool isGround = CheckIsGround();
     bool canJump = jumpButtonDown && isGround;
     return canJump;
   }
@@ -100,12 +136,12 @@ public class Creature : MonoBehaviour {
     transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
   }
 
-  public void AddEquement(Equipment equipment) {
+  public void AddEquipment(Equipment equipment) {
 
     UpdateCurrentInfo(equipment.addition);
   }
 
-  public void RemoveEquement(Equipment equipment) {
+  public void RemoveEquipment(Equipment equipment) {
     UpdateCurrentInfo(-equipment.addition);
   }
 
@@ -120,5 +156,41 @@ public class Creature : MonoBehaviour {
 
   public void Dead() {
     Debug.Log("DEAD");
+  }
+
+  CreatureBuff FindBuff(Buff buff) {
+    foreach (var cBuff in cBuffList) {
+      if (cBuff.buff == buff) {
+        return cBuff;
+      }
+    }
+    return null;
+  }
+
+  public void AddBuff(Buff buff, float totalTime) {
+    var cBuff = FindBuff(buff);
+    bool hasDuplicate = FindBuff(buff) != null;
+    if (!hasDuplicate) {
+      // Add to list
+      cBuffList.Add(new CreatureBuff(buff, totalTime));
+      // Add addition
+      UpdateCurrentInfo(buff.addition);
+    } else {
+      // Exist, refresh time
+      cBuff.totalTime = totalTime;
+      cBuff.cumulateTime = 0;
+    }
+  }
+
+  void RemoveCBuff(CreatureBuff cBuff) {
+    if (cBuff != null) {
+      cBuffList.Remove(cBuff);
+      UpdateCurrentInfo(-cBuff.buff.addition);
+    }
+  }
+
+  public void RemoveBuff(Buff buff) {
+    CreatureBuff cBuff = FindBuff(buff);
+    RemoveCBuff(cBuff);
   }
 }

@@ -22,7 +22,7 @@ public class ScriptManager : MonoBehaviour {
 
   public static Script[] ScriptFromJson(string scriptName) {
     string path = "Assets/Resources/Jsons/Scripts/" + scriptName + ".json";
-    string json = JDWUtility.readFileText(path);
+    string json = JDWUtility.ReadFileText(path);
     ScriptList scripts = JsonUtility.FromJson<ScriptList>(json);
     return scripts.data;
   }

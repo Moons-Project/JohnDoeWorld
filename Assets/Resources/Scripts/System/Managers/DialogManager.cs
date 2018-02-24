@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour {
 
-  private GameManager manager;
-
   public static DialogManager instance;
 
   public GameObject dialogPanel;
@@ -37,7 +35,6 @@ public class DialogManager : MonoBehaviour {
 
   // Use this for initialization
   void Start () {
-    manager = GameManager.instance;
     dialogTypewriter = dialogText.gameObject.GetComponent<TypewriterEffect>();
 
     HideDialog();
