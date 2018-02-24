@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9e2d4364da1111349b808463d12bb5de
-timeCreated: 1519400491
+timeCreated: 1519473324
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -167,6 +167,34 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: john_cube_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: john_cube_6
+      rect:
+        serializedVersion: 2
+        x: 1200
         y: 1000
         width: 200
         height: 200
