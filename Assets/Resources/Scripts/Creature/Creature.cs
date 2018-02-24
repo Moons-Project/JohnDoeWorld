@@ -12,8 +12,8 @@ public class Creature : MonoBehaviour {
   public BasicInfo currentInfo;
   public float currentHP;
 
-  public int[] skillLevel = new int[4] { 1, 1, 1, 1 };
-  public int[] skillList = new int[4] { 1, 1, 1, 1 };
+  public int[] skillLevel = new int[5] {1, 1, 1, 1, 1 };
+  public string[] skillList = new string[5] {"BasicAttack",  "TopDownChop", "ThreeTimesChop", "Stab", "Battojutsu" };
   // public Equipment[] equipmentList = new Equipment[0] {};
   // public Buff[] buffList = new Buff[0] {};
 
@@ -63,7 +63,7 @@ public class Creature : MonoBehaviour {
       body.bodyType = RigidbodyType2D.Dynamic;
       body.velocity = new Vector2(velocityX, velocityY);
 
-      if (inputInfo.fire0ButtonDown) attack.UseSkill(1, this);
+      if (inputInfo.fire0ButtonDown) attack.UseSkill(0, this);
       if (inputInfo.fire1ButtonDown) attack.UseSkill(1, this);
       if (inputInfo.fire2ButtonDown) attack.UseSkill(2, this);
       if (inputInfo.fire3ButtonDown) attack.UseSkill(3, this);
@@ -115,7 +115,7 @@ public class Creature : MonoBehaviour {
 
   public void Damage(float finalDamage) {
     currentHP -= finalDamage - currentInfo.rigidity;
-    Debug.Log(currentHP);
+    Debug.Log(finalDamage);
   }
 
   public void Dead() {

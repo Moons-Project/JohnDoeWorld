@@ -324,11 +324,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   basicInfo:
-    sword: 100
-    magic: 100
-    rigidity: 100
-    life: 100
-    talent: 100
+    sword: 0
+    magic: 0
+    rigidity: 0
+    life: 0
+    talent: 0
   currentInfo:
     sword: 0
     magic: 0
@@ -336,8 +336,13 @@ MonoBehaviour:
     life: 0
     talent: 0
   currentHP: 0
-  skillLevel: 01000000010000000100000001000000
-  skillList: 01000000010000000100000001000000
+  skillLevel: 0100000001000000010000000100000001000000
+  skillList:
+  - BasicAttack
+  - TopDownChop
+  - ThreeTimesChop
+  - Stab
+  - Battojutsu
 --- !u!114 &114739230835008832
 MonoBehaviour:
   m_ObjectHideFlags: 1

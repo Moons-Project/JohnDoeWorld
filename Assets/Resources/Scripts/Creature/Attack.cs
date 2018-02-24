@@ -12,7 +12,7 @@ public class Attack : MonoBehaviour {
   private Creature creature;
 
   public void UseSkill(int index, Creature creature) {
-    skillIndex = index - 1;
+    skillIndex = index;
     this.creature = creature;
     this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
     GetComponent<Animator>().Play(skill.idName);
