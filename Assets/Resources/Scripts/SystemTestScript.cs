@@ -29,7 +29,7 @@ public class SystemTestScript : MonoBehaviour {
   void Update() {
     Vector2 prevPos = controlObject.transform.position;
     if (Input.GetKey(KeyCode.W)) {
-      var ret = manager.tilemapManager.HasLadder(gameObject, TilemapManager.Direction.Up);
+      var ret = manager.tilemapManager.FindLadderPosition(gameObject, TilemapManager.Direction.Up);
       if (state != MovingObjectState.Climbing) {
         if (ret.Count != 0) {
           Debug.Log(ret[0]);
@@ -47,7 +47,7 @@ public class SystemTestScript : MonoBehaviour {
       }
     }
     if (Input.GetKey(KeyCode.S)) {
-      var ret = manager.tilemapManager.HasLadder(gameObject, TilemapManager.Direction.Down);
+      var ret = manager.tilemapManager.FindLadderPosition(gameObject, TilemapManager.Direction.Down);
       if (state != MovingObjectState.Climbing) {
         if (ret.Count != 0) {
           Debug.Log(ret[0]);

@@ -24,10 +24,14 @@ public class Info : MonoBehaviour {
   } 
 
   void OnTriggerEnter2D(Collider2D other) {
-    if (other.CompareTag("Weapon")) {
+    // can't cause damage to self
+    if (other.CompareTag("Weapon") && other.gameObject.transform.parent.gameObject != transform.parent.gameObject) {
       float defense = basicInfo.rigidity;
       float finalDamage = other.gameObject.GetComponent<Attack>().Damage - defense;
+
       basicInfo.life -= finalDamage;
+      transform.parent.gameObject.GetComponent<Animator>().Play("BeHit");
+
       Debug.Log(finalDamage);
     }
   }

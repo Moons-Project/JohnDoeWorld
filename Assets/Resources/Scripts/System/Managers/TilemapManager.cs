@@ -25,7 +25,7 @@ public class TilemapManager : MonoBehaviour {
     }
   }
 
-  public List<Vector3> HasLadder(GameObject gObj, Direction direction) {
+  public List<Vector3> FindLadderPosition(GameObject gObj, Direction direction) {
     List<Vector3> posList = new List<Vector3>();
 
     Collider2D collider = gObj.GetComponent<Collider2D>();
