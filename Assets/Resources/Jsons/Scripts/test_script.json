@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "speaker": "John",
+      "content": "我和你一样，以前也是个冒险者",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "John",
+      "content": "直到我膝盖中了一箭",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "guna, 丢人",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "System",
+      "content": "串场了啊朋友",
+      "leftOrRight": 0
+    }
+  ]
+}

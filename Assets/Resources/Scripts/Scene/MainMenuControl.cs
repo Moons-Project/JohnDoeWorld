@@ -53,6 +53,9 @@ public class MainMenuControl : MonoBehaviour {
       equipment.rigidityAddition = 1.5f;
       manager.inventoryManager.AddItem(equipment);
     }
+    if (Input.GetKeyDown(KeyCode.G)) {
+      manager.scriptManager.PlayScript("test_script");
+    }
   }
 
   public void StartGame() {

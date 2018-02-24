@@ -24,7 +24,6 @@ public class InventoryItemBehavior : MonoBehaviour {
   }
 
   void OnMouseOver() {
-    Debug.Log("Mouse Over");
     descriptionId = manager.sysUIManager.ShowDescription(inventoryItemIndex);
   }
 
