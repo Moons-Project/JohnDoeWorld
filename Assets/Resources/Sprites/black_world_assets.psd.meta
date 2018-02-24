@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 70701211318f31b40a7ccbd099d44c63
-timeCreated: 1519474235
+timeCreated: 1519484133
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -1876,10 +1876,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -50, y: 40}
+      - - {x: -50, y: 39.770264}
         - {x: -50, y: -50}
         - {x: 50, y: -50}
-        - {x: 50, y: 39.981873}
+        - {x: 50, y: 39.793884}
       tessellationDetail: 0
     - serializedVersion: 2
       name: black_world_assets_59
@@ -2440,9 +2440,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 900
-        y: 700
+        y: 702
         width: 100
-        height: 100
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5382,7 +5382,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -50, y: 33.5567}
+      - - {x: -50, y: 33.97513}
         - {x: -50, y: -50}
         - {x: 50, y: -50}
         - {x: 50, y: 34}
