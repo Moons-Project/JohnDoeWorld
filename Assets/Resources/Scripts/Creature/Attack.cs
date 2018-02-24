@@ -16,6 +16,7 @@ public class Attack : MonoBehaviour {
     this.creature = creature;
     this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
     GetComponent<Animator>().Play(skill.idName);
+    transform.parent.gameObject.GetComponent<Animator>().Play("Attack");
   }
 
   public void startSKill() {
@@ -35,7 +36,7 @@ public class Attack : MonoBehaviour {
       GameManager.instance.musicManager.PlaySE("main_menu_hover");
       other.transform.parent.gameObject.GetComponent<Animator>().Play("BeHit");
       // 技能結果
-      other.transform.parent.gameObject.GetComponent<Creature>().skillResult(Damage);
+      other.transform.parent.gameObject.GetComponent<Creature>().Damage(Damage);
     }
   }
 }

@@ -38,9 +38,10 @@ public class Creature : MonoBehaviour {
   // Update is called once per frame
   void Update() {
     animator.SetBool("isGround", checkIsGround());
+    animator.SetFloat("currentHP", currentHP);
   }
 
-  public void act(InputInfo inputInfo) {
+  public void Act(InputInfo inputInfo) {
     // test can climb
     bool canClimb = inputInfo.verticalAxis != 0 && GameManager.instance.tilemapManager.FindLadderPosition(gameObject, 
       inputInfo.verticalAxis > 0 ? TilemapManager.Direction.Up : TilemapManager.Direction.Down).Count > 0;
@@ -99,21 +100,25 @@ public class Creature : MonoBehaviour {
     transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
   }
 
-  public void addEquement(Equipment equipment) {
+  public void AddEquement(Equipment equipment) {
 
-    updateCurrentInfo(equipment.addition);
+    UpdateCurrentInfo(equipment.addition);
   }
 
-  public void removeEquement(Equipment equipment) {
-    updateCurrentInfo(-equipment.addition);
+  public void RemoveEquement(Equipment equipment) {
+    UpdateCurrentInfo(-equipment.addition);
   }
 
-  private void updateCurrentInfo(BasicInfo addition) {
+  private void UpdateCurrentInfo(BasicInfo addition) {
     currentInfo = currentInfo + addition;
   }
 
-  public void skillResult(float finalDamage) {
+  public void Damage(float finalDamage) {
     currentHP -= finalDamage - currentInfo.rigidity;
     Debug.Log(currentHP);
+  }
+
+  public void Dead() {
+    Debug.Log("DEAD");
   }
 }

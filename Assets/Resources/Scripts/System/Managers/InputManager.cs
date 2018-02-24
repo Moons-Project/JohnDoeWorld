@@ -26,7 +26,7 @@ public class InputManager : MonoBehaviour {
 
   void FixedUpdate() {
     if (player) {
-      player.GetComponent<Creature>().act(InputInfo.getInputInfo());
+      player.GetComponent<Creature>().Act(InputInfo.getInputInfo());
     }
     if (Input.GetButtonDown("Console")) {
       manager.sysUIManager.ToggleCheat();
