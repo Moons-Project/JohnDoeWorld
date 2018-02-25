@@ -18,44 +18,44 @@ public class MainMenuControl : MonoBehaviour {
     manager.musicManager.PlayBGM("title_bgm");
   }
 
-  private int count = 0;
+  // private int count = 0;
   // Update is called once per frame
   void Update() {
-    if (Input.GetKeyDown(KeyCode.A)) {
-      ++count;
-      string text = "这是第 " + count + " 句话";
-      manager.dialogManager.ShowDialog("系统", text);
-    }
-    if (Input.GetKeyDown(KeyCode.B)) {
-      manager.dialogManager.ShowDialog(null, "这是一句很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的话");
-    }
-    if (Input.GetKeyDown(KeyCode.C)) {
-      manager.dialogManager.SkipDialog();
-    }
-    if (Input.GetKeyDown(KeyCode.D)) {
-      manager.dialogManager.ShowDialog("Jane", "测试JaneJaneJaneJaneJaneJane");
-    }
-    if (Input.GetKeyDown(KeyCode.E)) {
-      manager.dialogManager.ShowDialog("John", "测试JohnJohnJohnJohnJohnJohn", DialogManager.WhichImage.RightImage);
-    }
-    if (Input.GetKeyDown(KeyCode.F)) {
-      manager.dialogManager.HideDialog();
-    }
-    if (Input.GetKeyDown(KeyCode.I)) {
-      manager.sysUIManager.ToggleInventory();
-    }
-    if (Input.GetKeyDown(KeyCode.O)) {
-      // Test add inventory
-      Equipment equipment = new Equipment(1);
-      equipment.addition.sword = 1;
-      equipment.addition.magic = -1;
-      equipment.addition.life = 3;
-      equipment.addition.rigidity = 1.5f;
-      manager.inventoryManager.AddItem(equipment);
-    }
-    if (Input.GetKeyDown(KeyCode.G)) {
-      manager.scriptManager.PlayScript("test_script");
-    }
+    // if (Input.GetKeyDown(KeyCode.A)) {
+    //   ++count;
+    //   string text = "这是第 " + count + " 句话";
+    //   manager.dialogManager.ShowDialog("系统", text);
+    // }
+    // if (Input.GetKeyDown(KeyCode.B)) {
+    //   manager.dialogManager.ShowDialog(null, "这是一句很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的话");
+    // }
+    // if (Input.GetKeyDown(KeyCode.C)) {
+    //   manager.dialogManager.SkipDialog();
+    // }
+    // if (Input.GetKeyDown(KeyCode.D)) {
+    //   manager.dialogManager.ShowDialog("Jane", "测试JaneJaneJaneJaneJaneJane");
+    // }
+    // if (Input.GetKeyDown(KeyCode.E)) {
+    //   manager.dialogManager.ShowDialog("John", "测试JohnJohnJohnJohnJohnJohn", DialogManager.WhichImage.RightImage);
+    // }
+    // if (Input.GetKeyDown(KeyCode.F)) {
+    //   manager.dialogManager.HideDialog();
+    // }
+    // if (Input.GetKeyDown(KeyCode.I)) {
+    //   manager.sysUIManager.ToggleInventory();
+    // }
+    // if (Input.GetKeyDown(KeyCode.O)) {
+    //   // Test add inventory
+    //   Equipment equipment = new Equipment(1);
+    //   equipment.addition.sword = 1;
+    //   equipment.addition.magic = -1;
+    //   equipment.addition.life = 3;
+    //   equipment.addition.rigidity = 1.5f;
+    //   manager.inventoryManager.AddItem(equipment);
+    // }
+    // if (Input.GetKeyDown(KeyCode.G)) {
+    //   manager.scriptManager.PlayScript("test_script");
+    // }
   }
 
   public void StartGame() {
