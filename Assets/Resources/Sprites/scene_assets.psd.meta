@@ -1,0 +1,7000 @@
+fileFormatVersion: 2
+guid: 70701211318f31b40a7ccbd099d44c63
+timeCreated: 1519484133
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: black_world_assets_0
+    21300002: black_world_assets_1
+    21300004: black_world_assets_2
+    21300006: black_world_assets_3
+    21300008: black_world_assets_4
+    21300010: black_world_assets_5
+    21300012: black_world_assets_6
+    21300014: black_world_assets_7
+    21300016: black_world_assets_8
+    21300018: black_world_assets_9
+    21300020: black_world_assets_10
+    21300022: black_world_assets_11
+    21300024: black_world_assets_12
+    21300026: black_world_assets_13
+    21300028: black_world_assets_14
+    21300030: black_world_assets_15
+    21300032: black_world_assets_16
+    21300034: black_world_assets_17
+    21300036: black_world_assets_18
+    21300038: black_world_assets_19
+    21300040: black_world_assets_20
+    21300042: black_world_assets_21
+    21300044: black_world_assets_22
+    21300046: black_world_assets_23
+    21300048: black_world_assets_24
+    21300050: black_world_assets_25
+    21300052: black_world_assets_26
+    21300054: black_world_assets_27
+    21300056: black_world_assets_28
+    21300058: black_world_assets_29
+    21300060: black_world_assets_30
+    21300062: black_world_assets_31
+    21300064: black_world_assets_32
+    21300066: black_world_assets_33
+    21300068: black_world_assets_34
+    21300070: black_world_assets_35
+    21300072: black_world_assets_36
+    21300074: black_world_assets_37
+    21300076: black_world_assets_38
+    21300078: black_world_assets_39
+    21300080: black_world_assets_40
+    21300082: black_world_assets_41
+    21300084: black_world_assets_42
+    21300086: black_world_assets_43
+    21300088: black_world_assets_44
+    21300090: black_world_assets_45
+    21300092: black_world_assets_46
+    21300094: black_world_assets_47
+    21300096: black_world_assets_48
+    21300098: black_world_assets_49
+    21300100: black_world_assets_50
+    21300102: black_world_assets_51
+    21300104: black_world_assets_52
+    21300106: black_world_assets_53
+    21300108: black_world_assets_54
+    21300110: black_world_assets_55
+    21300112: black_world_assets_56
+    21300114: black_world_assets_57
+    21300116: black_world_assets_58
+    21300118: black_world_assets_59
+    21300120: black_world_assets_60
+    21300122: black_world_assets_61
+    21300124: black_world_assets_62
+    21300126: black_world_assets_63
+    21300128: black_world_assets_64
+    21300130: black_world_assets_65
+    21300132: black_world_assets_66
+    21300134: black_world_assets_67
+    21300136: black_world_assets_68
+    21300138: black_world_assets_69
+    21300140: black_world_assets_70
+    21300142: black_world_assets_71
+    21300144: black_world_assets_72
+    21300146: black_world_assets_73
+    21300148: black_world_assets_74
+    21300150: black_world_assets_75
+    21300152: black_world_assets_76
+    21300154: black_world_assets_77
+    21300156: black_world_assets_78
+    21300158: black_world_assets_79
+    21300160: black_world_assets_80
+    21300162: black_world_assets_81
+    21300164: black_world_assets_82
+    21300166: black_world_assets_83
+    21300168: black_world_assets_84
+    21300170: black_world_assets_85
+    21300172: black_world_assets_86
+    21300174: black_world_assets_87
+    21300176: black_world_assets_88
+    21300178: black_world_assets_89
+    21300180: black_world_assets_90
+    21300182: black_world_assets_91
+    21300184: black_world_assets_92
+    21300186: black_world_assets_93
+    21300188: black_world_assets_94
+    21300190: black_world_assets_95
+    21300192: black_world_assets_96
+    21300194: black_world_assets_97
+    21300196: black_world_assets_98
+    21300198: black_world_assets_99
+    21300200: black_world_assets_100
+    21300202: black_world_assets_101
+    21300204: black_world_assets_102
+    21300206: black_world_assets_103
+    21300208: black_world_assets_104
+    21300210: black_world_assets_105
+    21300212: black_world_assets_106
+    21300214: black_world_assets_107
+    21300216: black_world_assets_108
+    21300218: black_world_assets_109
+    21300220: black_world_assets_110
+    21300222: black_world_assets_111
+    21300224: black_world_assets_112
+    21300226: black_world_assets_113
+    21300228: black_world_assets_114
+    21300230: black_world_assets_115
+    21300232: black_world_assets_116
+    21300234: black_world_assets_117
+    21300236: black_world_assets_118
+    21300238: black_world_assets_119
+    21300240: black_world_assets_120
+    21300242: black_world_assets_121
+    21300244: black_world_assets_122
+    21300246: black_world_assets_123
+    21300248: black_world_assets_124
+    21300250: black_world_assets_125
+    21300252: black_world_assets_126
+    21300254: black_world_assets_127
+    21300256: black_world_assets_128
+    21300258: black_world_assets_129
+    21300260: black_world_assets_130
+    21300262: black_world_assets_131
+    21300264: black_world_assets_132
+    21300266: black_world_assets_133
+    21300268: black_world_assets_134
+    21300270: black_world_assets_135
+    21300272: black_world_assets_136
+    21300274: black_world_assets_137
+    21300276: black_world_assets_138
+    21300278: black_world_assets_139
+    21300280: black_world_assets_140
+    21300282: black_world_assets_141
+    21300284: black_world_assets_142
+    21300286: black_world_assets_143
+    21300288: black_world_assets_144
+    21300290: black_world_assets_145
+    21300292: black_world_assets_146
+    21300294: black_world_assets_147
+    21300296: black_world_assets_148
+    21300298: black_world_assets_149
+    21300300: black_world_assets_150
+    21300302: black_world_assets_151
+    21300304: black_world_assets_152
+    21300306: black_world_assets_153
+    21300308: black_world_assets_154
+    21300310: black_world_assets_155
+    21300312: black_world_assets_156
+    21300314: black_world_assets_157
+    21300316: black_world_assets_158
+    21300318: black_world_assets_159
+    21300320: black_world_assets_160
+    21300322: black_world_assets_161
+    21300324: black_world_assets_162
+    21300326: black_world_assets_163
+    21300328: black_world_assets_164
+    21300330: black_world_assets_165
+    21300332: black_world_assets_166
+    21300334: black_world_assets_167
+    21300336: black_world_assets_168
+    21300338: black_world_assets_169
+    21300340: black_world_assets_170
+    21300342: black_world_assets_171
+    21300344: black_world_assets_172
+    21300346: black_world_assets_173
+    21300348: black_world_assets_174
+    21300350: black_world_assets_175
+    21300352: black_world_assets_176
+    21300354: black_world_assets_177
+    21300356: black_world_assets_178
+    21300358: black_world_assets_179
+    21300360: black_world_assets_180
+    21300362: black_world_assets_181
+    21300364: black_world_assets_182
+    21300366: black_world_assets_183
+    21300368: black_world_assets_184
+    21300370: black_world_assets_185
+    21300372: black_world_assets_186
+    21300374: black_world_assets_187
+    21300376: black_world_assets_188
+    21300378: black_world_assets_189
+    21300380: black_world_assets_190
+    21300382: black_world_assets_191
+    21300384: black_world_assets_192
+    21300386: black_world_assets_193
+    21300388: black_world_assets_194
+    21300390: black_world_assets_195
+    21300392: black_world_assets_196
+    21300394: black_world_assets_197
+    21300396: black_world_assets_198
+    21300398: black_world_assets_199
+    21300400: black_world_assets_200
+    21300402: black_world_assets_201
+    21300404: black_world_assets_202
+    21300406: black_world_assets_203
+    21300408: black_world_assets_204
+    21300410: black_world_assets_205
+    21300412: black_world_assets_206
+    21300414: black_world_assets_207
+    21300416: black_world_assets_208
+    21300418: black_world_assets_209
+    21300420: black_world_assets_210
+    21300422: black_world_assets_211
+    21300424: black_world_assets_212
+    21300426: black_world_assets_213
+    21300428: black_world_assets_214
+    21300430: black_world_assets_215
+    21300432: black_world_assets_216
+    21300434: black_world_assets_217
+    21300436: black_world_assets_218
+    21300438: black_world_assets_219
+    21300440: black_world_assets_220
+    21300442: black_world_assets_221
+    21300444: black_world_assets_222
+    21300446: black_world_assets_223
+    21300448: black_world_assets_224
+    21300450: black_world_assets_225
+    21300452: black_world_assets_226
+    21300454: black_world_assets_227
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black_world_assets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -5}
+        - {x: -2, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -3}
+        - {x: 0, y: -3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -3}
+        - {x: -50, y: -3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: -7, y: -50}
+        - {x: -7, y: -5}
+        - {x: -9, y: -3}
+        - {x: -50, y: -3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19, y: 3}
+        - {x: -23, y: -2}
+        - {x: -23, y: -50}
+        - {x: 35, y: -50}
+        - {x: 35, y: 1}
+        - {x: 34, y: 3}
+      - - {x: 8, y: -41}
+        - {x: 12, y: -37}
+        - {x: 12, y: -33}
+        - {x: 10, y: -30}
+        - {x: 6, y: -29}
+        - {x: 5, y: -30}
+        - {x: 5, y: -31}
+        - {x: 15, y: -31}
+        - {x: 18, y: -32}
+        - {x: 12, y: -40}
+        - {x: 12, y: -42}
+        - {x: -1, y: -42}
+      - - {x: -11, y: -20}
+        - {x: -10, y: -18}
+        - {x: -10, y: -10}
+        - {x: -11, y: -10}
+        - {x: -7, y: -14}
+        - {x: -4, y: -15}
+        - {x: -8, y: -23}
+        - {x: -12, y: -26}
+        - {x: -11, y: -26}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 50}
+        - {x: -20, y: 30}
+        - {x: -20, y: -48}
+        - {x: -17, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 2, y: -50}
+        - {x: 16, y: -40}
+        - {x: 16, y: 38}
+        - {x: -6, y: 49}
+      - - {x: -29, y: 12}
+        - {x: -26, y: 15}
+        - {x: -30, y: 13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 42, y: 49}
+        - {x: 40, y: 47}
+        - {x: 16, y: 48}
+        - {x: -22, y: 24}
+        - {x: -22, y: 15}
+        - {x: -19, y: 12}
+        - {x: -16, y: 12}
+        - {x: -13, y: 16}
+        - {x: -16, y: 12}
+        - {x: -23, y: 8}
+        - {x: -23, y: -39}
+        - {x: -11, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 49}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -38, y: 49}
+        - {x: -50, y: 49}
+        - {x: -50, y: -50}
+        - {x: -5, y: -50}
+        - {x: 5, y: -34}
+        - {x: 5, y: 20}
+        - {x: -2, y: 41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_8
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 15, y: 43}
+        - {x: -16, y: 32}
+        - {x: -32, y: 0}
+        - {x: -32, y: -49}
+        - {x: -30, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 43}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1098
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 47}
+        - {x: -49, y: 47}
+        - {x: -50, y: 46}
+        - {x: -50, y: -50}
+        - {x: 9, y: -50}
+        - {x: 11, y: -40}
+        - {x: 11, y: 2}
+        - {x: 8, y: 18}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 8}
+        - {x: -1, y: 0}
+        - {x: -1, y: -11}
+        - {x: 2, y: -18}
+        - {x: 3, y: -30}
+        - {x: -1, y: -13}
+        - {x: -1, y: -8}
+        - {x: -3, y: -6}
+        - {x: -12, y: -2}
+        - {x: -21, y: -5}
+        - {x: -20, y: -17}
+        - {x: -21, y: -34}
+        - {x: -21, y: -14}
+        - {x: -23, y: 0}
+        - {x: -32, y: 8}
+        - {x: -44, y: 8}
+        - {x: -50, y: -28}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 0}
+        - {x: 34, y: 8}
+      - - {x: 19, y: -31}
+        - {x: 20, y: -26}
+        - {x: 20, y: -22}
+        - {x: 19, y: -17}
+        - {x: 21, y: -19}
+        - {x: 21, y: -18}
+        - {x: 20, y: -19}
+        - {x: 20, y: -24}
+        - {x: 19, y: -25}
+        - {x: 19, y: -28}
+        - {x: 21, y: -31}
+        - {x: 21, y: -34}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 0}
+        - {x: 7, y: -12}
+        - {x: 5, y: -38}
+        - {x: 6, y: -43}
+        - {x: 5, y: -41}
+        - {x: 7, y: -10}
+        - {x: 7, y: -6}
+        - {x: 3, y: 0}
+        - {x: -49, y: 0}
+        - {x: -50, y: -3}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -26}
+        - {x: 30, y: 0}
+      - - {x: 24, y: -44}
+        - {x: 28, y: -35}
+        - {x: 28, y: -33}
+        - {x: 29, y: -30}
+        - {x: 28, y: -30}
+        - {x: 30, y: -32}
+        - {x: 28, y: -36}
+        - {x: 26, y: -46}
+        - {x: 22, y: -46}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 0}
+        - {x: -6, y: -3}
+        - {x: -37, y: -17}
+        - {x: -43, y: -31}
+        - {x: -43, y: -44}
+        - {x: -36, y: -50}
+        - {x: 42, y: -50}
+        - {x: 42, y: -10}
+        - {x: 25, y: 0}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: -50}
+        - {x: 39, y: -50}
+        - {x: 39, y: -22}
+        - {x: 17, y: 3}
+        - {x: -9, y: 3}
+        - {x: -33, y: -5}
+        - {x: -37, y: -21}
+        - {x: -37, y: -44}
+        - {x: -35, y: -44}
+        - {x: -32, y: -43}
+        - {x: -37, y: -45}
+        - {x: -37, y: -50}
+        - {x: 22, y: -50}
+        - {x: 23, y: -49}
+        - {x: 23, y: -48}
+      - - {x: -25, y: -38}
+        - {x: -25, y: -37}
+        - {x: -23, y: -39}
+        - {x: -21, y: -38}
+        - {x: -23, y: -37}
+        - {x: -26, y: -39}
+      - - {x: 30, y: -35}
+        - {x: 33, y: -34}
+        - {x: 33, y: -31}
+        - {x: 30, y: -30}
+        - {x: 28, y: -32}
+      - - {x: -16, y: -31}
+        - {x: -16, y: -31}
+      - - {x: -23, y: -21}
+        - {x: -19, y: -24}
+        - {x: -19, y: -23}
+        - {x: -20, y: -22}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -9}
+        - {x: -32, y: -40}
+        - {x: -34, y: -45}
+        - {x: -34, y: -50}
+        - {x: 10, y: -50}
+        - {x: 12, y: -30}
+        - {x: 12, y: -13}
+        - {x: 4, y: -9}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -3}
+        - {x: -10, y: -3}
+        - {x: -14, y: -6}
+        - {x: -15, y: -14}
+        - {x: -15, y: -50}
+        - {x: 29, y: -50}
+        - {x: 29, y: -42}
+        - {x: 28, y: -37}
+        - {x: 23, y: -30}
+        - {x: 5, y: -5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -20}
+        - {x: -20, y: -20}
+        - {x: -25, y: -22}
+        - {x: -25, y: -31}
+        - {x: -17, y: -32}
+        - {x: -10, y: -32}
+        - {x: -4, y: -27}
+        - {x: -4, y: -24}
+        - {x: -7, y: -21}
+      - - {x: 7, y: -23}
+        - {x: 7, y: -32}
+        - {x: 27, y: -32}
+        - {x: 27, y: -24}
+        - {x: 24, y: -21}
+        - {x: 11, y: -21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28, y: -24}
+        - {x: -28, y: -26}
+        - {x: -27, y: -28}
+        - {x: -15, y: -28}
+        - {x: -14, y: -25}
+        - {x: -15, y: -22}
+        - {x: -25, y: -21}
+      - - {x: 7, y: -27}
+        - {x: 10, y: -26}
+        - {x: 10, y: -23}
+        - {x: 7, y: -22}
+        - {x: 5, y: -24}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: -28}
+        - {x: -37, y: -30}
+        - {x: -27, y: -30}
+        - {x: -17, y: -28}
+        - {x: -17, y: -23}
+        - {x: -18, y: -21}
+        - {x: -40, y: -21}
+      - - {x: 2, y: -21}
+        - {x: 0, y: -22}
+        - {x: 0, y: -26}
+        - {x: 1, y: -28}
+        - {x: 4, y: -28}
+        - {x: 7, y: -27}
+        - {x: 7, y: -23}
+        - {x: 6, y: -21}
+      - - {x: 28, y: -21}
+        - {x: 26, y: -22}
+        - {x: 26, y: -28}
+        - {x: 43, y: -28}
+        - {x: 45, y: -27}
+        - {x: 45, y: -23}
+        - {x: 44, y: -21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 50}
+        - {x: -2, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -50}
+        - {x: -7, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -42}
+        - {x: 0, y: -44}
+        - {x: -12, y: -46}
+        - {x: -14, y: -48}
+        - {x: -13, y: -50}
+        - {x: 33, y: -50}
+        - {x: 36, y: -21}
+        - {x: 36, y: 39}
+        - {x: 35, y: 45}
+        - {x: 34, y: 50}
+        - {x: -23, y: 50}
+        - {x: -25, y: 2}
+        - {x: -25, y: -50}
+        - {x: -14, y: -50}
+        - {x: -14, y: -46}
+        - {x: -8, y: -45}
+        - {x: -4, y: -44}
+      - - {x: -13, y: -29}
+        - {x: -12, y: -30}
+        - {x: -2, y: -30}
+        - {x: -1, y: -31}
+        - {x: 2, y: -30}
+        - {x: -1, y: -29}
+        - {x: -5, y: -31}
+        - {x: -11, y: -31}
+        - {x: -13, y: -33}
+        - {x: -12, y: -32}
+      - - {x: -12, y: -19}
+        - {x: 11, y: -17}
+        - {x: 18, y: -16}
+        - {x: 11, y: -17}
+      - - {x: 6, y: -4}
+        - {x: 7, y: -3}
+        - {x: 10, y: -3}
+        - {x: 19, y: 0}
+        - {x: 20, y: -1}
+        - {x: 24, y: -1}
+        - {x: 17, y: -1}
+        - {x: 10, y: -3}
+        - {x: 9, y: -2}
+        - {x: 6, y: -2}
+        - {x: 4, y: -3}
+      - - {x: -12, y: 6}
+        - {x: -10, y: 6}
+        - {x: -11, y: 13}
+        - {x: 9, y: 15}
+        - {x: -4, y: 10}
+        - {x: -8, y: 7}
+        - {x: -11, y: 6}
+        - {x: -12, y: 5}
+        - {x: -11, y: 5}
+      - - {x: 7, y: 29}
+        - {x: 8, y: 30}
+        - {x: 23, y: 28}
+        - {x: 21, y: 28}
+        - {x: 17, y: 30}
+        - {x: 12, y: 30}
+        - {x: 10, y: 31}
+        - {x: 5, y: 30}
+        - {x: 4, y: 29}
+        - {x: 2, y: 29}
+        - {x: -7, y: 28}
+      - - {x: -12, y: 47}
+        - {x: -11, y: 46}
+        - {x: -6, y: 46}
+        - {x: -5, y: 45}
+        - {x: 10, y: 44}
+        - {x: 13, y: 44}
+        - {x: 16, y: 46}
+        - {x: 15, y: 44}
+        - {x: 8, y: 44}
+        - {x: -1, y: 43}
+        - {x: -7, y: 42}
+        - {x: -10, y: 41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 50}
+        - {x: -7, y: 28}
+        - {x: -3, y: -34}
+        - {x: 27, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_24
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 48}
+        - {x: -1, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -36, y: -50}
+        - {x: -35, y: -49}
+        - {x: -34, y: -5}
+        - {x: -4, y: 38}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 50}
+        - {x: -11, y: 10}
+        - {x: 13, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -29, y: -50}
+        - {x: -11, y: 46}
+        - {x: -11, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 50}
+        - {x: -27, y: 25}
+        - {x: 23, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -30, y: -50}
+        - {x: -15, y: -37}
+        - {x: 8, y: 49}
+        - {x: 8, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -42, y: 2}
+        - {x: -42, y: -50}
+        - {x: 31, y: -50}
+        - {x: 35, y: -38}
+        - {x: 35, y: 2}
+      - - {x: -19, y: 50}
+        - {x: -18, y: 47}
+        - {x: -14, y: 47}
+        - {x: -12, y: 49}
+        - {x: -12, y: 50}
+      - - {x: 28, y: 48}
+        - {x: 28, y: 50}
+        - {x: 23, y: 50}
+        - {x: 25, y: 47}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_30
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -42}
+        - {x: -9, y: -50}
+        - {x: 27, y: -50}
+        - {x: 33, y: -48}
+        - {x: 33, y: -6}
+        - {x: 16, y: 3}
+        - {x: -32, y: 3}
+        - {x: -38, y: -2}
+        - {x: -38, y: -28}
+        - {x: -20, y: -50}
+        - {x: -14, y: -50}
+        - {x: -12, y: -45}
+        - {x: -11, y: -38}
+        - {x: -11, y: -31}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31, y: 50}
+        - {x: -37, y: 43}
+        - {x: -37, y: 14}
+        - {x: -9, y: -44}
+        - {x: -2, y: -44}
+        - {x: 29, y: -30}
+        - {x: 41, y: 13}
+        - {x: 41, y: 50}
+      - - {x: 46, y: 43}
+        - {x: 47, y: 40}
+        - {x: 50, y: 40}
+        - {x: 50, y: 45}
+        - {x: 48, y: 45}
+      - - {x: 42, y: 48}
+        - {x: 42, y: 50}
+        - {x: 37, y: 50}
+        - {x: 39, y: 47}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_32
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 4}
+        - {x: 5, y: 6}
+        - {x: 6, y: 10}
+        - {x: 13, y: 4}
+        - {x: 26, y: -1}
+        - {x: 36, y: 8}
+        - {x: 36, y: 50}
+        - {x: -47, y: 50}
+        - {x: -50, y: 48}
+        - {x: -50, y: 38}
+        - {x: -47, y: 39}
+        - {x: -48, y: 36}
+        - {x: -48, y: 26}
+        - {x: -33, y: -2}
+        - {x: -23, y: -3}
+        - {x: -14, y: 5}
+        - {x: -12, y: 11}
+        - {x: -5, y: 17}
+        - {x: -4, y: 19}
+        - {x: -4, y: 18}
+        - {x: -7, y: 15}
+        - {x: -7, y: 13}
+        - {x: -9, y: 6}
+        - {x: -19, y: 0}
+        - {x: -19, y: -9}
+        - {x: -11, y: -39}
+        - {x: -6, y: -49}
+        - {x: -4, y: -49}
+        - {x: 1, y: -46}
+        - {x: 11, y: -5}
+        - {x: 12, y: 5}
+        - {x: 9, y: 7}
+      - - {x: 5, y: 25}
+        - {x: 4, y: 26}
+        - {x: 5, y: 23}
+        - {x: 11, y: 15}
+        - {x: 12, y: 17}
+      - - {x: -20, y: 25}
+        - {x: -19, y: 25}
+        - {x: -19, y: 27}
+        - {x: -15, y: 33}
+        - {x: -15, y: 38}
+        - {x: -18, y: 38}
+      - - {x: 21, y: 35}
+        - {x: 23, y: 32}
+        - {x: 21, y: 34}
+        - {x: 20, y: 34}
+        - {x: 15, y: 29}
+      - - {x: -32, y: 41}
+        - {x: -24, y: 41}
+        - {x: -17, y: 44}
+        - {x: -18, y: 45}
+        - {x: -22, y: 44}
+        - {x: -26, y: 40}
+        - {x: -28, y: 41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_33
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 50}
+        - {x: -4, y: -30}
+        - {x: -3, y: -32}
+        - {x: 26, y: -32}
+        - {x: 36, y: -24}
+        - {x: 36, y: 44}
+        - {x: 32, y: 50}
+      - - {x: -33, y: 50}
+        - {x: -33, y: 49}
+        - {x: -30, y: 46}
+        - {x: -12, y: 46}
+        - {x: -8, y: 48}
+        - {x: -8, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_34
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 50}
+        - {x: -41, y: 33}
+        - {x: -41, y: -1}
+        - {x: -10, y: -28}
+        - {x: 0, y: -28}
+        - {x: 2, y: -24}
+        - {x: 2, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_35
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -14}
+        - {x: -37, y: -16}
+        - {x: -39, y: -20}
+        - {x: -39, y: -24}
+        - {x: -38, y: -27}
+        - {x: -25, y: -27}
+        - {x: -23, y: -25}
+        - {x: -23, y: -21}
+        - {x: -27, y: -14}
+      - - {x: -16, y: -23}
+        - {x: -15, y: -26}
+        - {x: -11, y: -26}
+        - {x: -9, y: -24}
+        - {x: -10, y: -21}
+        - {x: -14, y: -21}
+      - - {x: 19, y: -22}
+        - {x: 19, y: -24}
+        - {x: 20, y: -26}
+        - {x: 24, y: -26}
+        - {x: 27, y: -25}
+        - {x: 27, y: -21}
+        - {x: 24, y: -18}
+        - {x: 23, y: -18}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_36
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36, y: -28}
+        - {x: -28, y: -28}
+        - {x: -25, y: -27}
+        - {x: -25, y: -23}
+        - {x: -26, y: -21}
+        - {x: -33, y: -20}
+        - {x: -36, y: -23}
+      - - {x: 30, y: -17}
+        - {x: 22, y: -21}
+        - {x: 22, y: -25}
+        - {x: 23, y: -27}
+        - {x: 27, y: -27}
+        - {x: 34, y: -25}
+        - {x: 36, y: -23}
+        - {x: 36, y: -20}
+        - {x: 35, y: -17}
+      - - {x: -4, y: -18}
+        - {x: -11, y: -22}
+        - {x: -11, y: -26}
+        - {x: -2, y: -26}
+        - {x: 1, y: -25}
+        - {x: 4, y: -21}
+        - {x: 3, y: -18}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1002
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: -14}
+        - {x: -38, y: -19}
+        - {x: -38, y: -21}
+        - {x: -36, y: -25}
+        - {x: -18, y: -25}
+        - {x: -13, y: -22}
+        - {x: -13, y: -15}
+        - {x: -17, y: -14}
+      - - {x: 3, y: -17}
+        - {x: 1, y: -19}
+        - {x: 1, y: -23}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 50}
+        - {x: -2, y: -9}
+        - {x: 0, y: -11}
+        - {x: 50, y: -11}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -11}
+        - {x: 50, y: -11}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -11}
+        - {x: -9, y: -11}
+        - {x: -7, y: -9}
+        - {x: -7, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25, y: 50}
+        - {x: -25, y: -7}
+        - {x: -24, y: -13}
+        - {x: 29, y: -13}
+        - {x: 31, y: -9}
+        - {x: 31, y: 50}
+      - - {x: 19, y: 5}
+        - {x: 14, y: 6}
+        - {x: 5, y: 7}
+        - {x: 20, y: 3}
+        - {x: 21, y: 3}
+        - {x: 21, y: 4}
+      - - {x: 2, y: 24}
+        - {x: 16, y: 23}
+        - {x: 7, y: 23}
+        - {x: -4, y: 22}
+      - - {x: -11, y: 37}
+        - {x: -13, y: 41}
+        - {x: 17, y: 41}
+        - {x: 18, y: 38}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: 50}
+        - {x: 14, y: 30}
+        - {x: 14, y: 10}
+        - {x: 46, y: 10}
+        - {x: 50, y: 17}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: 18}
+        - {x: -41, y: 14}
+        - {x: -23, y: 14}
+        - {x: -23, y: 16}
+        - {x: -24, y: 23}
+        - {x: -37, y: 49}
+        - {x: -38, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: 50}
+        - {x: 19, y: 42}
+        - {x: 19, y: 15}
+        - {x: 24, y: 10}
+        - {x: 47, y: 10}
+        - {x: 50, y: 13}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_45
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: 15}
+        - {x: -48, y: 14}
+        - {x: -32, y: 14}
+        - {x: -28, y: 18}
+        - {x: -28, y: 39}
+        - {x: -30, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_46
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: 50}
+        - {x: 17, y: 26}
+        - {x: 17, y: 14}
+        - {x: 20, y: 10}
+        - {x: 36, y: 10}
+        - {x: 50, y: 14}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_47
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -46, y: 11}
+        - {x: -38, y: 11}
+        - {x: -32, y: 13}
+        - {x: -32, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_48
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 31, y: -10}
+        - {x: 31, y: -1}
+        - {x: 18, y: 11}
+        - {x: -34, y: 11}
+        - {x: -37, y: 0}
+        - {x: -37, y: -42}
+        - {x: -27, y: -50}
+        - {x: -20, y: -50}
+        - {x: -18, y: -49}
+        - {x: -9, y: -50}
+        - {x: 25, y: -50}
+      - - {x: -37, y: 50}
+        - {x: -36, y: 47}
+        - {x: -33, y: 47}
+        - {x: -31, y: 49}
+        - {x: -31, y: 50}
+      - - {x: 11, y: 48}
+        - {x: 11, y: 50}
+        - {x: 6, y: 50}
+        - {x: 8, y: 47}
+      - - {x: 19, y: 50}
+        - {x: 20, y: 47}
+        - {x: 23, y: 47}
+        - {x: 25, y: 49}
+        - {x: 25, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_49
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 9}
+        - {x: -24, y: 9}
+        - {x: -28, y: -1}
+        - {x: -28, y: -5}
+        - {x: -32, y: -1}
+        - {x: -35, y: -2}
+        - {x: -35, y: -21}
+        - {x: -31, y: -50}
+        - {x: 1, y: -50}
+        - {x: 6, y: -45}
+        - {x: 6, y: -9}
+        - {x: 3, y: 6}
+      - - {x: 18, y: -6}
+        - {x: 8, y: -22}
+        - {x: 8, y: -43}
+        - {x: 13, y: -50}
+        - {x: 28, y: -50}
+        - {x: 32, y: -48}
+        - {x: 39, y: -22}
+        - {x: 39, y: -6}
+      - - {x: 21, y: -40}
+        - {x: 22, y: -38}
+        - {x: 19, y: -28}
+        - {x: 18, y: -41}
+        - {x: 22, y: -42}
+        - {x: 22, y: -41}
+      - - {x: -14, y: -29}
+        - {x: -11, y: -24}
+        - {x: -12, y: -12}
+        - {x: -14, y: -16}
+        - {x: -14, y: -21}
+        - {x: -15, y: -28}
+        - {x: -13, y: -30}
+        - {x: -14, y: -29}
+        - {x: -16, y: -30}
+      - - {x: -7, y: -27}
+        - {x: -5, y: -27}
+        - {x: -7, y: -28}
+      - - {x: 14, y: -9}
+        - {x: 6, y: -14}
+        - {x: 6, y: -24}
+        - {x: 8, y: -28}
+        - {x: 11, y: -28}
+        - {x: 12, y: -27}
+        - {x: 18, y: -18}
+        - {x: 18, y: -11}
+        - {x: 17, y: -9}
+      - - {x: -5, y: -14}
+        - {x: -7, y: -8}
+        - {x: -9, y: -12}
+        - {x: -8, y: -16}
+        - {x: -7, y: -16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_51
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_52
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_55
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_56
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 40}
+        - {x: -50, y: -1}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 40}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 39.770264}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 39.793884}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: 40}
+        - {x: -50, y: 39.963684}
+        - {x: -50, y: -50}
+        - {x: 28, y: -50}
+        - {x: 50, y: 11}
+        - {x: 50, y: 35}
+        - {x: 45, y: 40}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 17}
+        - {x: -17, y: 17}
+        - {x: -31, y: -19}
+        - {x: -31, y: -47}
+        - {x: -1, y: -47}
+        - {x: 17, y: -46}
+        - {x: 31, y: -27}
+        - {x: 31, y: -17}
+        - {x: 0, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -4}
+        - {x: -31, y: -8}
+        - {x: -31, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 25}
+        - {x: 47, y: 25}
+        - {x: 19, y: 21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 11}
+        - {x: -23, y: 26}
+        - {x: -32, y: 30}
+        - {x: -38, y: 30}
+        - {x: -50, y: 23}
+        - {x: -50, y: -50}
+        - {x: 6, y: -50}
+        - {x: 7, y: -46}
+        - {x: 7, y: -35}
+        - {x: 2, y: -7}
+      - - {x: -20, y: -16}
+        - {x: -21, y: -14}
+        - {x: -17, y: -18}
+        - {x: -18, y: -17}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_63
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19, y: 4}
+        - {x: -25, y: -17}
+        - {x: -25, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 39}
+        - {x: 34, y: 39}
+        - {x: 2, y: 32}
+      - - {x: 27, y: -19}
+        - {x: 27, y: -18}
+        - {x: 26, y: -18}
+        - {x: 25, y: -20}
+        - {x: 22, y: -24}
+        - {x: 23, y: -24}
+      - - {x: 30, y: 4}
+        - {x: 29, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_64
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -42, y: 33}
+        - {x: -50, y: 25}
+        - {x: -50, y: -49}
+        - {x: -49, y: -50}
+        - {x: 2, y: -50}
+        - {x: 5, y: -44}
+        - {x: 5, y: 20}
+        - {x: -18, y: 33}
+      - - {x: -40, y: 11}
+        - {x: -43, y: 11}
+        - {x: -38, y: 9}
+        - {x: -37, y: 9}
+        - {x: -36, y: 10}
+        - {x: -37, y: 8}
+        - {x: -36, y: 7}
+      - - {x: -50, y: 30}
+        - {x: -49, y: 30}
+        - {x: -44, y: 34}
+        - {x: -46, y: 39}
+        - {x: -50, y: 39}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_65
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 50}
+        - {x: -19, y: 11}
+        - {x: -19, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -1, y: -50}
+        - {x: 9, y: -45}
+        - {x: 9, y: 33}
+        - {x: -29, y: 50}
+      - - {x: 47, y: 50}
+        - {x: 47, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_67
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_68
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_69
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_70
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_72
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_73
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_74
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 26, y: -50}
+        - {x: 28, y: -30}
+        - {x: 28, y: 22}
+        - {x: 27, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_79
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 8}
+        - {x: -26, y: -16}
+        - {x: -32, y: -34}
+        - {x: -32, y: -47}
+        - {x: -11, y: -47}
+        - {x: 16, y: -46}
+        - {x: 32, y: -24}
+        - {x: 32, y: -16}
+        - {x: 26, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 47, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+        - {x: -28, y: 50}
+        - {x: -28, y: 2}
+        - {x: 13, y: -50}
+        - {x: 45, y: -50}
+        - {x: 46, y: -49}
+        - {x: 46, y: -48}
+        - {x: 45, y: -46}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_81
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -29, y: -50}
+        - {x: -26, y: -46}
+        - {x: 8, y: 19}
+        - {x: 8, y: 46}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_82
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -21, y: 50}
+        - {x: -21, y: 43}
+        - {x: 6, y: 11}
+        - {x: 18, y: 9}
+        - {x: 27, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 49}
+        - {x: 48, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_83
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -49, y: 50}
+        - {x: -50, y: 49}
+        - {x: -50, y: -50}
+        - {x: -32, y: -50}
+        - {x: 2, y: 24}
+        - {x: 2, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_84
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 50}
+        - {x: -5, y: 45}
+        - {x: 3, y: 36}
+        - {x: 15, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -13, y: 50}
+        - {x: -12, y: 46}
+        - {x: -9, y: 43}
+        - {x: -7, y: 43}
+        - {x: -5, y: 45}
+        - {x: -5, y: 47}
+        - {x: -8, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 702
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -30, y: -50}
+        - {x: -4, y: 44}
+        - {x: -4, y: 50}
+      - - {x: 47, y: 50}
+        - {x: 47, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_86
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_87
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_88
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_89
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_90
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_91
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_92
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_93
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_94
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -2}
+        - {x: -48, y: -4}
+        - {x: 20, y: -4}
+        - {x: 50, y: -3}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_96
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -3}
+        - {x: -12, y: -5}
+        - {x: 50, y: -5}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -5}
+        - {x: 28, y: -5}
+        - {x: 28, y: 49}
+        - {x: 27, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 50, y: -50}
+        - {x: 49, y: -47}
+        - {x: -50, y: -47}
+        - {x: -50, y: -50}
+      - - {x: -34, y: 8}
+        - {x: -39, y: -2}
+        - {x: -39, y: -29}
+        - {x: 18, y: -29}
+        - {x: 19, y: -26}
+        - {x: 19, y: 6}
+        - {x: 18, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 23, y: 50}
+        - {x: 23, y: 9}
+        - {x: 26, y: 4}
+        - {x: 37, y: 4}
+        - {x: 50, y: 11}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_100
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: 9}
+        - {x: -49, y: 7}
+        - {x: -40, y: 4}
+        - {x: -36, y: 4}
+        - {x: -28, y: 11}
+        - {x: -28, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 27, y: 50}
+        - {x: 25, y: 47}
+        - {x: 19, y: 28}
+        - {x: 19, y: 20}
+        - {x: 26, y: 15}
+        - {x: 41, y: 15}
+        - {x: 50, y: 22}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_102
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: 19}
+        - {x: -43, y: 16}
+        - {x: -29, y: 16}
+        - {x: -27, y: 21}
+        - {x: -27, y: 32}
+        - {x: -33, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 50}
+        - {x: 16, y: 37}
+        - {x: 30, y: 32}
+        - {x: 50, y: 32}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_104
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 47, y: 50}
+        - {x: 47, y: -47}
+        - {x: 49, y: -49}
+        - {x: 50, y: -49}
+        - {x: 50, y: 50}
+      - - {x: -50, y: 50}
+        - {x: -50, y: 33}
+        - {x: -48, y: 32}
+        - {x: -38, y: 32}
+        - {x: -33, y: 35}
+        - {x: -32, y: 42}
+        - {x: -32, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_105
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -49}
+        - {x: 47, y: -49}
+        - {x: 50, y: -48}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_106
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -48}
+        - {x: 50, y: -48}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -48}
+        - {x: 50, y: -48}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_108
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -48}
+        - {x: 50, y: -48}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_109
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -48}
+        - {x: 49, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_110
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_111
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_112
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_113
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25, y: 38}
+        - {x: -50, y: 22}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 31}
+        - {x: 39, y: 38}
+      - - {x: 16, y: -35}
+        - {x: 26, y: -7}
+        - {x: 31, y: -11}
+        - {x: 21, y: -41}
+      - - {x: -21, y: -38}
+        - {x: -10, y: -7}
+        - {x: -13, y: -27}
+        - {x: -16, y: -41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_115
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 38}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 38}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: 34}
+        - {x: -50, y: 33}
+        - {x: -50, y: -50}
+        - {x: 49, y: -50}
+        - {x: 49, y: 34}
+      - - {x: -3, y: -35}
+        - {x: 2, y: -22}
+        - {x: 3, y: -18}
+        - {x: 8, y: -3}
+        - {x: 1, y: -28}
+        - {x: -2, y: -38}
+        - {x: -2, y: -41}
+        - {x: -7, y: -42}
+        - {x: -6, y: -42}
+      - - {x: -34, y: -28}
+        - {x: -30, y: -12}
+        - {x: -24, y: -1}
+        - {x: -23, y: 1}
+        - {x: -26, y: -5}
+        - {x: -27, y: -11}
+        - {x: -28, y: -12}
+        - {x: -31, y: -20}
+        - {x: -35, y: -32}
+        - {x: -38, y: -40}
+        - {x: -41, y: -41}
+        - {x: -40, y: -41}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_117
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 38, y: -13}
+        - {x: 38, y: -16}
+        - {x: 38, y: -13}
+        - {x: 41, y: -10}
+        - {x: 42, y: -6}
+        - {x: 33, y: -1}
+        - {x: 31, y: -1}
+        - {x: 30, y: -2}
+        - {x: 30, y: -30}
+        - {x: 32, y: -34}
+        - {x: 35, y: -34}
+        - {x: 37, y: -32}
+        - {x: 37, y: -31}
+        - {x: 38, y: -33}
+        - {x: 30, y: -35}
+        - {x: 30, y: -40}
+        - {x: 35, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -13}
+        - {x: 42, y: -8}
+      - - {x: 40, y: 3}
+        - {x: 39, y: -4}
+        - {x: 39, y: -11}
+        - {x: 48, y: -11}
+        - {x: 50, y: -9}
+        - {x: 50, y: 1}
+        - {x: 48, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_118
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 501
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -18}
+        - {x: 45, y: -19}
+        - {x: 43, y: -18}
+        - {x: 50, y: -18}
+        - {x: 50, y: -11}
+        - {x: 44, y: 0}
+        - {x: 40, y: 0}
+        - {x: 37, y: -6}
+        - {x: 37, y: -4}
+        - {x: 34, y: 1}
+        - {x: 31, y: 0}
+        - {x: 29, y: -10}
+        - {x: 33, y: -16}
+        - {x: 34, y: -20}
+        - {x: 30, y: -14}
+        - {x: 28, y: -12}
+        - {x: 25, y: -12}
+        - {x: 23, y: -14}
+        - {x: 23, y: -16}
+        - {x: 25, y: -23}
+        - {x: 26, y: -26}
+        - {x: 28, y: -26}
+        - {x: 27, y: -26}
+        - {x: 23, y: -27}
+        - {x: 23, y: -16}
+        - {x: 22, y: -14}
+        - {x: 25, y: -12}
+        - {x: 28, y: -9}
+        - {x: 29, y: -5}
+        - {x: 26, y: 0}
+        - {x: 17, y: 8}
+        - {x: -38, y: 8}
+        - {x: -40, y: 6}
+        - {x: -38, y: 3}
+        - {x: -37, y: 0}
+        - {x: -39, y: 5}
+        - {x: -42, y: 8}
+        - {x: -44, y: 8}
+        - {x: -50, y: 6}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -20}
+      - - {x: 27, y: -36}
+        - {x: 25, y: -35}
+        - {x: 25, y: -37}
+        - {x: 26, y: -38}
+      - - {x: 36, y: -32}
+        - {x: 37, y: -31}
+        - {x: 36, y: -30}
+        - {x: 37, y: -32}
+        - {x: 37, y: -31}
+        - {x: 36, y: -32}
+        - {x: 38, y: -35}
+        - {x: 38, y: -34}
+      - - {x: 1, y: -24}
+        - {x: 0, y: -22}
+        - {x: -1, y: -27}
+        - {x: -1, y: -28}
+      - - {x: -10, y: -19}
+        - {x: -6, y: -18}
+        - {x: -5, y: -17}
+        - {x: -6, y: -19}
+        - {x: -5, y: -20}
+        - {x: -6, y: -19}
+        - {x: -9, y: -19}
+        - {x: -12, y: -22}
+      - - {x: 14, y: -18}
+        - {x: 14, y: -19}
+        - {x: 16, y: -19}
+        - {x: 17, y: -17}
+        - {x: 15, y: -20}
+        - {x: 16, y: -19}
+      - - {x: -22, y: -15}
+        - {x: -22, y: -13}
+        - {x: -23, y: -12}
+        - {x: -24, y: -13}
+        - {x: -21, y: -16}
+        - {x: -20, y: -16}
+        - {x: -17, y: -13}
+        - {x: -17, y: -11}
+        - {x: -18, y: -10}
+        - {x: -19, y: -10}
+        - {x: -19, y: -11}
+        - {x: -16, y: -14}
+        - {x: -15, y: -14}
+        - {x: -13, y: -12}
+        - {x: -11, y: -12}
+        - {x: -10, y: -10}
+        - {x: -17, y: -13}
+        - {x: -18, y: -13}
+        - {x: -25, y: -17}
+        - {x: -25, y: -18}
+      - - {x: -2, y: -8}
+        - {x: -3, y: -7}
+        - {x: -3, y: -6}
+        - {x: 0, y: -2}
+        - {x: -3, y: -4}
+        - {x: -3, y: -5}
+        - {x: 0, y: -8}
+        - {x: 1, y: -7}
+        - {x: -1, y: -6}
+        - {x: -5, y: -10}
+        - {x: -4, y: -11}
+        - {x: -3, y: -11}
+      - - {x: -40, y: -4}
+        - {x: -43, y: -5}
+        - {x: -44, y: -9}
+        - {x: -43, y: -10}
+      - - {x: 44, y: 2}
+        - {x: 44, y: -1}
+        - {x: 48, y: -6}
+        - {x: 50, y: -6}
+        - {x: 50, y: 1}
+        - {x: 47, y: 2}
+      - - {x: 25, y: -1}
+        - {x: 26, y: -3}
+        - {x: 28, y: -3}
+        - {x: 31, y: -1}
+        - {x: 31, y: 4}
+        - {x: 29, y: 6}
+        - {x: 26, y: 5}
+      - - {x: 21, y: 0}
+        - {x: 24, y: 1}
+        - {x: 24, y: 4}
+        - {x: 21, y: 5}
+        - {x: 19, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_119
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 39, y: 5}
+        - {x: 38, y: 5}
+        - {x: 32, y: 1}
+        - {x: 30, y: -1}
+        - {x: 18, y: -11}
+        - {x: 19, y: -13}
+        - {x: 17, y: -9}
+        - {x: 16, y: -8}
+        - {x: 20, y: -9}
+        - {x: 22, y: -7}
+        - {x: 15, y: 5}
+        - {x: 8, y: 3}
+        - {x: 0, y: -7}
+        - {x: -9, y: -26}
+        - {x: -14, y: -21}
+        - {x: -17, y: -20}
+        - {x: -12, y: -19}
+        - {x: -8, y: -17}
+        - {x: -11, y: -5}
+        - {x: -23, y: 5}
+        - {x: -36, y: 5}
+        - {x: -41, y: -8}
+        - {x: -37, y: -14}
+        - {x: -34, y: -16}
+        - {x: -30, y: -12}
+        - {x: -30, y: -15}
+        - {x: -38, y: -19}
+        - {x: -36, y: -24}
+        - {x: -36, y: -30}
+        - {x: -37, y: -34}
+        - {x: -36, y: -32}
+        - {x: -37, y: -30}
+        - {x: -39, y: -22}
+        - {x: -43, y: -18}
+        - {x: -45, y: -18}
+        - {x: -46, y: -21}
+        - {x: -45, y: -26}
+        - {x: -44, y: -29}
+        - {x: -44, y: -30}
+        - {x: -46, y: -23}
+        - {x: -50, y: -24}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 1}
+      - - {x: -44, y: -45}
+        - {x: -46, y: -44}
+        - {x: -43, y: -46}
+        - {x: -44, y: -46}
+      - - {x: -30, y: -41}
+        - {x: -29, y: -41}
+        - {x: -29, y: -42}
+        - {x: -29, y: -41}
+      - - {x: -16, y: -35}
+        - {x: -18, y: -37}
+        - {x: -17, y: -37}
+      - - {x: -26, y: -30}
+        - {x: -26, y: -27}
+        - {x: -28, y: -26}
+        - {x: -27, y: -28}
+        - {x: -25, y: -28}
+        - {x: -25, y: -29}
+        - {x: -29, y: -33}
+        - {x: -29, y: -34}
+        - {x: -27, y: -36}
+        - {x: -27, y: -35}
+      - - {x: 19, y: -29}
+        - {x: 18, y: -29}
+        - {x: 16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 14, y: -29}
+        - {x: 11, y: -26}
+        - {x: 12, y: -25}
+        - {x: 12, y: -23}
+        - {x: 13, y: -28}
+        - {x: 16, y: -31}
+        - {x: 18, y: -31}
+        - {x: 21, y: -28}
+        - {x: 20, y: -24}
+        - {x: 21, y: -22}
+        - {x: 18, y: -19}
+        - {x: 17, y: -19}
+        - {x: 19, y: -23}
+        - {x: 22, y: -26}
+        - {x: 20, y: -28}
+        - {x: 21, y: -33}
+        - {x: 22, y: -32}
+      - - {x: 46, y: -28}
+        - {x: 47, y: -30}
+        - {x: 46, y: -31}
+        - {x: 44, y: -31}
+      - - {x: 6, y: -21}
+        - {x: 5, y: -26}
+        - {x: 8, y: -28}
+        - {x: 8, y: -26}
+      - - {x: -14, y: -17}
+        - {x: -14, y: -25}
+        - {x: -8, y: -25}
+        - {x: -6, y: -21}
+        - {x: -6, y: -18}
+        - {x: -8, y: -17}
+      - - {x: -50, y: -24}
+        - {x: -48, y: -24}
+        - {x: -46, y: -22}
+        - {x: -47, y: -19}
+        - {x: -50, y: -19}
+      - - {x: -48, y: -19}
+        - {x: -45, y: -17}
+        - {x: -46, y: -14}
+        - {x: -50, y: -13}
+        - {x: -50, y: -18}
+      - - {x: -13, y: -7}
+        - {x: -14, y: -8}
+        - {x: -14, y: -9}
+        - {x: -8, y: -19}
+        - {x: 1, y: -19}
+        - {x: 2, y: -15}
+        - {x: 2, y: -11}
+        - {x: -7, y: -7}
+      - - {x: 24, y: -16}
+        - {x: 21, y: -13}
+        - {x: 21, y: -14}
+        - {x: 23, y: -14}
+        - {x: 24, y: -15}
+        - {x: 22, y: -17}
+        - {x: 23, y: -18}
+        - {x: 24, y: -17}
+      - - {x: -43, y: -18}
+        - {x: -40, y: -17}
+        - {x: -40, y: -14}
+        - {x: -43, y: -13}
+        - {x: -45, y: -15}
+      - - {x: 32, y: -12}
+        - {x: 33, y: -13}
+        - {x: 33, y: -14}
+        - {x: 32, y: -14}
+      - - {x: -22, y: -8}
+        - {x: -22, y: -5}
+        - {x: -25, y: -2}
+        - {x: -26, y: -3}
+        - {x: -23, y: -6}
+        - {x: -23, y: -9}
+      - - {x: -2, y: -4}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 5, y: -4}
+        - {x: 5, y: 2}
+        - {x: 3, y: 4}
+        - {x: 0, y: 3}
+      - - {x: -13, y: -5}
+        - {x: -11, y: -7}
+        - {x: -8, y: -6}
+        - {x: -8, y: -3}
+        - {x: -10, y: -1}
+        - {x: -13, y: -2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_120
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: 5}
+        - {x: -50, y: 1}
+        - {x: -50, y: -8}
+        - {x: -48, y: -10}
+        - {x: -47, y: -10}
+        - {x: -45, y: -8}
+        - {x: -46, y: -11}
+        - {x: -48, y: -10}
+        - {x: -50, y: -12}
+        - {x: -50, y: -50}
+        - {x: -39, y: -50}
+        - {x: -30, y: -41}
+        - {x: -30, y: -2}
+        - {x: -42, y: 5}
+      - - {x: -46, y: -27}
+        - {x: -46, y: -30}
+      - - {x: -25, y: -19}
+        - {x: -25, y: -23}
+        - {x: -23, y: -25}
+        - {x: -20, y: -24}
+        - {x: -19, y: -19}
+        - {x: -21, y: -17}
+        - {x: -23, y: -17}
+      - - {x: -35, y: -13}
+        - {x: -37, y: -10}
+        - {x: -37, y: -15}
+        - {x: -35, y: -17}
+      - - {x: -22, y: -16}
+        - {x: -19, y: -15}
+        - {x: -19, y: -12}
+        - {x: -22, y: -11}
+        - {x: -24, y: -13}
+      - - {x: -29, y: -6}
+        - {x: -26, y: -5}
+        - {x: -26, y: -2}
+        - {x: -29, y: -1}
+        - {x: -31, y: -3}
+      - - {x: -35, y: -2}
+        - {x: -32, y: -1}
+        - {x: -32, y: 2}
+        - {x: -35, y: 3}
+        - {x: -37, y: 1}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_121
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 47}
+        - {x: -6, y: 29}
+        - {x: -6, y: -28}
+        - {x: -2, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 47}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_122
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 45}
+        - {x: -50, y: -50}
+        - {x: 5, y: -50}
+        - {x: 5, y: 22}
+        - {x: 1, y: 45}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_123
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 3}
+        - {x: -35, y: -30}
+        - {x: -35, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_124
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -47, y: 6}
+        - {x: -50, y: 3}
+        - {x: -50, y: -50}
+        - {x: 11, y: -50}
+        - {x: 11, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_125
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 18}
+        - {x: -13, y: -40}
+        - {x: -13, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 17}
+        - {x: 43, y: 18}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_126
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36, y: 20}
+        - {x: -50, y: 17}
+        - {x: -50, y: -50}
+        - {x: -9, y: -50}
+        - {x: -9, y: 15}
+        - {x: -10, y: 20}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_127
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 23}
+        - {x: -14, y: -27}
+        - {x: -14, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 23}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_128
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: 25}
+        - {x: -50, y: 22}
+        - {x: -50, y: -50}
+        - {x: -13, y: -50}
+        - {x: -8, y: -46}
+        - {x: -8, y: 21}
+        - {x: -11, y: 25}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_129
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 6}
+        - {x: 13, y: 5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -11}
+        - {x: 8, y: -13}
+        - {x: 4, y: -9}
+        - {x: -1, y: -7}
+        - {x: -4, y: -7}
+        - {x: -5, y: -10}
+        - {x: -5, y: -15}
+        - {x: -7, y: -25}
+        - {x: -3, y: -27}
+        - {x: 2, y: -27}
+        - {x: 4, y: -25}
+        - {x: 5, y: -21}
+        - {x: 10, y: -23}
+        - {x: 6, y: -24}
+        - {x: 1, y: -28}
+        - {x: 0, y: -29}
+        - {x: -6, y: -26}
+        - {x: -9, y: -28}
+        - {x: -13, y: -35}
+        - {x: -13, y: -45}
+        - {x: -7, y: -50}
+        - {x: 49, y: -50}
+        - {x: 50, y: -48}
+        - {x: 50, y: 2}
+        - {x: 41, y: 6}
+      - - {x: 9, y: -35}
+        - {x: 8, y: -34}
+        - {x: 11, y: -37}
+        - {x: 9, y: -36}
+      - - {x: -12, y: -34}
+        - {x: -11, y: -37}
+        - {x: -7, y: -37}
+        - {x: -5, y: -35}
+        - {x: -6, y: -32}
+        - {x: -10, y: -32}
+      - - {x: 17, y: -29}
+        - {x: 16, y: -28}
+        - {x: 16, y: -29}
+        - {x: 17, y: -32}
+      - - {x: 21, y: -17}
+        - {x: 18, y: -17}
+        - {x: 15, y: -15}
+        - {x: 17, y: -18}
+        - {x: 19, y: -18}
+        - {x: 22, y: -16}
+        - {x: 24, y: -17}
+        - {x: 35, y: -13}
+        - {x: 36, y: -12}
+        - {x: 34, y: -9}
+        - {x: 28, y: -11}
+        - {x: 26, y: -14}
+        - {x: 24, y: -16}
+        - {x: 23, y: -20}
+        - {x: 24, y: -20}
+      - - {x: 19, y: -8}
+        - {x: 17, y: -6}
+        - {x: 18, y: -3}
+        - {x: 15, y: -1}
+        - {x: 16, y: -5}
+        - {x: 19, y: -7}
+        - {x: 20, y: -7}
+        - {x: 23, y: -4}
+        - {x: 23, y: -3}
+        - {x: 22, y: -2}
+        - {x: 21, y: -3}
+        - {x: 24, y: -6}
+        - {x: 26, y: -6}
+        - {x: 24, y: -5}
+        - {x: 21, y: -8}
+        - {x: 22, y: -9}
+        - {x: 21, y: -8}
+      - - {x: -7, y: -9}
+        - {x: -4, y: -8}
+        - {x: -4, y: -5}
+        - {x: -7, y: -4}
+        - {x: -9, y: -6}
+      - - {x: -13, y: -5}
+        - {x: -10, y: -4}
+        - {x: -10, y: -1}
+        - {x: -13, y: 0}
+        - {x: -15, y: -2}
+      - - {x: -2, y: 5}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 7, y: -3}
+        - {x: 7, y: 5}
+      - - {x: 32, y: 1}
+        - {x: 32, y: -1}
+        - {x: 34, y: -3}
+        - {x: 36, y: -3}
+        - {x: 41, y: 0}
+        - {x: 39, y: 5}
+        - {x: 37, y: 5}
+      - - {x: -7, y: 1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 5}
+        - {x: -7, y: 6}
+        - {x: -9, y: 4}
+      - - {x: 46, y: 1}
+        - {x: 49, y: 2}
+        - {x: 49, y: 5}
+        - {x: 46, y: 6}
+        - {x: 44, y: 4}
+      - - {x: 8, y: 16}
+        - {x: 3, y: 8}
+        - {x: 3, y: 6}
+        - {x: 4, y: 4}
+        - {x: 18, y: 4}
+        - {x: 19, y: 6}
+        - {x: 19, y: 9}
+        - {x: 16, y: 16}
+      - - {x: 20, y: 23}
+        - {x: 16, y: 23}
+        - {x: 16, y: 13}
+        - {x: 18, y: 10}
+        - {x: 20, y: 6}
+        - {x: 27, y: 6}
+        - {x: 28, y: 9}
+        - {x: 28, y: 19}
+        - {x: 23, y: 22}
+      - - {x: 34, y: 13}
+        - {x: 32, y: 11}
+        - {x: 32, y: 9}
+        - {x: 34, y: 7}
+        - {x: 36, y: 7}
+        - {x: 38, y: 9}
+        - {x: 38, y: 10}
+        - {x: 35, y: 13}
+      - - {x: 3, y: 16}
+        - {x: 2, y: 13}
+        - {x: 5, y: 10}
+        - {x: 8, y: 10}
+        - {x: 9, y: 12}
+        - {x: 9, y: 14}
+        - {x: 6, y: 16}
+      - - {x: 49, y: 22}
+        - {x: 45, y: 22}
+        - {x: 41, y: 19}
+        - {x: 41, y: 16}
+        - {x: 42, y: 13}
+        - {x: 46, y: 13}
+        - {x: 49, y: 15}
+        - {x: 50, y: 18}
+        - {x: 50, y: 21}
+      - - {x: 36, y: 14}
+        - {x: 39, y: 15}
+        - {x: 39, y: 18}
+        - {x: 36, y: 19}
+        - {x: 34, y: 17}
+      - - {x: 29, y: 16}
+        - {x: 32, y: 17}
+        - {x: 32, y: 20}
+        - {x: 29, y: 21}
+        - {x: 27, y: 19}
+      - - {x: 44, y: 21}
+        - {x: 47, y: 22}
+        - {x: 47, y: 25}
+        - {x: 44, y: 26}
+        - {x: 42, y: 24}
+      - - {x: 14, y: 22}
+        - {x: 17, y: 23}
+        - {x: 17, y: 26}
+        - {x: 14, y: 27}
+        - {x: 12, y: 25}
+      - - {x: 21, y: 31}
+        - {x: 19, y: 30}
+        - {x: 19, y: 28}
+        - {x: 22, y: 22}
+        - {x: 27, y: 22}
+        - {x: 28, y: 24}
+        - {x: 28, y: 29}
+        - {x: 25, y: 30}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_130
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 50, y: -3}
+        - {x: 44, y: 0}
+        - {x: 37, y: -4}
+        - {x: 33, y: -1}
+        - {x: 30, y: -1}
+        - {x: 26, y: -4}
+        - {x: 27, y: -1}
+        - {x: 32, y: 0}
+        - {x: 34, y: -2}
+        - {x: 37, y: -3}
+        - {x: 46, y: 3}
+        - {x: 41, y: 22}
+        - {x: 36, y: 22}
+        - {x: 27, y: 11}
+        - {x: 27, y: 10}
+        - {x: 30, y: 7}
+        - {x: 31, y: 7}
+        - {x: 28, y: 6}
+        - {x: 27, y: 9}
+        - {x: 24, y: 9}
+        - {x: 27, y: 11}
+        - {x: 27, y: 13}
+        - {x: 24, y: 16}
+        - {x: 18, y: 9}
+        - {x: 19, y: 4}
+        - {x: 19, y: 3}
+        - {x: 19, y: 4}
+        - {x: 13, y: 15}
+        - {x: 10, y: 12}
+        - {x: 9, y: 6}
+        - {x: 12, y: 2}
+        - {x: 13, y: 0}
+        - {x: 10, y: -2}
+        - {x: 11, y: -1}
+        - {x: 12, y: 2}
+        - {x: 10, y: 4}
+        - {x: 4, y: 4}
+        - {x: 1, y: 3}
+        - {x: 5, y: 5}
+        - {x: 7, y: 7}
+        - {x: 7, y: 9}
+        - {x: 11, y: 15}
+        - {x: 10, y: 22}
+        - {x: 5, y: 22}
+        - {x: -1, y: 17}
+        - {x: -3, y: 14}
+        - {x: -12, y: 18}
+        - {x: -19, y: 14}
+        - {x: -18, y: 12}
+        - {x: -20, y: 11}
+        - {x: -21, y: 19}
+        - {x: -23, y: 21}
+        - {x: -35, y: 22}
+        - {x: -41, y: 12}
+        - {x: -36, y: 3}
+        - {x: -29, y: 1}
+        - {x: -23, y: 0}
+        - {x: -23, y: -4}
+        - {x: -27, y: 0}
+        - {x: -30, y: 0}
+        - {x: -35, y: -4}
+        - {x: -35, y: -6}
+        - {x: -33, y: -8}
+        - {x: -30, y: -8}
+        - {x: -33, y: -8}
+        - {x: -38, y: -6}
+        - {x: -40, y: -6}
+        - {x: -43, y: -8}
+        - {x: -43, y: -15}
+        - {x: -42, y: -18}
+        - {x: -38, y: -19}
+        - {x: -35, y: -16}
+        - {x: -35, y: -17}
+        - {x: -41, y: -22}
+        - {x: -39, y: -29}
+        - {x: -43, y: -18}
+        - {x: -44, y: -8}
+        - {x: -46, y: -6}
+        - {x: -50, y: -7}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+      - - {x: 40, y: -41}
+        - {x: 40, y: -42}
+      - - {x: -28, y: -39}
+        - {x: -27, y: -39}
+        - {x: -27, y: -41}
+        - {x: -26, y: -41}
+      - - {x: 40, y: -30}
+        - {x: 42, y: -31}
+        - {x: 42, y: -33}
+        - {x: 41, y: -34}
+      - - {x: -25, y: -31}
+        - {x: -24, y: -30}
+        - {x: -22, y: -31}
+        - {x: -19, y: -30}
+        - {x: -20, y: -29}
+        - {x: -23, y: -32}
+        - {x: -26, y: -29}
+        - {x: -28, y: -29}
+        - {x: -30, y: -31}
+        - {x: -32, y: -31}
+        - {x: -33, y: -33}
+        - {x: -30, y: -33}
+      - - {x: -32, y: -25}
+        - {x: -29, y: -24}
+        - {x: -25, y: -20}
+        - {x: -25, y: -17}
+        - {x: -26, y: -16}
+        - {x: -24, y: -14}
+        - {x: -25, y: -14}
+        - {x: -24, y: -15}
+        - {x: -27, y: -18}
+        - {x: -27, y: -19}
+        - {x: -24, y: -22}
+        - {x: -23, y: -22}
+        - {x: -21, y: -21}
+        - {x: -26, y: -21}
+        - {x: -33, y: -22}
+        - {x: -35, y: -24}
+      - - {x: 22, y: -17}
+        - {x: 20, y: -15}
+        - {x: 15, y: -9}
+        - {x: 14, y: -10}
+        - {x: 16, y: -12}
+        - {x: 19, y: -12}
+        - {x: 20, y: -10}
+        - {x: 18, y: -11}
+        - {x: 18, y: -16}
+        - {x: 24, y: -22}
+        - {x: 27, y: -21}
+      - - {x: -16, y: -17}
+        - {x: -13, y: -14}
+        - {x: -13, y: -13}
+        - {x: -14, y: -11}
+        - {x: -12, y: -9}
+        - {x: -12, y: -7}
+        - {x: -16, y: -2}
+        - {x: -17, y: -3}
+        - {x: -16, y: -3}
+        - {x: -16, y: -2}
+        - {x: -15, y: -2}
+        - {x: -12, y: 1}
+        - {x: -13, y: 2}
+        - {x: -14, y: 0}
+        - {x: -12, y: -2}
+        - {x: -14, y: -4}
+        - {x: -14, y: -5}
+        - {x: -11, y: -8}
+        - {x: -10, y: -8}
+        - {x: -15, y: -13}
+        - {x: -15, y: -14}
+        - {x: -12, y: -17}
+        - {x: -11, y: -16}
+        - {x: -12, y: -15}
+        - {x: -15, y: -18}
+      - - {x: -1, y: -13}
+        - {x: -1, y: -12}
+        - {x: 0, y: -11}
+        - {x: -2, y: -15}
+      - - {x: 27, y: -7}
+        - {x: 26, y: -10}
+        - {x: 28, y: -15}
+        - {x: 29, y: -16}
+        - {x: 29, y: -15}
+      - - {x: 41, y: -12}
+        - {x: 40, y: -14}
+        - {x: 47, y: -16}
+        - {x: 46, y: -14}
+      - - {x: -43, y: -6}
+        - {x: -40, y: -5}
+        - {x: -40, y: -2}
+        - {x: -43, y: -1}
+        - {x: -45, y: -3}
+      - - {x: -34, y: -2}
+        - {x: -31, y: -1}
+        - {x: -31, y: 2}
+        - {x: -34, y: 3}
+        - {x: -36, y: 1}
+      - - {x: 42, y: 19}
+        - {x: 40, y: 18}
+        - {x: 39, y: 14}
+        - {x: 39, y: 11}
+        - {x: 41, y: 8}
+        - {x: 44, y: 8}
+        - {x: 40, y: 8}
+        - {x: 39, y: 5}
+        - {x: 39, y: 4}
+        - {x: 43, y: -1}
+        - {x: 47, y: -1}
+        - {x: 50, y: 3}
+        - {x: 50, y: 12}
+        - {x: 45, y: 19}
+      - - {x: -46, y: 20}
+        - {x: -47, y: 17}
+        - {x: -47, y: 11}
+        - {x: -44, y: 9}
+        - {x: -40, y: 9}
+        - {x: -38, y: 10}
+        - {x: -38, y: 16}
+        - {x: -42, y: 20}
+      - - {x: -4, y: 12}
+        - {x: -1, y: 13}
+        - {x: -1, y: 16}
+        - {x: -4, y: 17}
+        - {x: -6, y: 15}
+      - - {x: 30, y: 24}
+        - {x: 26, y: 21}
+        - {x: 26, y: 18}
+        - {x: 29, y: 15}
+        - {x: 34, y: 16}
+        - {x: 36, y: 17}
+        - {x: 36, y: 19}
+        - {x: 34, y: 24}
+      - - {x: -4, y: 17}
+        - {x: 1, y: 20}
+        - {x: 0, y: 23}
+        - {x: -5, y: 25}
+        - {x: -7, y: 22}
+      - - {x: 14, y: 19}
+        - {x: 16, y: 17}
+        - {x: 19, y: 18}
+        - {x: 20, y: 23}
+        - {x: 18, y: 25}
+        - {x: 15, y: 24}
+      - - {x: -44, y: 21}
+        - {x: -41, y: 22}
+        - {x: -41, y: 25}
+        - {x: -44, y: 26}
+        - {x: -46, y: 24}
+      - - {x: -37, y: 22}
+        - {x: -36, y: 21}
+        - {x: -33, y: 21}
+        - {x: -31, y: 22}
+        - {x: -31, y: 28}
+        - {x: -32, y: 30}
+        - {x: -36, y: 30}
+        - {x: -37, y: 27}
+      - - {x: -16, y: 21}
+        - {x: -13, y: 22}
+        - {x: -13, y: 25}
+        - {x: -16, y: 26}
+        - {x: -18, y: 24}
+      - - {x: -25, y: 28}
+        - {x: -28, y: 26}
+        - {x: -28, y: 24}
+        - {x: -27, y: 22}
+        - {x: -24, y: 22}
+        - {x: -22, y: 23}
+        - {x: -22, y: 26}
+        - {x: -23, y: 28}
+      - - {x: 19, y: 25}
+        - {x: 22, y: 22}
+        - {x: 24, y: 22}
+        - {x: 29, y: 25}
+        - {x: 29, y: 31}
+        - {x: 20, y: 31}
+        - {x: 19, y: 28}
+      - - {x: 15, y: 25}
+        - {x: 18, y: 26}
+        - {x: 18, y: 29}
+        - {x: 15, y: 30}
+        - {x: 13, y: 28}
+      - - {x: 40, y: 25}
+        - {x: 43, y: 26}
+        - {x: 43, y: 29}
+        - {x: 40, y: 30}
+        - {x: 38, y: 28}
+      - - {x: 34, y: 31}
+        - {x: 37, y: 32}
+        - {x: 37, y: 35}
+        - {x: 34, y: 36}
+        - {x: 32, y: 34}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_131
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -29}
+        - {x: -18, y: -25}
+        - {x: -20, y: -25}
+        - {x: -22, y: -26}
+        - {x: -23, y: -25}
+        - {x: -18, y: -24}
+        - {x: -15, y: -22}
+        - {x: -14, y: -18}
+        - {x: -16, y: -15}
+        - {x: -24, y: -14}
+        - {x: -26, y: -17}
+        - {x: -24, y: -13}
+        - {x: -22, y: -3}
+        - {x: -22, y: 2}
+        - {x: -28, y: 5}
+        - {x: -31, y: 2}
+        - {x: -31, y: 0}
+        - {x: -35, y: 3}
+        - {x: -38, y: 2}
+        - {x: -38, y: -2}
+        - {x: -38, y: 1}
+        - {x: -40, y: 5}
+        - {x: -42, y: 8}
+        - {x: -45, y: 9}
+        - {x: -47, y: 9}
+        - {x: -50, y: 7}
+        - {x: -50, y: -2}
+        - {x: -46, y: -2}
+        - {x: -48, y: -4}
+        - {x: -50, y: -7}
+        - {x: -50, y: -11}
+        - {x: -49, y: -13}
+        - {x: -47, y: -15}
+        - {x: -44, y: -14}
+        - {x: -42, y: -14}
+        - {x: -39, y: -13}
+        - {x: -39, y: -10}
+        - {x: -36, y: -11}
+        - {x: -39, y: -13}
+        - {x: -47, y: -16}
+        - {x: -50, y: -16}
+        - {x: -50, y: -50}
+        - {x: -17, y: -50}
+        - {x: -9, y: -41}
+        - {x: -9, y: -34}
+      - - {x: -14, y: -46}
+        - {x: -14, y: -49}
+        - {x: -12, y: -50}
+        - {x: -9, y: -50}
+        - {x: -5, y: -45}
+        - {x: -6, y: -42}
+        - {x: -10, y: -42}
+      - - {x: -13, y: -32}
+        - {x: -13, y: -33}
+        - {x: -9, y: -37}
+        - {x: -7, y: -37}
+        - {x: -5, y: -35}
+        - {x: -7, y: -30}
+        - {x: -11, y: -30}
+      - - {x: -35, y: -19}
+        - {x: -36, y: -20}
+        - {x: -33, y: -23}
+      - - {x: -24, y: -10}
+        - {x: -21, y: -15}
+        - {x: -19, y: -15}
+        - {x: -12, y: -10}
+        - {x: -12, y: -8}
+        - {x: -13, y: -5}
+        - {x: -23, y: -5}
+        - {x: -24, y: -7}
+      - - {x: -3, y: -10}
+        - {x: -3, y: -11}
+        - {x: -1, y: -13}
+        - {x: 0, y: -13}
+        - {x: 3, y: -10}
+        - {x: 3, y: -8}
+        - {x: 0, y: -7}
+      - - {x: -17, y: -3}
+        - {x: -14, y: -2}
+        - {x: -14, y: 1}
+        - {x: -17, y: 2}
+        - {x: -19, y: 0}
+      - - {x: -41, y: 7}
+        - {x: -40, y: 4}
+        - {x: -37, y: 4}
+        - {x: -35, y: 6}
+        - {x: -36, y: 9}
+        - {x: -39, y: 9}
+      - - {x: -49, y: 11}
+        - {x: -44, y: 11}
+        - {x: -42, y: 13}
+        - {x: -42, y: 19}
+        - {x: -43, y: 20}
+        - {x: -46, y: 20}
+        - {x: -50, y: 19}
+        - {x: -50, y: 13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_132
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: 31}
+        - {x: -48, y: 29}
+        - {x: 42, y: 29}
+        - {x: 50, y: 37}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_134
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 50}
+        - {x: -42, y: 39}
+        - {x: -35, y: 32}
+        - {x: -23, y: 32}
+        - {x: -13, y: 47}
+        - {x: -13, y: 50}
+      - - {x: -8, y: 50}
+        - {x: -8, y: 39}
+        - {x: -2, y: 34}
+        - {x: 3, y: 34}
+        - {x: 9, y: 35}
+        - {x: 15, y: 44}
+        - {x: 17, y: 50}
+      - - {x: 19, y: 50}
+        - {x: 22, y: 39}
+        - {x: 23, y: 34}
+        - {x: 44, y: 34}
+        - {x: 50, y: 40}
+        - {x: 50, y: 50}
+      - - {x: -47, y: 47}
+        - {x: -47, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: 46}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_135
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41, y: 50}
+        - {x: -41, y: 40}
+        - {x: -35, y: 36}
+        - {x: -22, y: 36}
+        - {x: -18, y: 41}
+        - {x: -14, y: 50}
+      - - {x: -1, y: 36}
+        - {x: 20, y: 36}
+        - {x: 48, y: 42}
+        - {x: 48, y: 50}
+        - {x: -2, y: 50}
+        - {x: -2, y: 40}
+      - - {x: -50, y: 50}
+        - {x: -50, y: 42}
+        - {x: -49, y: 42}
+        - {x: -44, y: 47}
+        - {x: -44, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_136
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 36, y: 50}
+        - {x: 35, y: 2}
+        - {x: 35, y: -14}
+        - {x: 41, y: -16}
+        - {x: 40, y: -21}
+        - {x: 39, y: -18}
+        - {x: 37, y: -16}
+        - {x: 33, y: -15}
+        - {x: 33, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_137
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 45, y: 50}
+        - {x: 43, y: 48}
+        - {x: 43, y: 47}
+        - {x: 45, y: 45}
+        - {x: 37, y: 41}
+        - {x: 41, y: 43}
+        - {x: 43, y: 45}
+        - {x: 43, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -39, y: -35}
+        - {x: -40, y: -34}
+        - {x: -41, y: -35}
+        - {x: -40, y: -38}
+        - {x: -39, y: -38}
+      - - {x: 8, y: -4}
+        - {x: 7, y: -3}
+        - {x: 7, y: -6}
+      - - {x: 3, y: 3}
+        - {x: 3, y: 4}
+        - {x: 2, y: 3}
+      - - {x: 20, y: 23}
+        - {x: 20, y: 22}
+      - - {x: 2, y: 28}
+        - {x: 0, y: 27}
+        - {x: 6, y: 24}
+        - {x: 6, y: 26}
+        - {x: 5, y: 27}
+      - - {x: 29, y: 43}
+        - {x: 28, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_138
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -9, y: -24}
+        - {x: -10, y: -24}
+        - {x: -11, y: -26}
+        - {x: -10, y: -27}
+      - - {x: -2, y: 1}
+        - {x: -3, y: 2}
+        - {x: -6, y: -1}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+      - - {x: 28, y: -2}
+        - {x: 29, y: -3}
+        - {x: 26, y: -2}
+        - {x: 27, y: -4}
+      - - {x: 3, y: 26}
+        - {x: 6, y: 29}
+        - {x: 6, y: 32}
+        - {x: 4, y: 31}
+        - {x: 5, y: 27}
+        - {x: 4, y: 28}
+        - {x: 2, y: 28}
+        - {x: 1, y: 27}
+        - {x: 2, y: 26}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_139
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41, y: -50}
+        - {x: -42, y: -47}
+        - {x: -46, y: -47}
+        - {x: -47, y: -50}
+      - - {x: -50, y: -14}
+        - {x: -50, y: -47}
+        - {x: -43, y: -47}
+        - {x: -42, y: -44}
+        - {x: -42, y: -19}
+        - {x: -48, y: -14}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -15}
+        - {x: -41, y: -15}
+        - {x: -41, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_140
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 50}
+        - {x: -1, y: 19}
+        - {x: 2, y: 16}
+        - {x: 39, y: 16}
+        - {x: 50, y: 17}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_141
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: 18}
+        - {x: -4, y: 18}
+        - {x: 5, y: 26}
+        - {x: 5, y: 36}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_142
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -38, y: 50}
+        - {x: -47, y: 26}
+        - {x: -47, y: -8}
+        - {x: -46, y: -27}
+        - {x: -42, y: -29}
+        - {x: -37, y: -30}
+        - {x: -34, y: -30}
+        - {x: -32, y: -28}
+        - {x: 50, y: 12}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_143
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 46, y: -49}
+        - {x: 46, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: 48, y: -47}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -10}
+        - {x: -34, y: -29}
+        - {x: -18, y: -29}
+        - {x: -8, y: 41}
+        - {x: -8, y: 50}
+      - - {x: -4, y: 50}
+        - {x: -4, y: 35}
+        - {x: 3, y: 32}
+        - {x: 9, y: 32}
+        - {x: 11, y: 36}
+        - {x: 11, y: 45}
+        - {x: 10, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_144
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -24, y: 50}
+        - {x: -26, y: 39}
+        - {x: -26, y: -26}
+        - {x: 50, y: -26}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_145
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+        - {x: -50, y: -50}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -22}
+        - {x: -47, y: -21}
+        - {x: -24, y: 10}
+        - {x: -12, y: 44}
+        - {x: -12, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_146
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: 50}
+        - {x: -27, y: 28}
+        - {x: -27, y: -19}
+        - {x: -21, y: -21}
+        - {x: 48, y: -21}
+        - {x: 50, y: -20}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_147
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 49, y: -50}
+        - {x: 48, y: -47}
+        - {x: -50, y: -47}
+        - {x: -50, y: -50}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -19}
+        - {x: -47, y: -18}
+        - {x: -22, y: 18}
+        - {x: -14, y: 47}
+        - {x: -14, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_148
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -50}
+        - {x: -16, y: -47}
+        - {x: -20, y: -47}
+        - {x: -21, y: -50}
+      - - {x: -11, y: 50}
+        - {x: -15, y: 46}
+        - {x: -14, y: 43}
+        - {x: -11, y: 42}
+        - {x: -18, y: 45}
+        - {x: -24, y: 35}
+        - {x: -24, y: 30}
+        - {x: -17, y: 20}
+        - {x: -6, y: 18}
+        - {x: -12, y: 5}
+        - {x: -12, y: 3}
+        - {x: -10, y: 1}
+        - {x: -8, y: 1}
+        - {x: -5, y: 2}
+        - {x: -2, y: 1}
+        - {x: -10, y: 0}
+        - {x: -12, y: 3}
+        - {x: -12, y: 8}
+        - {x: -14, y: 10}
+        - {x: -19, y: 13}
+        - {x: -24, y: -2}
+        - {x: -24, y: -42}
+        - {x: -20, y: -45}
+        - {x: -16, y: -45}
+        - {x: -13, y: -44}
+        - {x: -15, y: -45}
+        - {x: -14, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -28, y: -38}
+        - {x: -26, y: -40}
+        - {x: -25, y: -40}
+        - {x: -21, y: -36}
+        - {x: -22, y: -33}
+        - {x: -26, y: -33}
+      - - {x: -14, y: -32}
+        - {x: -14, y: -28}
+        - {x: -16, y: -27}
+        - {x: -16, y: -31}
+        - {x: -13, y: -34}
+        - {x: -11, y: -33}
+        - {x: -9, y: -35}
+        - {x: -8, y: -35}
+        - {x: -8, y: -34}
+        - {x: -11, y: -34}
+        - {x: -12, y: -35}
+        - {x: -11, y: -35}
+      - - {x: -27, y: -25}
+        - {x: -29, y: -27}
+        - {x: -29, y: -30}
+        - {x: -27, y: -32}
+        - {x: -26, y: -32}
+        - {x: -23, y: -29}
+        - {x: -23, y: -27}
+        - {x: -25, y: -25}
+      - - {x: -8, y: -25}
+        - {x: -8, y: -24}
+        - {x: -11, y: -21}
+        - {x: -12, y: -21}
+        - {x: -12, y: -22}
+        - {x: -11, y: -23}
+        - {x: -9, y: -23}
+        - {x: -8, y: -22}
+        - {x: -7, y: -23}
+        - {x: -6, y: -22}
+        - {x: -11, y: -27}
+        - {x: -10, y: -29}
+        - {x: -10, y: -28}
+      - - {x: -7, y: -13}
+        - {x: -8, y: -12}
+        - {x: -8, y: -13}
+        - {x: -6, y: -11}
+        - {x: -4, y: -11}
+        - {x: -4, y: -10}
+        - {x: -5, y: -9}
+        - {x: -8, y: -12}
+        - {x: -8, y: -13}
+        - {x: -9, y: -16}
+        - {x: -8, y: -17}
+        - {x: -9, y: -16}
+      - - {x: -14, y: 18}
+        - {x: -18, y: 14}
+        - {x: -18, y: 11}
+        - {x: -14, y: 9}
+        - {x: -11, y: 9}
+        - {x: -9, y: 11}
+        - {x: -7, y: 15}
+        - {x: -7, y: 17}
+        - {x: -10, y: 18}
+      - - {x: 0, y: 26}
+        - {x: 1, y: 30}
+        - {x: -1, y: 32}
+        - {x: -1, y: 31}
+        - {x: 2, y: 34}
+        - {x: 1, y: 35}
+        - {x: 0, y: 32}
+        - {x: 0, y: 27}
+        - {x: -1, y: 26}
+        - {x: -1, y: 24}
+        - {x: -2, y: 23}
+        - {x: -1, y: 23}
+      - - {x: -10, y: 31}
+        - {x: -9, y: 31}
+        - {x: -8, y: 30}
+        - {x: -8, y: 31}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_149
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_150
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: -3, y: -1}
+        - {x: -3, y: -4}
+        - {x: -3, y: -1}
+        - {x: -2, y: 1}
+        - {x: 1, y: 0}
+        - {x: 6, y: 2}
+        - {x: 6, y: 38}
+        - {x: -11, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 2, y: -50}
+        - {x: 6, y: -46}
+        - {x: 6, y: -2}
+      - - {x: -5, y: -40}
+        - {x: -4, y: -40}
+        - {x: -6, y: -40}
+        - {x: -7, y: -41}
+        - {x: -7, y: -42}
+      - - {x: -7, y: 2}
+        - {x: -5, y: 7}
+        - {x: -7, y: 8}
+        - {x: -10, y: 5}
+        - {x: -11, y: 1}
+        - {x: -9, y: 1}
+      - - {x: -6, y: 18}
+        - {x: -5, y: 21}
+        - {x: -6, y: 20}
+        - {x: -4, y: 18}
+        - {x: -6, y: 18}
+        - {x: -8, y: 17}
+        - {x: -7, y: 16}
+      - - {x: -12, y: 38}
+        - {x: -13, y: 41}
+        - {x: -14, y: 40}
+        - {x: -10, y: 37}
+        - {x: -11, y: 37}
+      - - {x: 1, y: 40}
+        - {x: 4, y: 41}
+        - {x: 4, y: 44}
+        - {x: 1, y: 45}
+        - {x: -1, y: 43}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_151
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_154
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_155
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 35, y: 50}
+        - {x: 33, y: 49}
+        - {x: 32, y: 27}
+        - {x: 34, y: 18}
+        - {x: 38, y: 14}
+        - {x: 31, y: 16}
+        - {x: 28, y: 7}
+        - {x: 28, y: -35}
+        - {x: 30, y: -37}
+        - {x: 29, y: -44}
+        - {x: 28, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_156
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: 22, y: -34}
+        - {x: 20, y: -34}
+        - {x: 23, y: -37}
+        - {x: 25, y: -37}
+        - {x: 25, y: -36}
+        - {x: 22, y: -39}
+        - {x: 22, y: -40}
+      - - {x: 11, y: -40}
+        - {x: 14, y: -38}
+        - {x: 12, y: -40}
+        - {x: 11, y: -39}
+      - - {x: 1, y: -15}
+        - {x: 3, y: -13}
+        - {x: 2, y: -16}
+        - {x: 2, y: -15}
+      - - {x: 22, y: 14}
+        - {x: 21, y: 14}
+        - {x: 17, y: 9}
+        - {x: 17, y: 7}
+      - - {x: -40, y: 17}
+        - {x: -43, y: 20}
+        - {x: -45, y: 20}
+        - {x: -46, y: 19}
+        - {x: -46, y: 22}
+        - {x: -47, y: 22}
+        - {x: -44, y: 18}
+        - {x: -40, y: 17}
+        - {x: -39, y: 18}
+        - {x: -36, y: 17}
+        - {x: -38, y: 18}
+        - {x: -40, y: 16}
+      - - {x: 20, y: 19}
+        - {x: 21, y: 20}
+      - - {x: -36, y: 28}
+        - {x: -36, y: 27}
+        - {x: -35, y: 27}
+        - {x: -35, y: 28}
+        - {x: -35, y: 27}
+      - - {x: 6, y: 41}
+        - {x: 5, y: 41}
+        - {x: 5, y: 40}
+      - - {x: 10, y: 46}
+        - {x: 9, y: 44}
+        - {x: 12, y: 41}
+        - {x: 12, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_157
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -11, y: 31}
+        - {x: -10, y: 29}
+        - {x: -11, y: 30}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_158
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -43, y: 42}
+        - {x: -49, y: 42}
+        - {x: -50, y: 41}
+        - {x: -50, y: -50}
+        - {x: -37, y: -50}
+        - {x: -35, y: -41}
+        - {x: -35, y: 2}
+        - {x: -38, y: 40}
+      - - {x: -50, y: 50}
+        - {x: -50, y: 43}
+        - {x: -49, y: 42}
+        - {x: -47, y: 42}
+        - {x: -44, y: 43}
+        - {x: -44, y: 47}
+        - {x: -46, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_159
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: 20}
+        - {x: -45, y: -26}
+        - {x: -46, y: -33}
+        - {x: -46, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 2}
+        - {x: 5, y: 20}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_160
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 4}
+        - {x: 32, y: 4}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_161
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 6}
+        - {x: -50, y: 6}
+        - {x: -50, y: -50}
+        - {x: -7, y: -50}
+        - {x: 3, y: -40}
+        - {x: 3, y: -7}
+        - {x: 2, y: 2}
+      - - {x: -11, y: -33}
+        - {x: -12, y: -33}
+        - {x: -14, y: -38}
+        - {x: -13, y: -38}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_162
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -6}
+        - {x: -19, y: -40}
+        - {x: -19, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 11}
+        - {x: 30, y: 11}
+        - {x: 13, y: 9}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_163
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -46, y: 16}
+        - {x: -50, y: 12}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_164
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+        - {x: 1, y: 50}
+        - {x: -50, y: 36}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_165
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -45, y: 15}
+        - {x: -50, y: 14}
+        - {x: -50, y: -50}
+        - {x: 22, y: -50}
+        - {x: 22, y: 1}
+        - {x: 1, y: 15}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_166
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 49, y: -50}
+        - {x: 49, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_167
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19, y: 50}
+        - {x: -19, y: -49}
+        - {x: -17, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -9, y: -42}
+        - {x: -8, y: -42}
+        - {x: -9, y: -43}
+        - {x: -8, y: -43}
+      - - {x: -24, y: 22}
+        - {x: -22, y: 20}
+        - {x: -19, y: 21}
+        - {x: -19, y: 24}
+        - {x: -21, y: 26}
+        - {x: -24, y: 25}
+      - - {x: -22, y: 41}
+        - {x: -21, y: 38}
+        - {x: -18, y: 38}
+        - {x: -16, y: 40}
+        - {x: -17, y: 43}
+        - {x: -20, y: 43}
+      - - {x: -27, y: 44}
+        - {x: -24, y: 45}
+        - {x: -24, y: 48}
+        - {x: -27, y: 49}
+        - {x: -29, y: 47}
+      - - {x: -18, y: 46}
+        - {x: -15, y: 47}
+        - {x: -15, y: 50}
+        - {x: -20, y: 50}
+        - {x: -20, y: 48}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_168
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_169
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -41}
+        - {x: 1, y: -40}
+        - {x: 6, y: -36}
+        - {x: 7, y: -35}
+        - {x: 7, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -3, y: -50}
+        - {x: 4, y: -43}
+      - - {x: 2, y: -47}
+        - {x: 2, y: -48}
+        - {x: 4, y: -50}
+        - {x: 5, y: -50}
+        - {x: 8, y: -47}
+        - {x: 8, y: -45}
+        - {x: 5, y: -44}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_170
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41.145954, y: 31.702667}
+        - {x: -50, y: 5}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 31.989166}
+      - - {x: -50, y: 50}
+        - {x: -50, y: 46}
+        - {x: 50, y: 46}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_172
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 33.97513}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 34}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_173
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11.572968, y: 33.275635}
+        - {x: -50, y: 33.562164}
+        - {x: -50, y: -50}
+        - {x: 2, y: -50}
+        - {x: 6, y: -33}
+        - {x: 15, y: 13}
+        - {x: 15, y: 30}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_174
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: 32, y: -9}
+        - {x: 35, y: -7}
+        - {x: 35, y: -9}
+        - {x: 40, y: -14}
+        - {x: 40, y: -17}
+        - {x: 44, y: -22}
+        - {x: 48, y: -22}
+        - {x: 50, y: -20}
+        - {x: 50, y: 50}
+        - {x: 25, y: 50}
+        - {x: -14, y: 12}
+        - {x: -14, y: -18}
+        - {x: -12, y: -18}
+        - {x: -9, y: -17}
+        - {x: -9, y: -14}
+        - {x: -5, y: -22}
+        - {x: 30, y: -22}
+        - {x: 40, y: -20}
+        - {x: 40, y: -16}
+        - {x: 39, y: -13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_175
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -34, y: -8}
+        - {x: -37, y: -14}
+        - {x: -38, y: -17}
+        - {x: -38, y: -20}
+        - {x: -36, y: -22}
+        - {x: -33, y: -20}
+        - {x: -29, y: -16}
+        - {x: -29, y: -12}
+        - {x: -31, y: -8}
+      - - {x: -50, y: -19}
+        - {x: -44, y: -21}
+        - {x: -41, y: -19}
+        - {x: -42, y: -16}
+        - {x: -46, y: -14}
+        - {x: -50, y: -13}
+      - - {x: 15, y: -2}
+        - {x: 16, y: 3}
+        - {x: 13, y: 5}
+        - {x: 16, y: 10}
+        - {x: 16, y: 6}
+        - {x: 18, y: 4}
+        - {x: 22, y: 5}
+        - {x: 22, y: 13}
+        - {x: 17, y: 17}
+        - {x: 23, y: 20}
+        - {x: 19, y: 17}
+        - {x: 26, y: 7}
+        - {x: 31, y: 9}
+        - {x: 33, y: 11}
+        - {x: 30, y: 5}
+        - {x: 18, y: 0}
+        - {x: 31, y: -18}
+        - {x: 50, y: -18}
+        - {x: 50, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -14}
+        - {x: -49, y: -18}
+        - {x: -17, y: -18}
+        - {x: -19, y: -9}
+        - {x: -20, y: -5}
+        - {x: -20, y: -6}
+        - {x: -15, y: -9}
+        - {x: -13, y: -12}
+        - {x: -11, y: -14}
+        - {x: -8, y: -13}
+        - {x: -5, y: -15}
+        - {x: -1, y: -18}
+        - {x: 7, y: -18}
+        - {x: 9, y: -7}
+        - {x: 5, y: -6}
+        - {x: 10, y: -7}
+      - - {x: 42, y: -16}
+        - {x: 44, y: -18}
+        - {x: 47, y: -17}
+        - {x: 47, y: -14}
+        - {x: 45, y: -12}
+        - {x: 42, y: -13}
+      - - {x: 16, y: -5}
+        - {x: 15, y: -8}
+        - {x: 15, y: -10}
+        - {x: 17, y: -15}
+        - {x: 21, y: -15}
+        - {x: 22, y: -14}
+        - {x: 22, y: -9}
+        - {x: 19, y: -5}
+      - - {x: -9, y: -3}
+        - {x: -6, y: 1}
+        - {x: -6, y: 2}
+        - {x: -7, y: 3}
+        - {x: -8, y: -1}
+        - {x: -6, y: -3}
+        - {x: -6, y: -2}
+        - {x: -8, y: -3}
+        - {x: -9, y: -2}
+      - - {x: 19, y: 5}
+        - {x: 18, y: 2}
+        - {x: 18, y: -5}
+        - {x: 24, y: -5}
+        - {x: 27, y: -4}
+        - {x: 28, y: -1}
+        - {x: 28, y: 0}
+        - {x: 24, y: 5}
+      - - {x: 46, y: 3}
+        - {x: 44, y: 3}
+      - - {x: 6, y: 6}
+        - {x: 10, y: 8}
+        - {x: 8, y: 9}
+        - {x: -2, y: 10}
+        - {x: -2, y: 7}
+      - - {x: 11, y: 14}
+        - {x: 14, y: 17}
+        - {x: 14, y: 18}
+        - {x: 12, y: 19}
+        - {x: 9, y: 14}
+      - - {x: 14, y: 27}
+        - {x: 14, y: 26}
+        - {x: 15, y: 26}
+      - - {x: 27, y: 35}
+        - {x: 27, y: 34}
+        - {x: 25, y: 34}
+      - - {x: -1, y: 42}
+        - {x: 0, y: 41}
+        - {x: 0, y: 39}
+        - {x: -1, y: 40}
+      - - {x: 9, y: 40}
+        - {x: 7, y: 40}
+      - - {x: 17, y: 40}
+        - {x: 22, y: 40}
+        - {x: 22, y: 43}
+        - {x: 17, y: 42}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_176
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -50, y: 50}
+        - {x: -50, y: 19}
+        - {x: -49, y: 19}
+        - {x: -46, y: 22}
+        - {x: -43, y: 15}
+        - {x: -44, y: 17}
+        - {x: -46, y: 19}
+        - {x: -50, y: 19}
+        - {x: -50, y: 1}
+        - {x: -28, y: -27}
+        - {x: 14, y: -27}
+        - {x: 50, y: -15}
+        - {x: 50, y: 50}
+      - - {x: 13, y: -23}
+        - {x: 15, y: -25}
+        - {x: 18, y: -24}
+        - {x: 18, y: -21}
+        - {x: 16, y: -19}
+        - {x: 13, y: -20}
+      - - {x: 25, y: -17}
+        - {x: 24, y: -19}
+        - {x: 24, y: -24}
+        - {x: 26, y: -25}
+        - {x: 28, y: -25}
+        - {x: 30, y: -23}
+        - {x: 29, y: -19}
+        - {x: 27, y: -17}
+      - - {x: 10, y: -24}
+        - {x: 13, y: -23}
+        - {x: 13, y: -20}
+        - {x: 10, y: -19}
+        - {x: 8, y: -21}
+      - - {x: -37, y: -18}
+        - {x: -35, y: -20}
+        - {x: -32, y: -19}
+        - {x: -32, y: -16}
+        - {x: -34, y: -14}
+        - {x: -37, y: -15}
+      - - {x: 39, y: -20}
+        - {x: 42, y: -18}
+        - {x: 40, y: -12}
+        - {x: 35, y: -10}
+        - {x: 33, y: -10}
+        - {x: 32, y: -13}
+      - - {x: 24, y: -6}
+        - {x: 20, y: -6}
+        - {x: 15, y: -11}
+        - {x: 15, y: -15}
+        - {x: 17, y: -18}
+        - {x: 20, y: -18}
+        - {x: 26, y: -14}
+        - {x: 26, y: -11}
+      - - {x: -44, y: -16}
+        - {x: -43, y: -17}
+        - {x: -41, y: -17}
+        - {x: -36, y: -13}
+        - {x: -36, y: -10}
+        - {x: -38, y: -9}
+        - {x: -40, y: -9}
+        - {x: -44, y: -14}
+      - - {x: -50, y: -12}
+        - {x: -48, y: -15}
+        - {x: -45, y: -13}
+        - {x: -46, y: -9}
+        - {x: -48, y: -7}
+        - {x: -50, y: -7}
+      - - {x: -4, y: -9}
+        - {x: -6, y: -11}
+        - {x: -6, y: -12}
+        - {x: -5, y: -12}
+      - - {x: 3, y: -9}
+        - {x: 3, y: -7}
+        - {x: 5, y: -7}
+        - {x: 6, y: -6}
+        - {x: 5, y: -8}
+        - {x: 4, y: -9}
+        - {x: 3, y: -9}
+        - {x: 1, y: -11}
+      - - {x: -35, y: -5}
+        - {x: -36, y: -6}
+        - {x: -36, y: -10}
+        - {x: -33, y: -12}
+        - {x: -29, y: -12}
+        - {x: -28, y: -10}
+        - {x: -28, y: -7}
+        - {x: -30, y: -5}
+      - - {x: -14, y: -5}
+        - {x: -12, y: -3}
+        - {x: -14, y: -5}
+        - {x: -13, y: -5}
+        - {x: -14, y: -4}
+      - - {x: 15, y: -3}
+        - {x: 11, y: 1}
+        - {x: 13, y: 3}
+        - {x: 13, y: 4}
+        - {x: 12, y: 5}
+        - {x: 13, y: 4}
+        - {x: 16, y: 6}
+        - {x: 15, y: 7}
+        - {x: 12, y: 4}
+        - {x: 12, y: 1}
+        - {x: 11, y: -1}
+        - {x: 14, y: -4}
+        - {x: 15, y: -4}
+        - {x: 18, y: -1}
+        - {x: 16, y: -1}
+        - {x: 13, y: -4}
+        - {x: 15, y: -5}
+      - - {x: -50, y: 0}
+        - {x: -50, y: -5}
+        - {x: -48, y: -5}
+        - {x: -45, y: -2}
+        - {x: -45, y: 0}
+        - {x: -48, y: 1}
+      - - {x: -7, y: 3}
+        - {x: -7, y: 4}
+        - {x: -8, y: 2}
+      - - {x: -32, y: 4}
+        - {x: -31, y: 3}
+        - {x: -30, y: 4}
+      - - {x: 22, y: 3}
+        - {x: 24, y: 5}
+        - {x: 24, y: 3}
+        - {x: 23, y: 4}
+      - - {x: -40, y: 7}
+        - {x: -39, y: 6}
+        - {x: -39, y: 7}
+      - - {x: 9, y: 10}
+        - {x: 7, y: 8}
+        - {x: 7, y: 7}
+        - {x: 8, y: 6}
+        - {x: 9, y: 6}
+      - - {x: 31, y: 10}
+        - {x: 29, y: 12}
+        - {x: 29, y: 13}
+        - {x: 29, y: 7}
+        - {x: 30, y: 7}
+      - - {x: -38, y: 16}
+        - {x: -38, y: 20}
+        - {x: -36, y: 19}
+        - {x: -35, y: 20}
+        - {x: -37, y: 19}
+        - {x: -37, y: 18}
+        - {x: -34, y: 15}
+        - {x: -35, y: 16}
+      - - {x: 43, y: 46}
+        - {x: 42, y: 43}
+        - {x: 43, y: 43}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_177
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -50, y: -22}
+        - {x: -50, y: -25}
+        - {x: -48, y: -27}
+        - {x: -45, y: -26}
+        - {x: -45, y: -23}
+        - {x: -47, y: -21}
+        - {x: -49, y: -21}
+      - - {x: -22, y: -13}
+        - {x: -19, y: -2}
+        - {x: -19, y: 33}
+        - {x: -34, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -8}
+        - {x: -46, y: -8}
+        - {x: -44, y: -6}
+        - {x: -44, y: -7}
+        - {x: -46, y: -10}
+        - {x: -37, y: -21}
+        - {x: -33, y: -21}
+        - {x: -28, y: -19}
+        - {x: -29, y: -11}
+        - {x: -31, y: -9}
+        - {x: -27, y: -12}
+      - - {x: -48, y: -18}
+        - {x: -45, y: -17}
+        - {x: -45, y: -14}
+        - {x: -48, y: -13}
+        - {x: -50, y: -15}
+      - - {x: -20, y: -13}
+        - {x: -15, y: -10}
+        - {x: -16, y: -7}
+        - {x: -21, y: -6}
+        - {x: -23, y: -9}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -3}
+        - {x: -40, y: -3}
+        - {x: -43, y: -6}
+      - - {x: -15, y: 6}
+        - {x: -18, y: 3}
+        - {x: -18, y: 0}
+        - {x: -16, y: -2}
+        - {x: -15, y: -2}
+        - {x: -12, y: 1}
+        - {x: -12, y: 4}
+        - {x: -14, y: 6}
+      - - {x: -20, y: 17}
+        - {x: -22, y: 15}
+        - {x: -21, y: 12}
+        - {x: -18, y: 12}
+        - {x: -23, y: 9}
+        - {x: -23, y: 7}
+        - {x: -22, y: 5}
+        - {x: -18, y: 5}
+        - {x: -13, y: 7}
+        - {x: -12, y: 10}
+        - {x: -12, y: 12}
+        - {x: -17, y: 17}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_178
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: 39, y: 14}
+        - {x: 37, y: 17}
+        - {x: 50, y: 16}
+        - {x: 50, y: 50}
+        - {x: -47, y: 50}
+        - {x: -47, y: 46}
+        - {x: -39, y: -15}
+        - {x: -38, y: -16}
+        - {x: 11, y: -16}
+        - {x: 50, y: -13}
+        - {x: 50, y: 16}
+        - {x: 44, y: 15}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_179
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -14}
+        - {x: 50, y: -14}
+        - {x: 50, y: 50}
+      - - {x: -16, y: 5}
+        - {x: -20, y: 6}
+        - {x: -26, y: 5}
+        - {x: -26, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_180
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -12}
+        - {x: -29, y: -5}
+        - {x: -6, y: 45}
+        - {x: -6, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_181
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -28, y: 50}
+        - {x: -31, y: 38}
+        - {x: -31, y: -24}
+        - {x: 41, y: -24}
+        - {x: 50, y: -23}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_182
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -47}
+        - {x: -50, y: -47}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -20}
+        - {x: 12, y: -20}
+        - {x: 50, y: -16}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_183
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -16}
+        - {x: -29, y: -19}
+        - {x: -50, y: -46}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_184
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: -46}
+        - {x: -50, y: -46}
+      - - {x: -50, y: 50}
+        - {x: -50, y: -16}
+        - {x: -45, y: -16}
+        - {x: -36, y: -15}
+        - {x: -14, y: -12}
+        - {x: 13, y: 13}
+        - {x: 18, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_185
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 49, y: -50}
+        - {x: 49, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_186
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: 50}
+        - {x: -17, y: -45}
+        - {x: -13, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      - - {x: -12, y: -37}
+        - {x: -12, y: -43}
+        - {x: -7, y: -43}
+        - {x: -6, y: -41}
+        - {x: -6, y: -39}
+        - {x: -8, y: -37}
+      - - {x: -1, y: -33}
+        - {x: -2, y: -33}
+        - {x: -1, y: -34}
+      - - {x: 29, y: -25}
+        - {x: 27, y: -24}
+        - {x: 28, y: -31}
+        - {x: 29, y: -30}
+      - - {x: 0, y: -25}
+        - {x: 4, y: -27}
+        - {x: 5, y: -26}
+        - {x: 4, y: -26}
+        - {x: 2, y: -28}
+        - {x: 1, y: -27}
+      - - {x: 30, y: -18}
+        - {x: 30, y: -19}
+        - {x: 29, y: -18}
+      - - {x: 9, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: -14}
+        - {x: 9, y: -16}
+        - {x: 9, y: -17}
+        - {x: 10, y: -17}
+      - - {x: 0, y: -12}
+        - {x: 1, y: -11}
+        - {x: 1, y: -9}
+        - {x: -2, y: -7}
+        - {x: 1, y: -11}
+        - {x: 2, y: -11}
+        - {x: 0, y: -13}
+        - {x: 1, y: -13}
+      - - {x: 29, y: -7}
+        - {x: 30, y: -6}
+        - {x: 29, y: -5}
+        - {x: 27, y: -7}
+      - - {x: -10, y: 2}
+        - {x: -7, y: 3}
+        - {x: -7, y: 6}
+        - {x: -10, y: 7}
+        - {x: -12, y: 5}
+      - - {x: -17, y: 47}
+        - {x: -17, y: 44}
+        - {x: -16, y: 42}
+        - {x: -14, y: 42}
+        - {x: -11, y: 45}
+        - {x: -12, y: 48}
+        - {x: -15, y: 48}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_187
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -41}
+        - {x: -19, y: -47}
+        - {x: -10, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: -28, y: -50}
+        - {x: -26, y: -45}
+        - {x: -27, y: -42}
+        - {x: -30, y: -38}
+      - - {x: -3, y: -50}
+        - {x: 1, y: -50}
+        - {x: 1, y: -47}
+        - {x: -2, y: -46}
+        - {x: -4, y: -48}
+      - - {x: 13, y: -50}
+        - {x: 18, y: -50}
+        - {x: 18, y: -48}
+        - {x: 16, y: -46}
+        - {x: 13, y: -47}
+      - - {x: 22, y: -41}
+        - {x: 21, y: -42}
+        - {x: 21, y: -50}
+        - {x: 26, y: -50}
+        - {x: 27, y: -48}
+        - {x: 27, y: -41}
+      - - {x: 15, y: -32}
+        - {x: 15, y: -31}
+        - {x: 14, y: -30}
+        - {x: 16, y: -27}
+        - {x: 15, y: -28}
+        - {x: 17, y: -31}
+        - {x: 15, y: -30}
+        - {x: 12, y: -33}
+        - {x: 11, y: -37}
+        - {x: 13, y: -39}
+        - {x: 14, y: -39}
+      - - {x: -16, y: -31}
+        - {x: -19, y: -28}
+        - {x: -20, y: -25}
+        - {x: -20, y: -23}
+        - {x: -24, y: -19}
+        - {x: -26, y: -19}
+        - {x: -23, y: -14}
+        - {x: -24, y: -13}
+        - {x: -23, y: -14}
+        - {x: -22, y: -13}
+        - {x: -24, y: -16}
+        - {x: -23, y: -17}
+        - {x: -24, y: -20}
+        - {x: -21, y: -23}
+        - {x: -19, y: -23}
+        - {x: -19, y: -22}
+        - {x: -20, y: -24}
+        - {x: -16, y: -28}
+        - {x: -14, y: -28}
+        - {x: -13, y: -27}
+        - {x: -15, y: -28}
+        - {x: -15, y: -29}
+        - {x: -12, y: -32}
+        - {x: -11, y: -32}
+        - {x: -9, y: -30}
+        - {x: -10, y: -30}
+        - {x: -12, y: -32}
+        - {x: -14, y: -31}
+        - {x: -17, y: -33}
+        - {x: -16, y: -32}
+      - - {x: -33, y: -25}
+        - {x: -33, y: -26}
+        - {x: -32, y: -27}
+        - {x: -31, y: -26}
+        - {x: -30, y: -27}
+        - {x: -31, y: -28}
+        - {x: -30, y: -28}
+      - - {x: -34, y: -19}
+        - {x: -32, y: -20}
+        - {x: -34, y: -21}
+        - {x: -33, y: -21}
+      - - {x: 34, y: -16}
+        - {x: 32, y: -12}
+        - {x: 33, y: -18}
+        - {x: 34, y: -18}
+      - - {x: 2, y: -15}
+        - {x: 1, y: -14}
+        - {x: 2, y: -15}
+        - {x: 4, y: -15}
+        - {x: 4, y: -14}
+        - {x: 3, y: -15}
+        - {x: 6, y: -18}
+        - {x: 8, y: -18}
+        - {x: 6, y: -16}
+      - - {x: -15, y: -13}
+        - {x: -19, y: -4}
+        - {x: -21, y: -6}
+        - {x: -22, y: -9}
+        - {x: -19, y: -6}
+        - {x: -20, y: -6}
+        - {x: -18, y: -9}
+        - {x: -19, y: -11}
+        - {x: -15, y: -15}
+      - - {x: -36, y: -13}
+        - {x: -33, y: -11}
+        - {x: -31, y: -6}
+        - {x: -32, y: -5}
+        - {x: -34, y: -8}
+        - {x: -36, y: -12}
+      - - {x: -15, y: -2}
+        - {x: -11, y: 2}
+        - {x: -11, y: 5}
+        - {x: -14, y: 8}
+        - {x: -17, y: 8}
+        - {x: -20, y: 5}
+        - {x: -20, y: 2}
+        - {x: -17, y: 6}
+        - {x: -17, y: 8}
+        - {x: -15, y: 8}
+        - {x: -15, y: 7}
+        - {x: -12, y: 4}
+        - {x: -13, y: 3}
+        - {x: -11, y: 1}
+        - {x: -11, y: 0}
+        - {x: -14, y: -3}
+        - {x: -13, y: -3}
+        - {x: -13, y: -2}
+      - - {x: 42, y: 13}
+        - {x: 41, y: 14}
+        - {x: 41, y: 10}
+        - {x: 42, y: 10}
+      - - {x: -12, y: 35}
+        - {x: -12, y: 34}
+        - {x: -13, y: 34}
+        - {x: -12, y: 33}
+      - - {x: -20, y: 37}
+        - {x: -23, y: 40}
+        - {x: -21, y: 38}
+        - {x: -20, y: 35}
+        - {x: -21, y: 36}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_188
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -17}
+        - {x: -3, y: -14}
+        - {x: 2, y: -18}
+        - {x: 7, y: -6}
+        - {x: 7, y: 17}
+        - {x: 2, y: 17}
+        - {x: -3, y: 16}
+        - {x: -1, y: 17}
+        - {x: 7, y: 17}
+        - {x: 9, y: 19}
+        - {x: 9, y: 50}
+        - {x: -50, y: 50}
+        - {x: -50, y: -35}
+        - {x: -42, y: -41}
+        - {x: -33, y: -46}
+        - {x: -23, y: -42}
+        - {x: -28, y: -35}
+        - {x: -27, y: -32}
+        - {x: -27, y: -31}
+        - {x: -27, y: -33}
+        - {x: -26, y: -36}
+        - {x: -13, y: -49}
+        - {x: -9, y: -49}
+        - {x: -6, y: -47}
+        - {x: 3, y: -26}
+        - {x: 4, y: -23}
+        - {x: 3, y: -19}
+      - - {x: -4, y: -49}
+        - {x: -1, y: -48}
+        - {x: -1, y: -45}
+        - {x: -4, y: -44}
+        - {x: -6, y: -46}
+      - - {x: -7, y: -37}
+        - {x: -6, y: -40}
+        - {x: -3, y: -40}
+        - {x: -1, y: -38}
+        - {x: -2, y: -35}
+        - {x: -5, y: -35}
+      - - {x: -13, y: -15}
+        - {x: -15, y: -18}
+        - {x: -13, y: -17}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_189
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -46}
+        - {x: 1, y: -46}
+        - {x: 43, y: -45}
+        - {x: 50, y: -38}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_191
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -37}
+        - {x: -25, y: -39}
+        - {x: 43, y: -39}
+        - {x: 50, y: -34}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_192
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -32}
+        - {x: -43, y: -39}
+        - {x: -20, y: -39}
+        - {x: -4, y: -29}
+        - {x: 2, y: 44}
+        - {x: 2, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_193
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_194
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_195
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_196
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_197
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_198
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_199
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_200
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_201
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_202
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_203
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_204
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_205
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_206
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_207
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_208
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_210
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_211
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_212
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_213
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_214
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_215
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_216
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_217
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_218
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_219
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_220
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_221
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_222
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_223
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_224
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_225
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_226
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_world_assets_227
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
