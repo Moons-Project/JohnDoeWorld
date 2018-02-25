@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4861683575460748}
   - component: {fileID: 95839512723078504}
   - component: {fileID: 60812215904291132}
-  - component: {fileID: 114739230835008832}
+  - component: {fileID: 114636311507243240}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Weapon
@@ -342,9 +342,9 @@ MonoBehaviour:
   - TopDownChop
   - ThreeTimesChop
   - Stab
-  - Battojutsu
-  attack: {fileID: 114739230835008832}
---- !u!114 &114739230835008832
+  - FireBall
+  attack: {fileID: 114636311507243240}
+--- !u!114 &114636311507243240
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -352,9 +352,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1932709695840118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8f5a1351329ed45bccd8a4b134a700, type: 3}
+  m_Script: {fileID: 11500000, guid: 0843cbcbf4acf6944be72d03f6ba2ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   destroyGObjOnTriggerEnter: 0
   disableScriptOnTriggerEnter: 0
 --- !u!212 &212123762474110650

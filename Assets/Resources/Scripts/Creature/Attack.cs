@@ -37,11 +37,13 @@ public class Attack : MonoBehaviour {
     damage = skill.damage[skillLevel - 1] * basicDamage;
   }
 
-  public void startSKill() {
+  public void startSkill() {
+    Debug.Log("Attack startSkill");
     // Damage = skill.damage[creature.skillLevel[skillIndex] - 1] * creature.currentInfo.sword;
   }
 
   public void endSkill() {
+    Debug.Log("Attack endSkill");
     // Damage = 0.0f;
   }
 
