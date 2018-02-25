@@ -35,13 +35,13 @@ public class Creature : MonoBehaviour {
 
   private Rigidbody2D body;
   private Animator animator;
-  private Attack attack;
+  public Attack attack;
 
   private bool isFacingRight = true;
 
   // Use this for initialization
   void Start() {
-    attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
+    // attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
     cBuffList = new List<CreatureBuff>();
     cBuffToDel = new HashSet<CreatureBuff>();
   }
@@ -99,12 +99,47 @@ public class Creature : MonoBehaviour {
       body.bodyType = RigidbodyType2D.Dynamic;
       body.velocity = new Vector2(velocityX, velocityY);
 
-      if (inputInfo.fire0ButtonDown) attack.UseSkill(0, this);
-      if (inputInfo.fire1ButtonDown) attack.UseSkill(1, this);
-      if (inputInfo.fire2ButtonDown) attack.UseSkill(2, this);
-      if (inputInfo.fire3ButtonDown) attack.UseSkill(3, this);
-      if (inputInfo.fire4ButtonDown) attack.UseSkill(4, this);
+      if (inputInfo.fire0ButtonDown) UseSkill(0);
+      if (inputInfo.fire1ButtonDown) UseSkill(1);
+      if (inputInfo.fire2ButtonDown) UseSkill(2);
+      if (inputInfo.fire3ButtonDown) UseSkill(3);
+      if (inputInfo.fire4ButtonDown) UseSkill(4);
       if (inputInfo.fire5ButtonDown) Debug.Log("Compound Kill");
+    }
+  }
+
+  public void UseSkill(int index) {
+    // 播放自身动画
+    animator.Play("Attack");
+    SkillItem skill = SkillDict.instance.itemDict[skillList[index]];
+
+    if ((skill.attackType & SkillItem.AttackType.Weapon) != 0) {
+      attack.UseSkill(skill, this);
+      attack.GetComponent<Collider2D>().enabled = true;
+    }
+    if ((skill.attackType & SkillItem.AttackType.Bullet) != 0) {
+      Debug.Log("Spawning a bullet");
+      // Spawn a bullet
+      BulletInfo bulletInfo = BulletDict.instance.itemDict[skill.idName];
+      GameObject bullet = Instantiate(GameManager.instance.bulletPrefab);
+      Vector3 vec = transform.position;
+      // vec.y += 2.0f;
+      bullet.transform.position = vec;
+      bullet.name = bulletInfo.idName;
+
+      bulletInfo.rigidbodyPara.ApplyToGameObject(bullet);
+      
+      // Add force
+      Attack attack = bullet.GetComponent<Attack>();
+      // attack.destroyGObjOnTriggerEnter = true;
+      attack.UseSkill(skill, this);
+      Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+      if (isFacingRight) {
+        rb.AddForce(bulletInfo.addForce);
+      } else {
+        rb.AddForce(-bulletInfo.addForce);
+        bullet.transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
+      }
     }
   }
 

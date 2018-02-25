@@ -8,7 +8,7 @@ public class TestScene : MonoBehaviour {
 
   // Use this for initialization
   void Start () {
-    GameManager.instance.inputManager.player = player;
+    // GameManager.instance.inputManager.player = player;
   }
   
   // Update is called once per frame

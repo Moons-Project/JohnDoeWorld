@@ -225,7 +225,7 @@ PolygonCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932709695840118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -343,6 +343,7 @@ MonoBehaviour:
   - ThreeTimesChop
   - Stab
   - Battojutsu
+  attack: {fileID: 114739230835008832}
 --- !u!114 &114739230835008832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -354,6 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8f5a1351329ed45bccd8a4b134a700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyGObjOnTriggerEnter: 0
+  disableScriptOnTriggerEnter: 0
 --- !u!212 &212123762474110650
 SpriteRenderer:
   m_ObjectHideFlags: 1
