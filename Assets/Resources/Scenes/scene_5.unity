@@ -147,22 +147,22 @@ PolygonCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 19.2, y: 12}
-    newSize: {x: 73.87477, y: 35.46069}
+    newSize: {x: 73.87477, y: 12.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -13.816771, y: 17.74084}
-      - {x: -36.914886, y: 17.553633}
-      - {x: -37.111507, y: -9.483313}
-      - {x: -36.88407, y: -17.763128}
-      - {x: -9.485372, y: -17.922617}
-      - {x: 24.922005, y: -17.855715}
-      - {x: 36.56724, y: -17.580275}
-      - {x: 36.77137, y: -4.4507275}
-      - {x: 36.74139, y: 17.837969}
+    - - {x: -14.206978, y: 5.839518}
+      - {x: -36.329575, y: 5.8474145}
+      - {x: -36.51196, y: -7.6387954}
+      - {x: -36.508106, y: -7.6535983}
+      - {x: -9.542241, y: -7.7115607}
+      - {x: 25.55453, y: -7.548124}
+      - {x: 35.87038, y: -7.5511365}
+      - {x: 35.852036, y: -4.75717}
+      - {x: 35.48969, y: 5.873635}
 --- !u!212 &177932509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -197,12 +197,12 @@ SpriteRenderer:
   m_SortingLayerID: 1338745683
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 901ab285d709e6e4f83db2371fc17fda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24755ffae94c5f1448dba74f110a955f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 73.87477, y: 35.46069}
+  m_Size: {x: 73.87477, y: 12.07}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -214,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 177932507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.05, y: -4.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -268,10 +268,10 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenY: 0.682
   m_CameraDistance: 10
   m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
+  m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -4876,7 +4876,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 737053685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0026597977, y: -3.8768568, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8445,7 +8445,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.52}
+  m_Offset: {x: 0, y: -0.58}
 --- !u!1 &1271872474
 GameObject:
   m_ObjectHideFlags: 0
