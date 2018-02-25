@@ -7,10 +7,10 @@ public class SkillDict {
 
   [System.Serializable]
   public class SkillItems {
-    public SkillItem[] data;
+    public Skill[] data;
   }
 
-  public Dictionary<string, SkillItem> itemDict;
+  public Dictionary<string, Skill> itemDict;
   private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/skill_infos.json";
 
   private static SkillDict _instance;
@@ -28,7 +28,7 @@ public class SkillDict {
 
     string json = reader.ReadToEnd();
 
-    itemDict = new Dictionary<string, SkillItem>();
+    itemDict = new Dictionary<string, Skill>();
     SkillItems infos = JsonUtility.FromJson<SkillItems>(json);
     foreach (var i in infos.data) {
       itemDict.Add(i.idName, i);

@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1379179640637268
 GameObject:
   m_ObjectHideFlags: 1
@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 114820699037725588}
   - component: {fileID: 114038621824207062}
   - component: {fileID: 114788849548515312}
+  - component: {fileID: 114737204707648136}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -760,6 +761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c3f5bff8e40264b80dfce83780337b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1167756399915018, guid: 1e2cf4a4f21400748953ec21487522c1,
+    type: 2}
   lastVDoorName: 
 --- !u!114 &114064703693270960
 MonoBehaviour:
@@ -1341,6 +1344,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d563e60dd92134aa59788d4246b194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114737204707648136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586079976678836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0082999f9c4ac4fae5d79098d56105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlaying: 0
 --- !u!114 &114776790635736728
 MonoBehaviour:
   m_ObjectHideFlags: 1

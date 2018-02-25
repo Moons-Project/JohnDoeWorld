@@ -27,6 +27,20 @@
         "talent": 0
       },
       "shouldUpdate": false
+    },
+    {
+      "id": 1,
+      "idName": "BurnBuff",
+      "name": "灼烧",
+      "description": "灼烧状态",
+      "addition": {
+        "sword": 0,
+        "magic": 0,
+        "rigidity": 0,
+        "life": 0,
+        "talent": 0
+      },
+      "shouldUpdate": true
     }
   ]
 }

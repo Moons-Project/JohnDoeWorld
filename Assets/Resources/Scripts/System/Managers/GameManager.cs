@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
 
   public static GameManager instance;
 
+  public GameObject bulletPrefab;
+
   public InputManager inputManager { get { return InputManager.instance; } }
   public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
