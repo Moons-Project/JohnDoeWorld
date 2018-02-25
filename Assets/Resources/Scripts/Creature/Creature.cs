@@ -137,7 +137,7 @@ public class Creature : MonoBehaviour {
         rb.AddForce(bulletInfo.addForce);
       } else {
         rb.AddForce(-bulletInfo.addForce);
-        bullet.transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
+        bullet.transform.localRotation = Quaternion.Euler(0, 180, 0);
       }
     }
   }
