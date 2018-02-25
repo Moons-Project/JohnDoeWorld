@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class SkillItem {
+public class Skill {
   public enum DamageType {Sword = 0, Magic = 1};
   [System.Flags]
   public enum AttackType {

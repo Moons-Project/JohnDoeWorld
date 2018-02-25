@@ -111,13 +111,12 @@ public class Creature : MonoBehaviour {
   public void UseSkill(int index) {
     // 播放自身动画
     animator.Play("Attack");
-    SkillItem skill = SkillDict.instance.itemDict[skillList[index]];
+    Skill skill = SkillDict.instance.itemDict[skillList[index]];
 
-    if ((skill.attackType & SkillItem.AttackType.Weapon) != 0) {
-      attack.UseSkill(skill, this);
-      attack.GetComponent<Collider2D>().enabled = true;
+    if ((skill.attackType & Skill.AttackType.Weapon) != 0) {
+      attack.UseSkill(skill, skillLevel[index], this);
     }
-    if ((skill.attackType & SkillItem.AttackType.Bullet) != 0) {
+    if ((skill.attackType & Skill.AttackType.Bullet) != 0) {
       Debug.Log("Spawning a bullet");
       // Spawn a bullet
       BulletInfo bulletInfo = BulletDict.instance.itemDict[skill.idName];
@@ -132,7 +131,7 @@ public class Creature : MonoBehaviour {
       // Add force
       Attack attack = bullet.GetComponent<Attack>();
       // attack.destroyGObjOnTriggerEnter = true;
-      attack.UseSkill(skill, this);
+      attack.UseSkill(skill, skillLevel[index], this);
       Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
       if (isFacingRight) {
         rb.AddForce(bulletInfo.addForce);

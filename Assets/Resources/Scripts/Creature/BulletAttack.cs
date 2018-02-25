@@ -13,9 +13,10 @@ public class BulletAttack : Attack {
     rb = GetComponent<Rigidbody2D>();
   }
   
-  public override void UseSkill(SkillItem skill, Creature creature) {
+  public override void UseSkill(Skill skill, int skillLevel, Creature creature) {
     // skillIndex = index;
-    this.creature = creature;
+    this.skillLevel = skillLevel;
+    this.attackSource = creature;
     // this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
     this.skill = skill;
     Debug.Log(skill.idName);
