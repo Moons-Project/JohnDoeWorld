@@ -30,7 +30,8 @@ public class GameManager : MonoBehaviour {
       instance = this;
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
-    saveDataManager.toJson();
+    // test 
+    saveDataManager.Save();
   }
 
   public void SwitchScene(string sceneName) {
