@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class SaveDataManager {
   public enum PlayerRoleType { John = 0, Jane = 1, Slarm = 2 };
-
+  [System.Serializable]
   public class SaveData {
     public int progress = 0;
     public CreatureInfo[] creatureInfos = new CreatureInfo[3] { null, null, null };
@@ -55,7 +55,8 @@ public class SaveDataManager {
       try {
         using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.Open, FileAccess.Read)) {
           using(StreamReader reader = new StreamReader(file)) {
-            saveData = JsonConvert.DeserializeObject<SaveData>(reader.ReadToEnd());
+            // saveData = JsonConvert.DeserializeObject<SaveData>(reader.ReadToEnd());
+            saveData = JsonUtility.FromJson<SaveData>(reader.ReadToEnd());
             if (saveData != null)
               Debug.Log("read old data");
             else
@@ -75,7 +76,8 @@ public class SaveDataManager {
   public void Save() {
     using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.OpenOrCreate, FileAccess.Write)) {
       using(StreamWriter writer = new StreamWriter(file)) {
-        writer.Write(JsonConvert.SerializeObject(saveData));
+        // writer.Write(JsonConvert.SerializeObject(saveData));
+        writer.Write(JsonUtility.ToJson(saveData));
         Debug.Log("save data in " + SAVE_DATA_PATH);
       }
     }

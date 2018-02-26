@@ -59,6 +59,9 @@ public class VirtualDoorControl : MonoBehaviour {
       manager.lastVDoorName = doorName;
       // Debug.Log("<color=red>Fatal error:</color>" + nextSceneName);
       manager.SwitchScene(nextSceneName);
+      var type = manager.saveDataManager.saveData.playerRoleType;
+      manager.saveDataManager.saveData.creatureInfos[(int)type] = new CreatureInfo(other.gameObject);
+      manager.saveDataManager.Save();
     }
   }
 
