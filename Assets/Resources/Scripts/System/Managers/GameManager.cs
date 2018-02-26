@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 
   public GameObject bulletPrefab;
 
+  public SaveDataManager saveDataManager { get { return SaveDataManager.instance; } }
   public InputManager inputManager { get { return InputManager.instance; } }
   public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour {
       instance = this;
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
+    saveDataManager.toJson();
   }
 
   public void SwitchScene(string sceneName) {
