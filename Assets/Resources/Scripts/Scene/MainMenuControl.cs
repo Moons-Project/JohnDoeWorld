@@ -9,6 +9,7 @@ public class MainMenuControl : MonoBehaviour {
   public GameObject MainPanel;
   public GameObject SettingPanel;
   public GameObject HelpPanel;
+  public string firstScene = "scene_3-1";
 
   GameManager manager;
 
@@ -60,7 +61,7 @@ public class MainMenuControl : MonoBehaviour {
 
   public void StartGame() {
     // MainMenuCamera.depth = -1;
-    manager.SwitchScene("scene_1");
+    manager.SwitchScene(firstScene);
   }
 
   public void Setting() {

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -73,7 +73,8 @@ public class DialogManager : MonoBehaviour {
     var useImage = (which == WhichImage.LeftImage ? leftImage : rightImage);
     var otherImage = (useImage == leftImage ? rightImage : leftImage);
     
-    otherImage.color = new Color(1f, 1f, 1f, 0.5f);
+    if (otherImage.sprite != null)
+      otherImage.color = new Color(1f, 1f, 1f, 0.5f);
     useImage.sprite = tachie;
 
     if (tachie == null) {

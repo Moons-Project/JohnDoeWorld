@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
 
   public SaveDataManager saveDataManager { get { return SaveDataManager.instance; } }
   public InputManager inputManager { get { return InputManager.instance; } }
+  public CreatureInfoDict creatureInfoDict { get { return CreatureInfoDict.instance; } }
   public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }
@@ -30,7 +31,13 @@ public class GameManager : MonoBehaviour {
       instance = this;
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
-    saveDataManager.toJson();
+    scriptManager.FinishedEvent += () => {
+      saveDataManager.saveData.progress++;
+      saveDataManager.Save();
+    };
+    // creatureInfoDict.ToJson();
+    // Debug.Log(JsonUtility.ToJson(Color.clear));
+    saveDataManager.Save();
   }
 
   public void SwitchScene(string sceneName) {

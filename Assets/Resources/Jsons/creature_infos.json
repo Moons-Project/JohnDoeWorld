@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "idName": "Slarm",
+      "info": {
+        "sword": 1.0,
+        "magic": 2.0,
+        "rigidity": 3.0,
+        "life": 4.0,
+        "talent": 5.0
+      },
+      "color": {
+        "r": 0.0,
+        "g": 50.0,
+        "b": 0.0,
+        "a": 255.0
+      }
+    },
+    {
+      "idName": "John",
+      "info": {
+        "sword": 1.0,
+        "magic": 2.0,
+        "rigidity": 3.0,
+        "life": 4.0,
+        "talent": 5.0
+      },
+      "color": {
+        "r": 255.0,
+        "g": 255.0,
+        "b": 255.0,
+        "a": 255.0
+      }
+    },
+    {
+      "idName": "Jane",
+      "info": {
+        "sword": 1.0,
+        "magic": 2.0,
+        "rigidity": 3.0,
+        "life": 4.0,
+        "talent": 5.0
+      },
+      "color": {
+        "r": 50.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+      }
+    }
+  ]
+}

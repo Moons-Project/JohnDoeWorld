@@ -66,6 +66,7 @@ public class ScriptManager : MonoBehaviour {
     if (playingScriptIndex >= playingScript.Length) {
       isPlaying = false;
       manager.dialogManager.HideDialog();
+      FinishedEvent();
       return;
     }
     var script = playingScript[playingScriptIndex++];
@@ -75,4 +76,8 @@ public class ScriptManager : MonoBehaviour {
   void OnDisable() {
     manager.dialogManager.DialogEnd -= NextScript;
   }
+
+  public delegate void Finished();
+  public event Finished FinishedEvent;
+
 }
