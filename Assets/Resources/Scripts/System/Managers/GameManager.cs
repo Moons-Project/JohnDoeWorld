@@ -31,7 +31,10 @@ public class GameManager : MonoBehaviour {
       instance = this;
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
-    // test 
+    scriptManager.FinishedEvent += () => {
+      saveDataManager.saveData.progress++;
+      saveDataManager.Save();
+    };
     // creatureInfoDict.ToJson();
     // Debug.Log(JsonUtility.ToJson(Color.clear));
     saveDataManager.Save();

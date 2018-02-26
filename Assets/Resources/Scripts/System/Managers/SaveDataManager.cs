@@ -9,6 +9,7 @@ public class SaveDataManager {
   public enum PlayerRoleType { John = 0, Jane = 1, Slarm = 2 };
 
   public class SaveData {
+    public int progress = 0;
     public CreatureInfo[] creatureInfos = new CreatureInfo[3] { null, null, null };
     public PlayerRoleType playerRoleType = PlayerRoleType.Slarm;
   }
