@@ -27,7 +27,7 @@ public class Attack : MonoBehaviour {
     } else if (skill.skill.damageType == Skill.DamageType.Magic) {
       basicDamage = attackSource.currentInfo.magic;
     }
-    damage = skill.skill.damage[cSkill.level - 1] * basicDamage;
+    damage = skill.calDamage * basicDamage;
   }
 
   public virtual void startSkill() {
@@ -52,7 +52,7 @@ public class Attack : MonoBehaviour {
       otherCreature.Damage(damage);
       // BUFF
       if (1 <= cSkill.level && cSkill.level <= cSkill.skill.buffList.Length) {
-        otherCreature.AddBuff(BuffDict.instance.itemDict[cSkill.skill.buffList[cSkill.level - 1]], 5f);
+        otherCreature.AddBuff(cSkill.buff, 5f);
       }
 
       // 碰撞后动作

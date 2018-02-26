@@ -110,4 +110,14 @@ public class DialogManager : MonoBehaviour {
       }
     }
   }
+
+  public void SystemDialog(string content) {
+    ShowDialog(null, "<b>" + content + "</b>");
+    DialogEnd += SystemDialogHide;
+  }
+
+  private void SystemDialogHide() {
+    this.DialogEnd -= SystemDialogHide;
+    this.HideDialog();
+  }
 }

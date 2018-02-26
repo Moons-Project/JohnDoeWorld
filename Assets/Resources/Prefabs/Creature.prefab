@@ -324,27 +324,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   basicInfo:
-    sword: 0
-    magic: 0
-    rigidity: 0
-    life: 0
-    talent: 0
+    sword: 100
+    magic: 100
+    rigidity: 80
+    life: 100
+    talent: 100
   currentInfo:
     sword: 0
     magic: 0
     rigidity: 0
     life: 0
     talent: 0
-  currentHP: 0
+  currentHP: 100
   skillExps: 0000000000000000000000000000000000000000
   skillList:
   - BasicAttack
-  - TopDownChop
   - ThreeTimesChop
   - Stab
   - FireBall
+  - FireBall
   cSkillList: []
   attack: {fileID: 114636311507243240}
+  isAttacking: 0
 --- !u!114 &114636311507243240
 MonoBehaviour:
   m_ObjectHideFlags: 1

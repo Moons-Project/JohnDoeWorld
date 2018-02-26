@@ -18,6 +18,7 @@ public class ItemManager {
   }
 
   public Dictionary<int, ItemInfo> itemDict;
+  public Dictionary<string, Sprite> spriteDict;
   private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/item_infos.json";
 
   private static ItemManager _instance;
@@ -42,7 +43,17 @@ public class ItemManager {
     }
   }
 
+  private void ImportResources() {
+    spriteDict = new Dictionary<string, Sprite>();
+
+    var sprites = Resources.LoadAll<Sprite>("Sprites/items");
+    foreach (var sp in sprites) {
+      spriteDict.Add(sp.name, sp);
+    }
+  }
+
   private ItemManager() {
     FromJson(ITEM_INFOS_PATH);
+    ImportResources();
   }
 }
