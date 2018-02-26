@@ -12,7 +12,6 @@ public class Skill {
     Bullet = 2,
   }
 
-  public int id;
   public string idName;
   public string name;
   public string description;
@@ -20,4 +19,6 @@ public class Skill {
   public AttackType attackType;
   public float[] damage;
   public string[] buffList;
+  public float cdTime;
+  public float[] expList;
 }

@@ -324,26 +324,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   basicInfo:
-    sword: 0
-    magic: 0
-    rigidity: 0
-    life: 0
-    talent: 0
+    sword: 100
+    magic: 100
+    rigidity: 80
+    life: 100
+    talent: 100
   currentInfo:
     sword: 0
     magic: 0
     rigidity: 0
     life: 0
     talent: 0
-  currentHP: 0
-  skillLevel: 0100000001000000010000000100000001000000
+  currentHP: 100
+  skillExps: 0000000000000000000000000000000000000000
   skillList:
   - BasicAttack
-  - TopDownChop
   - ThreeTimesChop
   - Stab
   - FireBall
+  - FireBall
+  cSkillList: []
   attack: {fileID: 114636311507243240}
+  isAttacking: 0
 --- !u!114 &114636311507243240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -480,7 +482,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: ca9fbf58af9f77542ae7804d622967b5, type: 3}
+  m_Sprite: {fileID: 21300034, guid: ca9fbf58af9f77542ae7804d622967b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

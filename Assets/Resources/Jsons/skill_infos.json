@@ -1,7 +1,6 @@
 {
   "data": [
     {
-      "id": 1,
       "idName": "BasicAttack",
       "name": "普通攻击",
       "description": "普通攻击",
@@ -12,10 +11,15 @@
       ],
       "damageType": 0,
       "attackType": 1,
-      "buffList": []
+      "buffList": [],
+      "cdTime": 1,
+      "expList": [
+        100,
+        500,
+        1000
+      ]
     },
     {
-      "id": 2,
       "idName": "Battojutsu",
       "name": "拔刀斩",
       "description": "拔刀术式",
@@ -26,10 +30,15 @@
       ],
       "damageType": 0,
       "attackType": 1,
-      "buffList": []
+      "buffList": [],
+      "cdTime": 5,
+      "expList": [
+        100,
+        500,
+        1000
+      ]
     },
     {
-      "id": 3,
       "idName": "Stab",
       "name": "突刺",
       "description": "用剑猛刺",
@@ -40,10 +49,15 @@
       ],
       "damageType": 0,
       "attackType": 1,
-      "buffList": []
+      "buffList": [],
+      "cdTime": 5,
+      "expList": [
+        100,
+        500,
+        1000
+      ]
     },
     {
-      "id": 4,
       "idName": "ThreeTimesChop",
       "name": "三连斩",
       "description": "四次连续攻击",
@@ -54,10 +68,15 @@
       ],
       "damageType": 0,
       "attackType": 1,
-      "buffList": []
+      "buffList": [],
+      "cdTime": 5,
+      "expList": [
+        100,
+        500,
+        1000
+      ]
     },
     {
-      "id": 5,
       "idName": "TopDownChop",
       "name": "崩山击",
       "description": "自上而下攻击",
@@ -68,10 +87,15 @@
       ],
       "damageType": 0,
       "attackType": 1,
-      "buffList": []
+      "buffList": [],
+      "cdTime": 5,
+      "expList": [
+        100,
+        500,
+        1000
+      ]
     },
     {
-      "id": 6,
       "idName": "FireBall",
       "name": "火球术",
       "description": "发射一个火球，造成短暂灼烧效果",
@@ -86,6 +110,12 @@
         "BurnBuff",
         "BurnBuff",
         "BurnBuff"
+      ],
+      "cdTime": 5,
+      "expList": [
+        100,
+        500,
+        1000
       ]
     }
   ]

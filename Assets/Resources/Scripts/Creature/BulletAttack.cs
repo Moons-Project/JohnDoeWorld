@@ -3,35 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletAttack : Attack {
-  private Animator animator;
   private Rigidbody2D rb;
 
   void Start() {
     Debug.Log("Start in BulletAttack");
-    if (animator == null)
-      animator = GetComponent<Animator>();
     rb = GetComponent<Rigidbody2D>();
   }
   
-  public override void UseSkill(Skill skill, int skillLevel, Creature creature) {
-    // skillIndex = index;
-    this.skillLevel = skillLevel;
-    this.attackSource = creature;
-    // this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
-    this.skill = skill;
-    Debug.Log(skill.idName);
-
-    // Set Animation
-    Debug.Log(animator);
-    if (animator == null) animator = GetComponent<Animator>();
-    animator.runtimeAnimatorController = BulletDict.instance.animatorControllerDict[skill.idName];
-    
+  public override void UseSkill(Creature.CreatureSkill skill, Creature attackSource) {
+    base.UseSkill(skill, attackSource);
+    Animator animator = GetComponent<Animator>();
+    animator.runtimeAnimatorController = BulletDict.instance.animatorControllerDict[skill.skill.idName];
     if (animator.runtimeAnimatorController != null) {
       animator.Play("Flying");
     }
   }
 
   public override void DestroyMe() {
+    Animator animator = GetComponent<Animator>();
     animator.SetBool("destroy", true);
     rb.Sleep();
   }

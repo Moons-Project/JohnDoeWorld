@@ -4,10 +4,8 @@
       "idName": "FireBall",
       "name": "火球子弹",
       "description": "火球子弹",
-      "addForce": {
-        "x": 3,
-        "y": 0
-      },
+      "force": 3,
+      "angle": 0,
       "rigidbodyPara": {
         "mass": 0.01,
         "gravityScale": 0

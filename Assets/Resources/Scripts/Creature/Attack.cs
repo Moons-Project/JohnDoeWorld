@@ -8,43 +8,34 @@ public class Attack : MonoBehaviour {
   // protected float damage;
   public float damage;
 
-  protected int skillLevel;
-  protected Skill skill;
+  protected Creature.CreatureSkill cSkill;
   protected Creature attackSource;
 
   public bool destroyGObjOnTriggerEnter = false;
   public bool disableScriptOnTriggerEnter = false;
 
-  public virtual void UseSkill(Skill skill, int skillLevel, Creature attackSource) {
+  public virtual void UseSkill(Creature.CreatureSkill skill, Creature attackSource) {
     // skillIndex = index;
-    this.skillLevel = skillLevel;
     this.attackSource = attackSource;
     // this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
-    this.skill = skill;
-    Debug.Log(skill.idName);
-
-    Animator animator = GetComponent<Animator>();
-    if (animator.runtimeAnimatorController != null)
-      animator.Play(skill.idName);
+    this.cSkill = skill;
 
     // 计算伤害
     float basicDamage = 0f;
-    if (skill.damageType == Skill.DamageType.Sword) {
+    if (skill.skill.damageType == Skill.DamageType.Sword) {
       basicDamage = attackSource.currentInfo.sword;
-    } else if (skill.damageType == Skill.DamageType.Magic) {
+    } else if (skill.skill.damageType == Skill.DamageType.Magic) {
       basicDamage = attackSource.currentInfo.magic;
     }
-    damage = skill.damage[skillLevel - 1] * basicDamage;
+    damage = skill.calDamage * basicDamage;
   }
 
-  public void startSkill() {
+  public virtual void startSkill() {
     Debug.Log("Attack startSkill");
-    // Damage = skill.damage[creature.skillLevel[skillIndex] - 1] * creature.currentInfo.sword;
   }
 
-  public void endSkill() {
+  public virtual void endSkill() {
     Debug.Log("Attack endSkill");
-    // Damage = 0.0f;
   }
 
   void OnTriggerEnter2D(Collider2D other) {
@@ -60,8 +51,8 @@ public class Attack : MonoBehaviour {
       // 技能結果
       otherCreature.Damage(damage);
       // BUFF
-      if (1 <= skillLevel && skillLevel <= skill.buffList.Length) {
-        otherCreature.AddBuff(BuffDict.instance.itemDict[skill.buffList[skillLevel - 1]], 5f);
+      if (1 <= cSkill.level && cSkill.level <= cSkill.skill.buffList.Length) {
+        otherCreature.AddBuff(cSkill.buff, 5f);
       }
 
       // 碰撞后动作

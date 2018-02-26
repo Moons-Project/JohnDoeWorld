@@ -11,6 +11,7 @@ public class SkillDict {
   }
 
   public Dictionary<string, Skill> itemDict;
+  public Dictionary<string, Sprite> spriteDict;
   private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/skill_infos.json";
 
   private static SkillDict _instance;
@@ -35,7 +36,13 @@ public class SkillDict {
     }
   }
 
+  private void ImportResources() {
+    var bunch = Resources.LoadAll<Sprite>("Sprites/items");
+    // WIP
+  }
+
   private SkillDict() {
     FromJson(ITEM_INFOS_PATH);
+    ImportResources();
   }
 }

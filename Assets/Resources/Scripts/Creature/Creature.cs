@@ -12,12 +12,163 @@ public class Creature : MonoBehaviour {
   public BasicInfo currentInfo;
   public float currentHP;
 
-  public int[] skillLevel = new int[5] {1, 1, 1, 1, 1 };
-  public string[] skillList = new string[5] {"BasicAttack",  "TopDownChop", "ThreeTimesChop", "Stab", "Battojutsu" };
+  [System.Serializable]
+  public class CreatureSkill {
+    public CreatureSkill() {
+      programInfo = new ProgramInfo();
+      cumulateTime = float.MaxValue;
+    }
+    public CreatureSkill(Skill skill, int skillExp) {
+      programInfo = new ProgramInfo();
+      cumulateTime = float.MaxValue;
+      this.skill = skill;
+      this.exp = skillExp;
+    }
+
+    public bool isCooling {
+      get {
+        return cumulateTime < calCDTime;
+      }
+    }
+
+    public Skill skill;
+    public int level {
+      get {
+        for (int i = 0; i < skill.expList.Length; ++i) {
+          if (exp < skill.expList[i]) {
+            return i + 1;
+          }
+        }
+        return skill.expList.Length;
+      }
+    }
+    public Buff buff {
+      get {
+        if (level >= skill.buffList.Length) return null;
+        return BuffDict.instance.itemDict[skill.buffList[level - 1]];
+      }
+    }
+    public float cumulateTime;
+    public float exp;
+    public float expToNextLevel {
+      get {
+        if (level >= skill.damage.Length) return -1f;
+        return skill.expList[level - 1] - exp;
+      }
+    }
+
+    [System.Serializable]
+    public class ProgramInfo {
+      public ProgramInfo() { }
+
+      public ProgramInfo(ProgramInfo other) {
+        damageDelta = other.damageDelta;
+        cdTimeDelta = other.cdTimeDelta;
+        bulletForceNormDelta = other.bulletForceNormDelta;
+        bulletAngle = other.bulletAngle;
+        actionSpeedDelta = other.actionSpeedDelta;
+      }
+
+      public int damageDelta;
+      public int cdTimeDelta;
+      public int bulletForceNormDelta;
+      public float bulletAngle;
+      public int actionSpeedDelta;
+
+      public static readonly float damageDeltaPercent = 0.1f;
+      public static readonly float cdTimeDeltaPercent = 0.1f;
+      public static readonly float bulletForceNormDeltaPercent = 0.1f;
+      public static readonly float actionSpeedDeltaPercent = 0.1f;
+
+      public bool ValidateSelf() {
+        var tempCDTimeDelta = -cdTimeDelta;
+        return damageDelta + tempCDTimeDelta + bulletForceNormDelta + actionSpeedDelta == 0;
+      }
+
+      public int balanceValue {
+        get {
+          var tempCDTimeDelta = -cdTimeDelta;
+          return damageDelta + tempCDTimeDelta + bulletForceNormDelta + actionSpeedDelta;        
+        }
+      }
+    }
+    public ProgramInfo programInfo;
+
+    public float originDamage {
+      get {
+        return skill.damage[level - 1];
+      }
+    }
+    public float calDamage {
+      get {
+        if (level > skill.damage.Length) return 0f;
+        return skill.damage[level - 1] * (1 + programInfo.damageDelta * ProgramInfo.damageDeltaPercent);
+      }
+    }
+
+    public float originCDTime {
+      get {
+        return skill.cdTime;
+      }
+    }
+    public float calCDTime {
+      get {
+        return skill.cdTime * (1 + programInfo.cdTimeDelta * ProgramInfo.cdTimeDeltaPercent);
+      }
+    }
+
+    public float originBulletForceNorm {
+      get {
+        if (!BulletDict.instance.itemDict.ContainsKey(skill.idName)) return -1f;
+        var bulletInfo = BulletDict.instance.itemDict[skill.idName];
+        return bulletInfo.force;
+      }
+    }
+    public float originBulletAngle {
+      get {
+        if (!BulletDict.instance.itemDict.ContainsKey(skill.idName)) return -1f;
+        var bulletInfo = BulletDict.instance.itemDict[skill.idName];
+        return bulletInfo.angle;
+      }
+    }
+    public Vector2 calBulletForce {
+      get {
+        if (!BulletDict.instance.itemDict.ContainsKey(skill.idName)) return new Vector2();
+        var bulletInfo = BulletDict.instance.itemDict[skill.idName];
+        Debug.Log(bulletInfo.force * (1 + programInfo.bulletForceNormDelta * ProgramInfo.bulletForceNormDeltaPercent));
+        return new Vector2(Mathf.Cos(programInfo.bulletAngle / 180 * Mathf.PI), Mathf.Sin(programInfo.bulletAngle / 180 * Mathf.PI)) * bulletInfo.force * (1 + programInfo.bulletForceNormDelta * ProgramInfo.bulletForceNormDeltaPercent);
+      }
+    }
+
+    public float originActionSpeedMultiplier {
+      get {
+        if ((skill.attackType & Skill.AttackType.Bullet) != 0) return -1f;
+        return 1f;
+      }
+    }
+    public float calActionSpeedMultiplier {
+      get {
+        return 1 + programInfo.actionSpeedDelta * ProgramInfo.actionSpeedDeltaPercent;
+      }
+    }
+
+    public void UpdateTime(float deltaTime) {
+      if (isCooling)
+        cumulateTime += deltaTime;
+    }
+
+    public void SetCooling() {
+      cumulateTime = 0f;
+    }
+  }
+
+  public int[] skillExps = new int[5] { 0, 0, 0, 0, 0 };
+  public string[] skillList = new string[5] { "BasicAttack", "TopDownChop", "ThreeTimesChop", "Stab", "Battojutsu" };
   // public Equipment[] equipmentList = new Equipment[0] {};
   // public Buff[] buffList = new Buff[0] {};
 
-  private class CreatureBuff {
+  [System.Serializable]
+  public class CreatureBuff {
     public Buff buff;
     public float totalTime;
 
@@ -30,12 +181,16 @@ public class Creature : MonoBehaviour {
     }
   }
 
+  public CreatureSkill[] cSkillList;
+
   private List<CreatureBuff> cBuffList;
   private HashSet<CreatureBuff> cBuffToDel;
 
   private Rigidbody2D body;
   private Animator animator;
   public Attack attack;
+
+  public bool isAttacking = false;
 
   private bool isFacingRight = true;
 
@@ -44,6 +199,8 @@ public class Creature : MonoBehaviour {
     // attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
     cBuffList = new List<CreatureBuff>();
     cBuffToDel = new HashSet<CreatureBuff>();
+
+    SetSkillList(skillList, skillExps);
   }
 
   void Awake() {
@@ -75,11 +232,18 @@ public class Creature : MonoBehaviour {
       RemoveCBuff(cBuff);
     }
     cBuffToDel.Clear();
+
+    // Update CD
+    foreach (var cSkill in cSkillList) {
+      cSkill.UpdateTime(Time.deltaTime);
+    }
   }
 
   public void Act(InputInfo inputInfo) {
+    // TODO: 日后应使用自身的动画来控制isAttacking
+    if (isAttacking) return;
     // test can climb
-    bool canClimb = inputInfo.verticalAxis != 0 && GameManager.instance.tilemapManager.FindLadderPosition(gameObject, 
+    bool canClimb = inputInfo.verticalAxis != 0 && GameManager.instance.tilemapManager.FindLadderPosition(gameObject,
       inputInfo.verticalAxis > 0 ? TilemapManager.Direction.Up : TilemapManager.Direction.Down).Count > 0;
     if (canClimb) {
       body.bodyType = RigidbodyType2D.Kinematic;
@@ -108,18 +272,32 @@ public class Creature : MonoBehaviour {
     }
   }
 
+  /* 
+    该方法逻辑较为复杂
+    1. 如果该技能使用武器
+      1. 根据ProgramInfo更改武器、人物播放动画的速度
+      2. 调用attack.UseSkill
+    2. 如果该技能使用子弹
+      1. 根据子弹信息生成子弹
+      2. 将子弹位置放到自身附近
+      3. 调用attack.UseSkill
+      4. 根据ProgramInfo决定给予子弹的力(包括力的方向) (发射子弹)
+   */
   public void UseSkill(int index) {
+    if (cSkillList[index].isCooling) return;
+
     // 播放自身动画
     animator.Play("Attack");
-    Skill skill = SkillDict.instance.itemDict[skillList[index]];
+    CreatureSkill skill = cSkillList[index];
+    skill.SetCooling();
 
-    if ((skill.attackType & Skill.AttackType.Weapon) != 0) {
-      attack.UseSkill(skill, skillLevel[index], this);
+    if ((skill.skill.attackType & Skill.AttackType.Weapon) != 0) {
+      attack.UseSkill(skill, this);
     }
-    if ((skill.attackType & Skill.AttackType.Bullet) != 0) {
+    if ((skill.skill.attackType & Skill.AttackType.Bullet) != 0) {
       Debug.Log("Spawning a bullet");
       // Spawn a bullet
-      BulletInfo bulletInfo = BulletDict.instance.itemDict[skill.idName];
+      BulletInfo bulletInfo = BulletDict.instance.itemDict[skill.skill.idName];
       GameObject bullet = Instantiate(GameManager.instance.bulletPrefab);
       Vector3 vec = transform.position;
       // vec.y += 2.0f;
@@ -127,16 +305,17 @@ public class Creature : MonoBehaviour {
       bullet.name = bulletInfo.idName;
 
       bulletInfo.rigidbodyPara.ApplyToGameObject(bullet);
-      
+
       // Add force
       Attack attack = bullet.GetComponent<Attack>();
       // attack.destroyGObjOnTriggerEnter = true;
-      attack.UseSkill(skill, skillLevel[index], this);
+      attack.UseSkill(skill, this);
       Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+      Debug.Log("Force: " + skill.calBulletForce);
       if (isFacingRight) {
-        rb.AddForce(bulletInfo.addForce);
+        rb.AddForce(skill.calBulletForce);
       } else {
-        rb.AddForce(-bulletInfo.addForce);
+        rb.AddForce(-skill.calBulletForce);
         bullet.transform.localRotation = Quaternion.Euler(0, 180, 0);
       }
     }
@@ -184,7 +363,9 @@ public class Creature : MonoBehaviour {
   }
 
   public void Damage(float finalDamage) {
-    currentHP -= finalDamage - currentInfo.rigidity;
+    var calDamage = finalDamage - currentInfo.rigidity;
+    if (calDamage < 0) calDamage = 0f;
+    currentHP -= calDamage;
     Debug.Log(finalDamage);
   }
 
@@ -226,5 +407,13 @@ public class Creature : MonoBehaviour {
   public void RemoveBuff(Buff buff) {
     CreatureBuff cBuff = FindBuff(buff);
     RemoveCBuff(cBuff);
+  }
+
+  public void SetSkillList(string[] skills, int[] skillExps) {
+    int len = Mathf.Min(skills.Length, skillExps.Length);
+    cSkillList = new CreatureSkill[len];
+    for (int i = 0; i < len; ++i) {
+      cSkillList[i] = new CreatureSkill(SkillDict.instance.itemDict[skills[i]], skillExps[i]);
+    }
   }
 }

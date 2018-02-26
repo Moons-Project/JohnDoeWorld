@@ -45,15 +45,15 @@ public class MainMenuControl : MonoBehaviour {
     // if (Input.GetKeyDown(KeyCode.I)) {
     //   manager.sysUIManager.ToggleInventory();
     // }
-    // if (Input.GetKeyDown(KeyCode.O)) {
-    //   // Test add inventory
-    //   Equipment equipment = new Equipment(1);
-    //   equipment.addition.sword = 1;
-    //   equipment.addition.magic = -1;
-    //   equipment.addition.life = 3;
-    //   equipment.addition.rigidity = 1.5f;
-    //   manager.inventoryManager.AddItem(equipment);
-    // }
+    if (Input.GetKeyDown(KeyCode.O)) {
+      // Test add inventory
+      Equipment equipment = new Equipment(1);
+      equipment.addition.sword = 1;
+      equipment.addition.magic = -1;
+      equipment.addition.life = 3;
+      equipment.addition.rigidity = 1.5f;
+      manager.inventoryManager.AddItem(equipment);
+    }
     // if (Input.GetKeyDown(KeyCode.G)) {
     //   manager.scriptManager.PlayScript("test_script");
     // }
