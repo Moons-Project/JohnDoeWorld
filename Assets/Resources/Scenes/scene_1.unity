@@ -3723,59 +3723,69 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 536938495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007893562, y: -3.3159726, z: 0}
+  m_LocalPosition: {x: -0.007885933, y: -3.3159947, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &676691404
-GameObject:
+--- !u!1001 &700345215
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 676691405}
-  - component: {fileID: 676691406}
-  m_Layer: 0
-  m_Name: Scene Control
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &676691405
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676691404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &676691406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676691404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99335354c6ed35f4582affc2da9ed401, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ladderTilemap: {fileID: 925664285}
-  platformTilemap: {fileID: 320278563}
-  creaturePrefab: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
-    type: 2}
-  virtualCamera: {fileID: 1577925699}
-  vDoorNameToSpawnPos: []
-  defaultSpawnPos: {x: -35, y: -8, z: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922583747466644, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838774366923718, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf,
+        type: 2}
+      propertyPath: ladderTilemap
+      value: 
+      objectReference: {fileID: 925664285}
+    - target: {fileID: 114838774366923718, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf,
+        type: 2}
+      propertyPath: platformTilemap
+      value: 
+      objectReference: {fileID: 320278563}
+    - target: {fileID: 114838774366923718, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf,
+        type: 2}
+      propertyPath: virtualCamera
+      value: 
+      objectReference: {fileID: 1577925699}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &779389763
 GameObject:
   m_ObjectHideFlags: 0

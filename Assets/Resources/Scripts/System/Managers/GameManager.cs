@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
 
   public SaveDataManager saveDataManager { get { return SaveDataManager.instance; } }
   public InputManager inputManager { get { return InputManager.instance; } }
+  public CreatureInfoDict creatureInfoDict { get { return CreatureInfoDict.instance; } }
   public SkillDict skillDict { get { return SkillDict.instance; } }
   public ItemManager itemManager { get { return ItemManager.instance; } }
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour {
     }
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
     // test 
+    // creatureInfoDict.ToJson();
+    // Debug.Log(JsonUtility.ToJson(Color.clear));
     saveDataManager.Save();
   }
 

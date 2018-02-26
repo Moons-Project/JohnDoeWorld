@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+using Newtonsoft.Json;
+
+
 public class SceneInitializer : MonoBehaviour {
 
   public Tilemap ladderTilemap;
@@ -25,7 +28,6 @@ public class SceneInitializer : MonoBehaviour {
   // Use this for initialization
   void Start() {
     manager = GameManager.instance;
-
     manager.tilemapManager.ladderTilemap = ladderTilemap;
     manager.tilemapManager.platformTilemap = platformTilemap;
 
@@ -33,6 +35,7 @@ public class SceneInitializer : MonoBehaviour {
 
     // 创建creature GameObject
     GameObject creature = Instantiate(creaturePrefab);
+    creature = GameManager.instance.saveDataManager.GetPlayerObj(creature);
     creature.tag = "ControlPlayer";
     Vector3 newPos = defaultSpawnPos;
     foreach (var item in vDoorNameToSpawnPos) {
