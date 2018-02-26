@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "speaker": "John",
+      "content": "这里没有魔族吗……?",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "人族……竟然能到达这里",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Jane",
+      "content": "但是似乎只剩你一个人了？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "……！魔族？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "John",
+      "content": "你们为什么会在这，无双法师呢！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "没有必要回答你的问题。",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Jane",
+      "content": "反过来问，你要找无双法师又是为了什么呢？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "多说无用，既然都到这了就是要打一场吧",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "如果你们撤走，我们也会撤走，这样如何",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "怎么可能信任无故袭击我们的魔族！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "(略带愤怒)……顽固不化。",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Jane",
+      "content": "既然如此，来吧！",
+      "leftOrRight": 1
+    }
+  ]
+}

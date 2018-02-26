@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "speaker": "Jane",
+      "content": "又是史莱姆……",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Jane",
+      "content": "虽然很弱，但是也很麻烦呀",
+      "leftOrRight": 1
+    }
+  ]
+}

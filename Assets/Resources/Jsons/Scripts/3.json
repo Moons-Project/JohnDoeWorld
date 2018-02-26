@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "speaker": "System",
+      "content": "Slarm在撤退路上，不仅感受到了魔族还感受到了刚刚进入森林的人族，其中还有一个存在感很强的人族",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "System",
+      "content": "所幸Slarm没有和他们发生战斗，很快地撤退了",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Slarm",
+      "content": "人族……魔族……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "他们为什么都会到这里?",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "没关系……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "很快，你们就会感受到，来自史莱姆一族的仇恨……",
+      "leftOrRight": 0
+    }
+  ]
+}

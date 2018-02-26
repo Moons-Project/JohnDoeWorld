@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "speaker": "无双法师",
+      "content": "呀，小史莱姆，这么急呀？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "无双法师！我们受到了魔族的攻击，他们好像就是冲着你来的！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "都说了别叫我无双法师！我叫Singleton！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "呵，魔族？有意思。",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "不如您也跟我们一起走吧，不知道他们到这里会对您怎么样",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "嘿，他们还能对我怎么样？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "行吧，你们快走吧。",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "Slarm，魔法练好之后，一定记得再来找我……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "……好，一定！",
+      "leftOrRight": 1
+    }
+  ]
+}

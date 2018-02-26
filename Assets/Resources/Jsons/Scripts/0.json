@@ -6,43 +6,123 @@
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "多年前开始，我们史莱姆一族就受尽其他种族的欺凌……",
+      "speaker": "Slarm",
+      "content": "(内心)多年前开始，我们史莱姆一族就受尽其他种族的欺凌……",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "不论是人族、魔族，在等级低的时候、在想赚钱的时候、甚至在烦躁的时候都来猎杀我们的同伴",
+      "speaker": "Slarm",
+      "content": "(内心)不论是人族、魔族，在等级低的时候、在想赚钱的时候、甚至在烦躁的时候都来猎杀我们的同伴",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "一边说着史莱姆好弱一边残忍地杀掉我的同伴，获取他们所想要的经验和战利品……",
+      "speaker": "Slarm",
+      "content": "(内心)一边说着史莱姆好弱一边残忍地杀掉我的同伴，获取他们所想要的经验和战利品……",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "复仇，我们要复仇！王的复仇计划执行得非常顺利",
+      "speaker": "Slarm",
+      "content": "(内心)复仇，我们要复仇！王的复仇计划执行得非常顺利",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "作为史莱姆一族的勇者一定会让他们为这些事付出代价！",
+      "speaker": "Slarm",
+      "content": "(内心)作为史莱姆一族的勇者一定会让他们为这些事付出代价！",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "无双法师教给我的魔法，差一点点就能领悟了……",
+      "speaker": "Slarm",
+      "content": "(内心)无双法师教给我的魔法，差一点点就能领悟了……",
       "leftOrRight": 0
     },
     {
-      "speaker": "斯拉姆(内心)",
-      "content": "再专注一点，再……",
+      "speaker": "Slarm",
+      "content": "(内心)再专注一点，再……",
       "leftOrRight": 0
     },
     {
       "speaker": "突然破门而入的史莱姆A",
       "content": "报告！哨兵小队遭到了魔族的攻击！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "System",
+      "content": "(咒文、光芒瞬间消失，表示魔法失败的爆炸音效)",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "呼……差点被吓死了……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "你刚说什么？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "Slarm，哨兵小队受到魔族攻击了，我们怎么办？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Slarm",
+      "content": "魔族？为什么魔族会在这？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "(Slarm思考了一会)",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "先不管原因了，对方有多少人？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "是一个大部队，他们好像就是在找无双法师！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "就算我们全力阻挡，他们到这里也用不了多久了",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "Slarm，你是我们一族的希望，赶快回去吧！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Slarm",
+      "content": "……不！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "通知所有小队，一起撤退！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "但是……",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "Slarm",
+      "content": "魔族根本没有把我们史莱姆放在眼里，他们的目标应该不是我们",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Slarm",
+      "content": "全力撤退，他们不会管我们的",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "史莱姆A",
+      "content": "好，我这就去通知！",
       "leftOrRight": 1
     }
   ]
