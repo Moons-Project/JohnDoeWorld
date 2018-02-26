@@ -1084,7 +1084,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1
+  - time: 0.98333335
     functionName: endSkill
     data: 
     objectReferenceParameter: {fileID: 0}

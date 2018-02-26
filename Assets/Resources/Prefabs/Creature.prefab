@@ -336,13 +336,14 @@ MonoBehaviour:
     life: 0
     talent: 0
   currentHP: 0
-  skillLevel: 0100000001000000010000000100000001000000
+  skillExps: 0000000000000000000000000000000000000000
   skillList:
   - BasicAttack
   - TopDownChop
   - ThreeTimesChop
   - Stab
   - FireBall
+  cSkillList: []
   attack: {fileID: 114636311507243240}
 --- !u!114 &114636311507243240
 MonoBehaviour:
@@ -480,7 +481,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: ca9fbf58af9f77542ae7804d622967b5, type: 3}
+  m_Sprite: {fileID: 21300034, guid: ca9fbf58af9f77542ae7804d622967b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -59,6 +59,8 @@ public class SysUIManager : MonoBehaviour {
     }
   }
 
+  #region Cheat
+
   private bool isCheatOpen = false;
 
   public void OpenCheat() {
@@ -94,6 +96,9 @@ public class SysUIManager : MonoBehaviour {
     }
   }
 
+  #endregion
+
+  #region Inventory
 
   private bool isInventoryOpen = false;
 
@@ -165,6 +170,8 @@ public class SysUIManager : MonoBehaviour {
   public void UpdateItemGObj(int index) {
     inventorySlots[index].GetComponent<InventoryItemBehavior>().UpdateData();
   }
+
+  #endregion
 
   private bool isTabOpen = false;
 
