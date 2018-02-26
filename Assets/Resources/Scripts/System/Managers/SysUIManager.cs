@@ -7,6 +7,8 @@ public class SysUIManager : MonoBehaviour {
   public Canvas UICanvas;
   public Camera UICamera;
 
+  public GameObject tabPanel;
+
   public GameObject itemDescription;
   private RectTransform itemDescriptionRectTransform;
   public GameObject inventory;
@@ -162,5 +164,22 @@ public class SysUIManager : MonoBehaviour {
 
   public void UpdateItemGObj(int index) {
     inventorySlots[index].GetComponent<InventoryItemBehavior>().UpdateData();
+  }
+
+  private bool isTabOpen = false;
+
+  public void ToggleTab() {
+    isTabOpen = !isTabOpen;
+    tabPanel.SetActive(isTabOpen);
+  }
+
+  public void OpenTab() {
+    isTabOpen = true;
+    tabPanel.SetActive(true);
+  }
+
+  public void CloseTabTab() {
+    isTabOpen = false;
+    tabPanel.SetActive(false);
   }
 }
