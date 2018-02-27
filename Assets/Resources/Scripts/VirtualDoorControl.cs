@@ -17,7 +17,8 @@ public class VirtualDoorControl : MonoBehaviour {
   public enum ScriptType {
     None,
     ChangeToScene1ToJohn,
-    PleaseGoNextWay
+    PleaseGoNextWay,
+    ChangeToSene5ToJane
   }
   public ScriptType scriptType = ScriptType.None;
 
@@ -40,13 +41,21 @@ public class VirtualDoorControl : MonoBehaviour {
     manager.saveDataManager.Save("scene_1");
   }
 
+  void ChangeToSene5ToJane() {
+    manager.SwitchScene("scene_5");
+    manager.lastVDoorName = doorName;
+    manager.saveDataManager.saveData.playerRoleType = SaveDataManager.PlayerRoleType.Jane;
+    manager.saveDataManager.Save("scene_5");
+  }
+
   void PleaseGoNextWay() {
+    manager.saveDataManager.saveData.progress --;
     manager.scriptManager.PlayScript("next_way");
   }
 
   void OnTriggerEnter2D(Collider2D other) {
     if (doorType != VDoorType.Hit) return;
-    if (0 != progreess) {
+    if (manager.saveDataManager.saveData.progress != progreess) {
       Default(other);
     } else {
       switch (scriptType) {
@@ -58,9 +67,7 @@ public class VirtualDoorControl : MonoBehaviour {
           ToDefault();
           break;
         case ScriptType.PleaseGoNextWay:
-          if (manager.saveDataManager.saveData.playerRoleType == SaveDataManager.PlayerRoleType.Slarm)
-            PleaseGoNextWay();
-          else { Default(other); ToDefault(); }
+          PleaseGoNextWay();
           break;
       }
     }
@@ -73,6 +80,7 @@ public class VirtualDoorControl : MonoBehaviour {
       manager.SwitchScene(nextSceneName);
       // save data
       GameManager.instance.saveDataManager.Save(nextSceneName, other.gameObject);
+      ToDefault();
     }
   }
 

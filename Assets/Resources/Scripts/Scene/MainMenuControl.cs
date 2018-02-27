@@ -61,6 +61,8 @@ public class MainMenuControl : MonoBehaviour {
 
   public void StartGame() {
     // MainMenuCamera.depth = -1;
+    manager.lastVDoorName = manager.saveDataManager.saveData.lastVDoorName;
+    Debug.Log(manager.lastVDoorName);
     manager.SwitchScene(GameManager.instance.saveDataManager.saveData.lastSceneName);
   }
 
