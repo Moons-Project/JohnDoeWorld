@@ -31,8 +31,6 @@ public class SceneInitializer : MonoBehaviour {
     manager.tilemapManager.ladderTilemap = ladderTilemap;
     manager.tilemapManager.platformTilemap = platformTilemap;
 
-    // TODO: 根据游戏进度判断应该创建哪个角色
-
     // 创建creature GameObject
     GameObject creature = Instantiate(creaturePrefab);
     creature = GameManager.instance.saveDataManager.GetPlayerObj(creature);
@@ -44,9 +42,8 @@ public class SceneInitializer : MonoBehaviour {
     creature.transform.position = newPos;
     virtualCamera.Follow = creature.transform;
     manager.inputManager.player = creature;
-    // TODO: 设置合适的位置、恢复前一个场景的状态
 
-    // TODO: 根据游戏进度选择此处剧本(?)
+    manager.hudManager.OpenHUD();
   }
 
   // Update is called once per frame

@@ -37,7 +37,6 @@ public class SkillDict {
   }
 
   private void ImportResources() {
-    var bunch = Resources.LoadAll<Sprite>("Sprites/items");
     // WIP
   }
 

@@ -8,7 +8,19 @@ public class Creature : MonoBehaviour {
   public float maxVelocityY = 5f;
   public LayerMask groundMask;
 
-  public BasicInfo basicInfo;
+  public BasicInfo _basicInfo;
+
+  public BasicInfo basicInfo {
+    get {
+      return _basicInfo;
+    }
+
+    set {
+      currentInfo = currentInfo + -_basicInfo + value;
+      currentHP = currentInfo.life;
+      _basicInfo = value;
+    }
+  }
   public BasicInfo currentInfo;
   public float currentHP;
 

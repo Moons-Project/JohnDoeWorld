@@ -323,7 +323,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 512
-  basicInfo:
+  _basicInfo:
     sword: 100
     magic: 100
     rigidity: 80
