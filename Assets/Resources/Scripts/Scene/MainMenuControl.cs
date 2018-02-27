@@ -17,6 +17,19 @@ public class MainMenuControl : MonoBehaviour {
   void Start() {
     manager = GameManager.instance;
     manager.musicManager.PlayBGM("title_bgm");
+
+    // Add items to inventory
+    StartCoroutine(AddItems());
+  }
+
+  IEnumerator AddItems() {
+    yield return new WaitForSeconds(1f);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["SimpleSword"]);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["DarkSword"]);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["Excalibur"]);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["Branch"]);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["TableKnife"]);
+    manager.inventoryManager.AddItem(manager.itemManager.itemDict["SimplePotion"]);
   }
 
   // private int count = 0;
@@ -45,15 +58,11 @@ public class MainMenuControl : MonoBehaviour {
     // if (Input.GetKeyDown(KeyCode.I)) {
     //   manager.sysUIManager.ToggleInventory();
     // }
-    if (Input.GetKeyDown(KeyCode.O)) {
-      // Test add inventory
-      Equipment equipment = new Equipment(1);
-      equipment.addition.sword = 1;
-      equipment.addition.magic = -1;
-      equipment.addition.life = 3;
-      equipment.addition.rigidity = 1.5f;
-      manager.inventoryManager.AddItem(equipment);
-    }
+    // if (Input.GetKeyDown(KeyCode.P)) {
+    //   // Test add inventory
+    //   Equipment equipment = ItemManager.instance.itemDict["SimpleSword"] as Equipment;
+    //   manager.inventoryManager.AddItem(equipment);
+    // }
     // if (Input.GetKeyDown(KeyCode.G)) {
     //   manager.scriptManager.PlayScript("test_script");
     // }

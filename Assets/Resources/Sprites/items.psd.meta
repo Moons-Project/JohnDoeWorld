@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca9fbf58af9f77542ae7804d622967b5
-timeCreated: 1519659930
+timeCreated: 1519724451
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,27 +20,27 @@ TextureImporter:
     21300026: sword_items_13
     21300028: sword_items_14
     21300030: sword_items_15
-    21300032: items_0
-    21300034: items_1
-    21300036: items_2
-    21300038: items_3
-    21300040: items_4
+    21300032: SimpleSword
+    21300034: Excalibur
+    21300036: Branch
+    21300038: TableKnife
+    21300040: SimplePotion
     21300042: items_5
     21300044: items_6
     21300046: FireBall
-    21300048: items_8
-    21300050: items_9
+    21300048: PoisonBall
+    21300050: SlimeBall
     21300052: Stab
     21300054: ThreeTimesChop
     21300056: Battojutsu
     21300058: TopDownChop
     21300060: BasicAttack
-    21300062: items_15
+    21300062: ManaSlay
     21300064: items_16
     21300066: items_17
     21300068: items_18
     21300070: items_19
-    21300072: items_20
+    21300072: DarkSword
     21300074: items_21
     21300076: items_22
     21300078: items_23
@@ -49,7 +49,7 @@ TextureImporter:
     21300084: items_26
     21300086: items_27
     21300088: items_28
-    21300090: items_29
+    21300090: SimpleArmor
     21300092: items_30
   externalObjects: {}
   serializedVersion: 4
@@ -147,7 +147,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: items_0
+      name: SimpleSword
       rect:
         serializedVersion: 2
         x: 0
@@ -161,7 +161,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_1
+      name: Excalibur
       rect:
         serializedVersion: 2
         x: 100
@@ -175,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_2
+      name: Branch
       rect:
         serializedVersion: 2
         x: 200
@@ -189,10 +189,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_3
+      name: TableKnife
       rect:
         serializedVersion: 2
-        x: 300
+        x: 305
         y: 1100
         width: 100
         height: 100
@@ -203,7 +203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_4
+      name: SimplePotion
       rect:
         serializedVersion: 2
         x: 400
@@ -259,7 +259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_8
+      name: PoisonBall
       rect:
         serializedVersion: 2
         x: 800
@@ -273,7 +273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_9
+      name: SlimeBall
       rect:
         serializedVersion: 2
         x: 900
@@ -357,7 +357,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_15
+      name: ManaSlay
       rect:
         serializedVersion: 2
         x: 1500
@@ -427,7 +427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_20
+      name: DarkSword
       rect:
         serializedVersion: 2
         x: 100
@@ -553,7 +553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: items_29
+      name: SimpleArmor
       rect:
         serializedVersion: 2
         x: 400

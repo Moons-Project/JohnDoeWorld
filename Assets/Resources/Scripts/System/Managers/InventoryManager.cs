@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour {
 
-  [HideInInspector]
-  public List<InventroyItem> inventoryDataset;
+  private InventroyItem[] _inventoryDataset;
+  public InventroyItem[] inventoryDataset {
+    get {
+      return _inventoryDataset;
+    }
+    set {
+      _inventoryDataset = value;
+    }
+  }
   public int inventorySize = 20;
 
   public static InventoryManager instance;
@@ -23,14 +30,12 @@ public class InventoryManager : MonoBehaviour {
     manager = GameManager.instance;
     manager.sysUIManager.GenerateInventoryUI(inventorySize);
 
-    for (int i = 0; i < inventorySize; ++i) {
-      inventoryDataset.Add(null);
-    }
+    inventoryDataset = new InventroyItem[inventorySize];
   }
 
   private int FindEmptyDataset() {
     int index = 0;
-    for (; index < inventoryDataset.Count; ++index) {
+    for (; index < inventoryDataset.Length; ++index) {
       var invItem = inventoryDataset[index];
       if (invItem == null) return index;
     }
@@ -40,25 +45,42 @@ public class InventoryManager : MonoBehaviour {
   public bool AddItem(Item item, int count = 1) {
     // 查询是否已经有此物品
     int index = 0;
-    for (; index < inventoryDataset.Count; ++index) {
+    for (; index < inventoryDataset.Length; ++index) {
       var invItem = inventoryDataset[index];
-      if (invItem != null && invItem.item.id == item.id) {
+      if (invItem != null && invItem.item == item) {
         break;
       }
     }
 
-    if (index >= inventoryDataset.Count) {
+    if (index >= inventoryDataset.Length) {
       // 当前没有此物品，添加到空位置
+      Debug.Log("Add new Item");
       int newIndex = FindEmptyDataset();
       if (newIndex == -1) return false;
       inventoryDataset[newIndex] = new InventroyItem(item, count);
       manager.sysUIManager.UpdateItemGObj(newIndex);
     } else {
       // 有此物品，叠加
+      Debug.Log("Add existed Item");
       inventoryDataset[index].count += count;
       manager.sysUIManager.UpdateItemGObj(index);
     }
 
     return true;
+  }
+
+  public void UseItem(int index) {
+    var item = inventoryDataset[index];
+    if (item.item is Equipment) {
+      Equip(item.item as Equipment);
+    }
+  }
+
+  private void Equip(Equipment item) {
+    // TODO: 现在人物只有一个装备位置，日后需要改动
+    manager.controllingCreature.RemoveEquipment(manager.controllingCreature.equippingItem);
+    manager.controllingCreature.AddEquipment(item);
+    
+    DialogManager.instance.SystemDialog("已更换装备！");
   }
 }

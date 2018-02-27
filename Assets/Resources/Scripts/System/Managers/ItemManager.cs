@@ -4,20 +4,15 @@ using System.IO;
 using UnityEngine;
 
 public class ItemManager {
-  [System.Serializable]
-  public class ItemInfo {
-    public int id;
-    public string idName;
-    public string name;
-    public string description;
-  }
+
 
   [System.Serializable]
   public class ItemInfos {
-    public ItemInfo[] data;
+    public Item[] itemData;
+    public Equipment[] equipmentData;
   }
 
-  public Dictionary<int, ItemInfo> itemDict;
+  public Dictionary<string, Item> itemDict;
   public Dictionary<string, Sprite> spriteDict;
   private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/item_infos.json";
 
@@ -36,10 +31,13 @@ public class ItemManager {
 
     string json = reader.ReadToEnd();
 
-    itemDict = new Dictionary<int, ItemInfo>();
+    itemDict = new Dictionary<string, Item>();
     ItemInfos infos = JsonUtility.FromJson<ItemInfos>(json);
-    foreach (var i in infos.data) {
-      itemDict.Add(i.id, i);
+    foreach (var i in infos.itemData) {
+      itemDict.Add(i.idName, i);
+    }
+    foreach (var i in infos.equipmentData) {
+      itemDict.Add(i.idName, i);
     }
   }
 

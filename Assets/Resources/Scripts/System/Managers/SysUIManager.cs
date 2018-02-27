@@ -139,14 +139,10 @@ public class SysUIManager : MonoBehaviour {
     // Debug.Log(index);
     var invItem = manager.inventoryManager.inventoryDataset[index];
 
-    // Debug.Log(inventoryDataset.Count);
-
-    if (invItem == null) return -1;
+    if (invItem == null || invItem.item == null) return -1;
 
     Item item = invItem.item;
 
-    ItemManager.ItemInfo info;
-    itemManager.itemDict.TryGetValue(item.id, out info);
     string effect = "";
     if (item is Equipment) {
       Equipment equipment = item as Equipment;
@@ -158,9 +154,9 @@ public class SysUIManager : MonoBehaviour {
     }
 
     itemDescription.GetComponentInChildren<Text>().text = string.Format(templateDescription,
-      info.name,
+      item.name,
       effect,
-      info.description
+      item.description
     );
 
     itemDescription.SetActive(true);

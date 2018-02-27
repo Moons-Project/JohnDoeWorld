@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Creature : MonoBehaviour {
 
@@ -178,6 +179,7 @@ public class Creature : MonoBehaviour {
   public string[] skillList = new string[5] { "BasicAttack", "TopDownChop", "ThreeTimesChop", "Stab", "Battojutsu" };
   // public Equipment[] equipmentList = new Equipment[0] {};
   // public Buff[] buffList = new Buff[0] {};
+  public Equipment equippingItem;
 
   [System.Serializable]
   public class CreatureBuff {
@@ -362,11 +364,15 @@ public class Creature : MonoBehaviour {
   }
 
   public void AddEquipment(Equipment equipment) {
-
+    // TODO: 现在人物只有一个装备位置，日后需要改动
+    attack.GetComponentInChildren<SpriteRenderer>().sprite = ItemManager.instance.spriteDict[equipment.idName];
+    equippingItem = equipment;
     UpdateCurrentInfo(equipment.addition);
   }
 
   public void RemoveEquipment(Equipment equipment) {
+    equippingItem = null;
+
     UpdateCurrentInfo(-equipment.addition);
   }
 

@@ -16,9 +16,12 @@ public class InventoryItemBehavior : MonoBehaviour {
 
   private int descriptionId = -1;
 
+  void Awake() {
+    manager = GameManager.instance;
+  }
+
   // Use this for initialization
   void Start() {
-    manager = GameManager.instance;
     boxCollider2D = GetComponent<BoxCollider2D>();
     rectTransform = GetComponent<RectTransform>();
   }
@@ -31,9 +34,30 @@ public class InventoryItemBehavior : MonoBehaviour {
     manager.sysUIManager.UnshowDescription(descriptionId);
   }
 
+  void OnMouseDown() {
+    manager.inventoryManager.UseItem(inventoryItemIndex);
+  }
+
   public void UpdateData() {
-    InventroyItem invItem = manager.inventoryManager.inventoryDataset[inventoryItemIndex];
-    // TODO: 改变图片
+    InventroyItem invItem = InventoryManager.instance.inventoryDataset[inventoryItemIndex];
+    // 改变图片
+    var icons = GetComponentsInChildren<Image>();
+    Image icon = null;
+    foreach (var i in icons) {
+      if (i.gameObject != this.gameObject) {
+        icon = i;
+        break;
+      }
+    }
+    Sprite sprite = null;
+    ItemManager.instance.spriteDict.TryGetValue(invItem.item.idName, out sprite);
+    icon.sprite = sprite;
+    if (icon.sprite == null) {
+      icon.color = new Color(1f, 1f, 1f, 0f);
+    } else {
+      icon.color = new Color(1f, 1f, 1f, 1f);
+    }
+
     // 改变数字
     Text text = GetComponentInChildren<Text>();
     text.text = invItem.count.ToString();

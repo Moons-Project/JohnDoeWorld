@@ -1,22 +1,71 @@
 {
-  "data": [
+  "itemData": [
     {
-      "id": 1,
-      "idName": "SimpleSword",
-      "name": "简易剑",
-      "description": "就是一把普通的剑"
-    },
-    {
-      "id": 2,
-      "idName": "SimpleArmor",
-      "name": "简易护甲",
-      "description": "就是一套普通的护甲"
-    },
-    {
-      "id": 3,
       "idName": "SimplePotion",
       "name": "简易药水",
       "description": "就是一瓶普通的药水"
+    }
+  ],
+  "equipmentData": [
+    {
+      "idName": "SimpleSword",
+      "name": "简易剑",
+      "description": "就是一把普通的剑",
+      "addition": {
+        "sword": 5,
+        "magic": 5,
+        "rigidity": 5,
+        "life": 5,
+        "talent": 0
+      }
+    },
+    {
+      "idName": "DarkSword",
+      "name": "黑暗剑",
+      "description": "黑暗剑？",
+      "addition": {
+        "sword": 5,
+        "magic": 5,
+        "rigidity": 5,
+        "life": 5,
+        "talent": 0
+      }
+    },
+    {
+      "idName": "Excalibur",
+      "name": "圣剑",
+      "description": "EX咖喱棒",
+      "addition": {
+        "sword": 5,
+        "magic": 5,
+        "rigidity": 5,
+        "life": 5,
+        "talent": 0
+      }
+    },
+    {
+      "idName": "Branch",
+      "name": "树枝",
+      "description": "一个不起眼的小树枝",
+      "addition": {
+        "sword": 1,
+        "magic": 1,
+        "rigidity": 1,
+        "life": 1,
+        "talent": 1
+      }
+    },
+    {
+      "idName": "TableKnife",
+      "name": "餐刀",
+      "description": "原本是用来吃西餐的餐具，不知道为什么出现在这里",
+      "addition": {
+        "sword": 5,
+        "magic": 5,
+        "rigidity": 5,
+        "life": 5,
+        "talent": 0
+      }
     }
   ]
 }

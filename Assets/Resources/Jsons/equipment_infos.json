@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "idName": "SimpleSword",
+      "basicInfo": {
+        "sword": 5,
+        "magic": 5,
+        "rigidity": 5,
+        "life": 5,
+        "talent": 0
+      }
+    }
+  ]
+}
