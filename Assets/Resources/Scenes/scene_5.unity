@@ -4946,6 +4946,78 @@ Tilemap:
   m_TileRefreshArray:
   - serializedVersion: 1
     m_DirtyIndex: 0
+--- !u!1001 &655677915
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.35407656
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8161765
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.4528704
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078271400576702, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_Name
+      value: Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212729605780897576, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300084, guid: ca9fbf58af9f77542ae7804d622967b5,
+        type: 3}
+    - target: {fileID: 114945507041325454, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: isFacingRight
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &737053685
 GameObject:
   m_ObjectHideFlags: 0
@@ -9523,6 +9595,78 @@ Tilemap:
     e32: 0
     e33: 1
   m_TileRefreshArray: []
+--- !u!1001 &1677971191
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983932652732, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.35407656
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8161765
+      objectReference: {fileID: 0}
+    - target: {fileID: 212922112633803384, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.4528704
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078271400576702, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+      propertyPath: m_Name
+      value: Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212729605780897576, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300084, guid: ca9fbf58af9f77542ae7804d622967b5,
+        type: 3}
+    - target: {fileID: 114945507041325454, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: isFacingRight
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2036435410
 GameObject:
   m_ObjectHideFlags: 0
