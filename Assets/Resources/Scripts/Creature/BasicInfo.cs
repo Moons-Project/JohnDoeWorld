@@ -49,13 +49,13 @@ public class BasicInfo {
     PropertyInfo[] properties = type.GetProperties();
 
     var sb = new StringBuilder();
-    Array.ForEach(fields, (field) => {
-      sb.AppendLine(field.Name + ": " + (field.GetValue(this) ?? "(null)").ToString());
-    });
-    Array.ForEach(properties, (property) => {
-      if (property.CanRead)
-        sb.AppendLine(property.Name + ": " + (property.GetValue(this, null) ?? "(null)").ToString());
-    });
+    // Array.ForEach(fields, (field) => {
+    //   sb.AppendLine(field.Name + ": " + (field.GetValue(this) ?? "(null)").ToString());
+    // });
+    // Array.ForEach(properties, (property) => {
+    //   if (property.CanRead)
+    //     sb.AppendLine(property.Name + ": " + (property.GetValue(this, null) ?? "(null)").ToString());
+    // });
     return sb.ToString();
   }
 }

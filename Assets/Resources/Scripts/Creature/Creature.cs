@@ -281,8 +281,8 @@ public class Creature : MonoBehaviour {
       if (inputInfo.fire1ButtonDown) UseSkill(1);
       if (inputInfo.fire2ButtonDown) UseSkill(2);
       if (inputInfo.fire3ButtonDown) UseSkill(3);
-      if (inputInfo.fire4ButtonDown) UseSkill(4);
-      if (inputInfo.fire5ButtonDown) Debug.Log("Compound Kill");
+      // if (inputInfo.fire4ButtonDown) UseSkill(4);
+      // if (inputInfo.fire5ButtonDown) Debug.Log("Compound Kill");
     }
   }
 

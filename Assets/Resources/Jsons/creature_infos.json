@@ -9,6 +9,25 @@
         "life": 4.0,
         "talent": 5.0
       },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "TopDownChop",
+        "ThreeTimesChop",
+        "Stab",
+        "Battojutsu"
+      ],
       "color": {
         "r": 0.0,
         "g": 50.0,
@@ -25,6 +44,25 @@
         "life": 4.0,
         "talent": 5.0
       },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "Stab",
+        "ThreeTimesChop",
+        "Battojutsu",
+        "Battojutsu"
+      ],
       "color": {
         "r": 0.0,
         "g": 0.0,
@@ -41,6 +79,25 @@
         "life": 4.0,
         "talent": 5.0
       },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "Battojutsu",
+        "ThreeTimesChop",
+        "FireBall",
+        "FireBall"
+      ],
       "color": {
         "r": 255.0,
         "g": 0.0,

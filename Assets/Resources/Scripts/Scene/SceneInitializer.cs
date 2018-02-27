@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-using Newtonsoft.Json;
+// using Newtonsoft.Json;
 
 
 public class SceneInitializer : MonoBehaviour {

@@ -25,7 +25,7 @@ public class SkillDict {
   }
 
   private void FromJson(string path) {
-    StreamReader reader = new StreamReader(path);
+    StreamReader reader = new StreamReader(new FileStream(path, FileMode.Open));
 
     string json = reader.ReadToEnd();
 

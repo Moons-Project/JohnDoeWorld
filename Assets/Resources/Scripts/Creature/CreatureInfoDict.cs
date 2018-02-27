@@ -24,7 +24,7 @@ public class CreatureInfoDict {
   }
 
   private void FromJson(string path) {
-    using(StreamReader reader = new StreamReader(path)) {
+    using(StreamReader reader = new StreamReader(new FileStream(path, FileMode.Open))) {
       string json = reader.ReadToEnd();
       itemDict = new Dictionary<string, CreatureInfo>();
       CreatureInfos infos = JsonUtility.FromJson<CreatureInfos>(json);
@@ -36,7 +36,8 @@ public class CreatureInfoDict {
   }
 
   public void ToJson() {
-    using (StreamWriter writer = new StreamWriter(ITEM_INFOS_PATH + ".test")) {
+    var path = ITEM_INFOS_PATH + ".test";
+    using (StreamWriter writer = new StreamWriter(new FileStream(path, FileMode.Open))) {
       var itemDict = new Dictionary<string, CreatureInfo>();
       CreatureInfo info = new CreatureInfo();
       itemDict.Add(info.idName, info);
