@@ -78,7 +78,6 @@ public class VirtualDoorControl : MonoBehaviour {
           break;
         case ScriptType.ChangeToScene1ToJohn:
           ChangeToScene1ToJohn();
-          ToDefault();
           break;
         case ScriptType.PleaseGoNextWay:
           PleaseGoNextWay();
