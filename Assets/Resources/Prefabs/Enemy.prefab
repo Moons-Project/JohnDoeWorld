@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 95994341585925728}
   - component: {fileID: 60304097966038878}
   - component: {fileID: 114945507041325454}
+  - component: {fileID: 114159375325232448}
   m_Layer: 10
   m_Name: Enemy
   m_TagString: Untagged
@@ -158,7 +159,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1078271400576702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.2, y: -8.2, z: 0}
+  m_LocalPosition: {x: -15.84, y: -8.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4698923503043972}
@@ -307,6 +308,26 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114159375325232448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078271400576702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5f055c4fb3b89469dcc03387842eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyTag: ControlPlayer
+  viewDistance: 5
+  attackDistance: 1
+  longAttackDistance: 5
+  idleTime: 0
+  lockingMaxDistance: 6
+  escapeTime: 1.5
+  attackFreezeTime: 0.5
+  patrolMoveMaxTime: 2
 --- !u!114 &114234103342565162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -369,7 +390,7 @@ MonoBehaviour:
   cSkillList: []
   attack: {fileID: 114234103342565162}
   isAttacking: 0
-  isFacingRight: 1
+  isFacingRight: 0
 --- !u!212 &212122196370003740
 SpriteRenderer:
   m_ObjectHideFlags: 1
