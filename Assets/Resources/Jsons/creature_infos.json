@@ -3,10 +3,10 @@
     {
       "idName": "Slarm",
       "info": {
-        "sword": 1.0,
-        "magic": 2.0,
-        "rigidity": 3.0,
-        "life": 4.0,
+        "sword": 50,
+        "magic": 30,
+        "rigidity": 20,
+        "life": 100,
         "talent": 5.0
       },
       "equement": {
@@ -38,10 +38,10 @@
     {
       "idName": "John",
       "info": {
-        "sword": 10.0,
-        "magic": 2.0,
-        "rigidity": 3.0,
-        "life": 4.0,
+        "sword": 80,
+        "magic": 50,
+        "rigidity": 15,
+        "life": 80,
         "talent": 5.0
       },
       "equement": {
@@ -73,10 +73,10 @@
     {
       "idName": "Jane",
       "info": {
-        "sword": 100.0,
-        "magic": 2.0,
-        "rigidity": 3.0,
-        "life": 4.0,
+        "sword": 70,
+        "magic": 70,
+        "rigidity": 15,
+        "life": 80,
         "talent": 5.0
       },
       "equement": {
