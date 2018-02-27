@@ -10,6 +10,7 @@ public class SaveDataManager {
   [System.Serializable]
   public class SaveData {
     public int progress = 0;
+    public string lastVDoorName = "";
     public string lastSceneName = "scene_3-1";
     public CreatureInfo[] creatureInfos = new CreatureInfo[3] { null, null, null };
     public PlayerRoleType playerRoleType = PlayerRoleType.Slarm;
@@ -94,6 +95,7 @@ public class SaveDataManager {
   } 
 
   public void Save() {
+    saveData.lastVDoorName = GameManager.instance.lastVDoorName == "" ? saveData.lastVDoorName : GameManager.instance.lastVDoorName;
     using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.OpenOrCreate, FileAccess.Write)) {
       using(StreamWriter writer = new StreamWriter(file)) {
         // writer.Write(JsonConvert.SerializeObject(saveData));
