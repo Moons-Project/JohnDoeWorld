@@ -69,6 +69,9 @@ public class VirtualDoorControl : MonoBehaviour {
         case ScriptType.PleaseGoNextWay:
           PleaseGoNextWay();
           break;
+        case ScriptType.ChangeToSene5ToJane:
+          ChangeToSene5ToJane();
+          break;
       }
     }
   }
