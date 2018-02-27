@@ -208,6 +208,14 @@ public class Creature : MonoBehaviour {
 
   public bool isFacingRight = true;
 
+  public bool isDead {
+    get {
+      return currentHP <= 0;
+    }
+  }
+
+  private bool deadHandled = false;
+
   // Use this for initialization
   void Start() {
     // attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
@@ -228,6 +236,7 @@ public class Creature : MonoBehaviour {
   void Update() {
     animator.SetBool("isGround", CheckIsGround());
     animator.SetFloat("currentHP", currentHP);
+    if (currentHP <= 0 && !deadHandled) Dead();
 
     foreach (var cBuff in cBuffList) {
       // Debug.Log(cBuff.buff);
@@ -254,6 +263,7 @@ public class Creature : MonoBehaviour {
   }
 
   public void Act(InputInfo inputInfo) {
+    if (isDead) return;
     // TODO: 日后应使用自身的动画来控制isAttacking
     if (isAttacking) return;
     // test can climb
@@ -389,6 +399,14 @@ public class Creature : MonoBehaviour {
 
   public void Dead() {
     Debug.Log("DEAD");
+    deadHandled = true;
+    if (GameManager.instance.controllingCreature == this) {
+      DialogManager.instance.SystemDialog("<color='red'>YOU DIED</color>");
+      GameManager.instance.SwitchScene("main_menu_scene");
+      HUDManager.instance.CloseHUD();
+    } else {
+      StartCoroutine(GoToDestroy());
+    }
   }
 
   CreatureBuff FindBuff(Buff buff) {
@@ -433,5 +451,14 @@ public class Creature : MonoBehaviour {
     for (int i = 0; i < len; ++i) {
       cSkillList[i] = new CreatureSkill(SkillDict.instance.itemDict[skills[i]], skillExps[i]);
     }
+  }
+
+  IEnumerator GoToDestroy() {
+    yield return new WaitForSeconds(1f);
+    DestroyMe();
+  }
+
+  public void DestroyMe() {
+    Destroy(gameObject);
   }
 }

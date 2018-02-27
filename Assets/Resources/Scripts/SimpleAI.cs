@@ -70,6 +70,7 @@ public class SimpleAI : MonoBehaviour {
           if (facingToIt) {
             // 攻击
             Attack();
+            StartCoroutine(Freezing());
           } else {
             Chase();
           }
