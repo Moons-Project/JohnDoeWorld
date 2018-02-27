@@ -12,7 +12,7 @@ public class SkillDict {
 
   public Dictionary<string, Skill> itemDict;
   public Dictionary<string, Sprite> spriteDict;
-  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/skill_infos.json";
+  private static string ITEM_INFOS_PATH = "Jsons/skill_infos";
 
   private static SkillDict _instance;
   public static SkillDict instance {
@@ -25,9 +25,7 @@ public class SkillDict {
   }
 
   private void FromJson(string path) {
-    StreamReader reader = new StreamReader(new FileStream(path, FileMode.Open));
-
-    string json = reader.ReadToEnd();
+    string json =  (Resources.Load(path, typeof(TextAsset)) as TextAsset).text;
 
     itemDict = new Dictionary<string, Skill>();
     SkillItems infos = JsonUtility.FromJson<SkillItems>(json);

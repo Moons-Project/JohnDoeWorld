@@ -12,7 +12,7 @@ public class BulletDict {
   }
 
   public Dictionary<string, BulletInfo> itemDict;
-  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/bullet_infos.json";
+  private static string ITEM_INFOS_PATH = "Jsons/bullet_infos";
 
   public Dictionary<string, RuntimeAnimatorController> animatorControllerDict;
 
@@ -27,7 +27,7 @@ public class BulletDict {
   }
 
   private void FromJson(string path) {
-    string json = JDWUtility.ReadFileText(path);
+    string json = (Resources.Load(path, typeof(TextAsset)) as TextAsset).text;
     itemDict = new Dictionary<string, BulletInfo>();
     Bullets infos = JsonUtility.FromJson<Bullets>(json);
 

@@ -11,7 +11,7 @@ public class CreatureInfoDict {
   }
 
   public Dictionary<string, CreatureInfo> itemDict;
-  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/creature_infos.json";
+  private static string ITEM_INFOS_PATH = "Jsons/creature_infos";
 
   private static CreatureInfoDict _instance;
   public static CreatureInfoDict instance {
@@ -24,25 +24,12 @@ public class CreatureInfoDict {
   }
 
   private void FromJson(string path) {
-    using(StreamReader reader = new StreamReader(new FileStream(path, FileMode.Open))) {
-      string json = reader.ReadToEnd();
+      string json = (Resources.Load(path, typeof(TextAsset)) as TextAsset).text;
       itemDict = new Dictionary<string, CreatureInfo>();
       CreatureInfos infos = JsonUtility.FromJson<CreatureInfos>(json);
       foreach (var i in infos.data) {
         itemDict.Add(i.idName, i);
       }
-    }
-
-  }
-
-  public void ToJson() {
-    var path = ITEM_INFOS_PATH + ".test";
-    using (StreamWriter writer = new StreamWriter(new FileStream(path, FileMode.Open))) {
-      var itemDict = new Dictionary<string, CreatureInfo>();
-      CreatureInfo info = new CreatureInfo();
-      itemDict.Add(info.idName, info);
-      writer.Write(JsonUtility.ToJson(info));
-    }
   }
 
   private CreatureInfoDict() {

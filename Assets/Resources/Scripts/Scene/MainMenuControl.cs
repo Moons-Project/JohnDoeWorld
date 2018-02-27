@@ -17,6 +17,8 @@ public class MainMenuControl : MonoBehaviour {
   void Start() {
     manager = GameManager.instance;
     manager.musicManager.PlayBGM("title_bgm");
+    manager.scriptManager.PlayScript("test_script");
+    // Debug.Log((Resources.Load("Jsons/Scripts/123", typeof(TextAsset)) as TextAsset).text);
 
     // Add items to inventory
     StartCoroutine(AddItems());

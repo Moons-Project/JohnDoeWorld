@@ -21,9 +21,8 @@ public class ScriptManager : MonoBehaviour {
   }
 
   public static Script[] ScriptFromJson(string scriptName) {
-    string path = "Assets/Resources/Jsons/Scripts/" + scriptName + ".json";
-    string json = JDWUtility.ReadFileText(path);
-    ScriptList scripts = JsonUtility.FromJson<ScriptList>(json);
+    string path = "Jsons/Scripts/" + scriptName;
+    ScriptList scripts = JsonUtility.FromJson<ScriptList>((Resources.Load(path, typeof(TextAsset)) as TextAsset).text);
     return scripts.data;
   }
 

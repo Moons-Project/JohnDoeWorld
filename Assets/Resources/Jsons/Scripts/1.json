@@ -8,7 +8,7 @@
     {
       "speaker": "Slarm",
       "content": "无双法师！我们受到了魔族的攻击，他们好像就是冲着你来的！",
-      "leftOrRight": 1
+      "leftOrRight": 0
     },
     {
       "speaker": "无双法师",
@@ -23,7 +23,7 @@
     {
       "speaker": "Slarm",
       "content": "不如您也跟我们一起走吧，不知道他们到这里会对您怎么样",
-      "leftOrRight": 1
+      "leftOrRight": 0
     },
     {
       "speaker": "无双法师",
@@ -43,7 +43,7 @@
     {
       "speaker": "Slarm",
       "content": "……好，一定！",
-      "leftOrRight": 1
+      "leftOrRight": 0
     }
   ]
 }

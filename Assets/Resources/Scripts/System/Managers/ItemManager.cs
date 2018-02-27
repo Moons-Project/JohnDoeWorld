@@ -14,7 +14,7 @@ public class ItemManager {
 
   public Dictionary<string, Item> itemDict;
   public Dictionary<string, Sprite> spriteDict;
-  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/item_infos.json";
+  private static string ITEM_INFOS_PATH = "Jsons/item_infos";
 
   private static ItemManager _instance;
   public static ItemManager instance {
@@ -27,9 +27,7 @@ public class ItemManager {
   }
 
   private void FromJson(string path) {
-    StreamReader reader = new StreamReader(new FileStream(path, FileMode.Open));
-
-    string json = reader.ReadToEnd();
+    string json = (Resources.Load(path, typeof(TextAsset)) as TextAsset).text;
 
     itemDict = new Dictionary<string, Item>();
     ItemInfos infos = JsonUtility.FromJson<ItemInfos>(json);

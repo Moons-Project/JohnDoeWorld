@@ -12,7 +12,7 @@ public class BuffDict {
   }
 
   public Dictionary<string, Buff> itemDict;
-  private static string ITEM_INFOS_PATH = "Assets/Resources/Jsons/buff_infos.json";
+  private static string ITEM_INFOS_PATH = "Jsons/buff_infos";
 
   private static BuffDict _instance;
   public static BuffDict instance {
@@ -25,7 +25,7 @@ public class BuffDict {
   }
 
   private void FromJson(string path) {
-    string json = JDWUtility.ReadFileText(path);
+    string json =(Resources.Load(path, typeof(TextAsset)) as TextAsset).text;
     itemDict = new Dictionary<string, Buff>();
     Buffs infos = JsonUtility.FromJson<Buffs>(json);
 
