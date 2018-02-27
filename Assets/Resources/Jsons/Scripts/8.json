@@ -3,12 +3,12 @@
     {
       "speaker": "Jane",
       "content": "又是史莱姆……",
-      "leftOrRight": 1
+      "leftOrRight": 0
     },
     {
       "speaker": "Jane",
       "content": "虽然很弱，但是也很麻烦呀",
-      "leftOrRight": 1
+      "leftOrRight": 0
     }
   ]
 }

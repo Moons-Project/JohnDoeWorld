@@ -15052,9 +15052,9 @@ MonoBehaviour:
   virtualCamera: {fileID: 348891169}
   vDoorNameToSpawnPos:
   - lastVDoorName: scene_1_right
-    pos: {x: -35, y: -8, z: 0}
+    pos: {x: -33.4, y: -8, z: 0}
   - lastVDoorName: scene_3_left
-    pos: {x: 35.02, y: -8, z: 0}
+    pos: {x: 33.4, y: -8, z: 0}
   defaultSpawnPos: {x: -35, y: -8, z: 0}
 --- !u!4 &1378855932
 Transform:
@@ -15078,11 +15078,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4650697435968094, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 35.02
+      value: 36.3
       objectReference: {fileID: 0}
     - target: {fileID: 4650697435968094, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -9.97
+      value: -10.35
       objectReference: {fileID: 0}
     - target: {fileID: 4650697435968094, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
       propertyPath: m_LocalPosition.z

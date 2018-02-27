@@ -96,7 +96,7 @@ public class SaveDataManager {
 
   public void Save() {
     saveData.lastVDoorName = GameManager.instance.lastVDoorName == "" ? saveData.lastVDoorName : GameManager.instance.lastVDoorName;
-    using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.OpenOrCreate, FileAccess.Write)) {
+    using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.Create, FileAccess.Write)) {
       using(StreamWriter writer = new StreamWriter(file)) {
         // writer.Write(JsonConvert.SerializeObject(saveData));
         writer.Write(JsonUtility.ToJson(saveData, true));
