@@ -39,7 +39,7 @@ public class SaveDataManager {
   } 
 
   public GameObject GetPlayerObj(PlayerRoleType type, GameObject obj) {
-    CreatureInfo info = saveData.creatureInfos[(int) type] == null ? 
+    CreatureInfo info = saveData.creatureInfos[(int) type] == null || saveData.creatureInfos[(int) type].idName == "Test" ? 
                         GameManager.instance.creatureInfoDict.itemDict[Enum.GetName(type.GetType(), type)] :
                         saveData.creatureInfos[(int) type];
     return info.ApplyTo(obj);
@@ -73,11 +73,18 @@ public class SaveDataManager {
     }
   }
 
+  public void Save(GameObject obj) {
+    var type = saveData.playerRoleType;
+    saveData.creatureInfos[(int)type] = new CreatureInfo(obj);
+    saveData.creatureInfos[(int)type].idName = Enum.GetName(type.GetType(), type);
+    Save();
+  } 
+
   public void Save() {
     using(FileStream file = File.Open(SAVE_DATA_PATH, FileMode.OpenOrCreate, FileAccess.Write)) {
       using(StreamWriter writer = new StreamWriter(file)) {
         // writer.Write(JsonConvert.SerializeObject(saveData));
-        writer.Write(JsonUtility.ToJson(saveData));
+        writer.Write(JsonUtility.ToJson(saveData, true));
         Debug.Log("save data in " + SAVE_DATA_PATH);
       }
     }

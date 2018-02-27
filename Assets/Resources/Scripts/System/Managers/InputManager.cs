@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour {
   public static InputManager instance;
 
   private GameManager manager;
+  private bool disableInput = false;
 
   void Awake() {
     if (instance == null) {
@@ -24,15 +25,26 @@ public class InputManager : MonoBehaviour {
 
   }
 
+  public void DisableInput() {
+    disableInput = true;
+  }
+
+  public void RestartInput() {
+    disableInput = false;
+  }
+
+
   void FixedUpdate() {
-    if (player) {
-      player.GetComponent<Creature>().Act(InputInfo.getInputInfo());
+    if (!disableInput) {
+      if (player) {
+        player.GetComponent<Creature>().Act(InputInfo.getInputInfo());
+      }
     }
     if (Input.GetButtonDown("Console")) {
-      manager.sysUIManager.ToggleCheat();
-    }
+        manager.sysUIManager.ToggleCheat();
+      }
     if (Input.GetButtonDown("Cancel")) {
-      manager.sysUIManager.ToggleTab();
+        manager.sysUIManager.ToggleTab();
     }
   }
 }

@@ -19,7 +19,7 @@
     {
       "idName": "John",
       "info": {
-        "sword": 1.0,
+        "sword": 10.0,
         "magic": 2.0,
         "rigidity": 3.0,
         "life": 4.0,
@@ -35,7 +35,7 @@
     {
       "idName": "Jane",
       "info": {
-        "sword": 1.0,
+        "sword": 100.0,
         "magic": 2.0,
         "rigidity": 3.0,
         "life": 4.0,

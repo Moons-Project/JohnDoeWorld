@@ -36,6 +36,10 @@ public class ScriptManager : MonoBehaviour {
   void Start() {
     manager = GameManager.instance;
     manager.dialogManager.DialogEnd += NextScript;
+    // restart input
+    FinishedEvent += () => {
+      GameManager.instance.inputManager.RestartInput();
+    };
   }
 
   public bool isPlaying = false;
@@ -53,6 +57,10 @@ public class ScriptManager : MonoBehaviour {
     // } else {
     //   isPlaying = false;
     // }
+
+    //disable input
+    GameManager.instance.inputManager.DisableInput();
+
     isPlaying = true;
     playingScript = scripts;
     playingScriptIndex = 0;
