@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour {
   public static GameManager instance;
 
   public GameObject bulletPrefab;
+  public Creature controllingCreature {
+    get {
+      if (inputManager.player == null) return null;
+      return inputManager.player.GetComponent<Creature>();
+    }
+  }
 
   public SaveDataManager saveDataManager { get { return SaveDataManager.instance; } }
   public InputManager inputManager { get { return InputManager.instance; } }
@@ -23,6 +29,7 @@ public class GameManager : MonoBehaviour {
   public MusicManager musicManager { get { return MusicManager.instance; } }
   public DialogManager dialogManager { get { return DialogManager.instance; } }
   public ScriptManager scriptManager { get { return ScriptManager.instance; } }
+  public HUDManager hudManager { get { return HUDManager.instance; } }
 
   public string lastVDoorName = "";
 
