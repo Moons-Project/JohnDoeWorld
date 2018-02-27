@@ -43,12 +43,12 @@ public class SimpleAI : MonoBehaviour {
       }
 
       // 是否巡逻
-      if (patrolling) {
-        thisCreature.Act(patrolInputInfo);
-        return;
-      } else {
-        if (Random.Range(0, 360) == 0) Patrol();
-      }
+      // if (patrolling) {
+      //   thisCreature.Act(patrolInputInfo);
+      //   return;
+      // } else {
+      //   if (Random.Range(0, 360) == 0) Patrol();
+      // }
     } else {
       if (freezing) {
         return;
