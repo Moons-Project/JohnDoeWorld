@@ -159,6 +159,77 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21e25c7629db221409fb5e2c7849fe96, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &368604868
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114227746332760308, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: skillList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -27.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105096724405578, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_Name
+      value: Creature (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114227746332760308, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: skillList.Array.data[1]
+      value: FireBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114227746332760308, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: skillList.Array.data[2]
+      value: Stab
+      objectReference: {fileID: 0}
+    - target: {fileID: 114227746332760308, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: skillList.Array.data[3]
+      value: FireBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114227746332760308, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: skillList.Array.data[4]
+      value: FireBall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &740800548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2298,28 @@ Tilemap:
     e32: 0
     e33: 1
   m_TileRefreshArray: []
+--- !u!1 &976148571 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+    type: 2}
+  m_PrefabInternal: {fileID: 368604868}
+--- !u!114 &976148572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 976148571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5f055c4fb3b89469dcc03387842eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyTag: ControlPlayer
+  viewDistance: 5
+  attackDistance: 1
+  longAttackDistance: 5
+  idleTime: 0
+  lockingMaxDistance: 6
 --- !u!1001 &1196121020
 Prefab:
   m_ObjectHideFlags: 0
@@ -3773,7 +3866,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2141761450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -23.228006, y: -5.767404, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

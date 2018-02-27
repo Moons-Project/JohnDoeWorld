@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 95261852838216242}
   - component: {fileID: 60537736266121212}
   - component: {fileID: 114227746332760308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Creature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673672346805284}
   - component: {fileID: 212123762474110650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WeaponEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4819296300727180}
   - component: {fileID: 212752634154043778}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4728416241045878}
   - component: {fileID: 61568013870653942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Body
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 95839512723078504}
   - component: {fileID: 60812215904291132}
   - component: {fileID: 114636311507243240}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -343,6 +343,16 @@ MonoBehaviour:
   - Stab
   - FireBall
   - FireBall
+  equippingItem:
+    idName: 
+    name: 
+    description: 
+    addition:
+      sword: 0
+      magic: 0
+      rigidity: 0
+      life: 0
+      talent: 0
   cSkillList: []
   attack: {fileID: 114636311507243240}
   isAttacking: 0

@@ -206,7 +206,7 @@ public class Creature : MonoBehaviour {
 
   public bool isAttacking = false;
 
-  private bool isFacingRight = true;
+  public bool isFacingRight = true;
 
   // Use this for initialization
   void Start() {
