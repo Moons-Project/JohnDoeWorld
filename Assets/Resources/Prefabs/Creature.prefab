@@ -360,6 +360,8 @@ MonoBehaviour:
   damage: 0
   destroyGObjOnTriggerEnter: 0
   disableScriptOnTriggerEnter: 0
+  weaponEffectPrefab: {fileID: 1175035999007394, guid: 4e4af550c1bbc064684ac463cdc9866c,
+    type: 2}
 --- !u!212 &212123762474110650
 SpriteRenderer:
   m_ObjectHideFlags: 1

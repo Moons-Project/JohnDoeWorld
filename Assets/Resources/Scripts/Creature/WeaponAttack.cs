@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WeaponAttack : Attack {
 
+  public GameObject weaponEffectPrefab;
+
   public override void UseSkill(Creature.CreatureSkill skill, Creature attackSource) {
     base.UseSkill(skill, attackSource);
     Animator animator = GetComponent<Animator>();
