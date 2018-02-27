@@ -19,6 +19,7 @@ public class ScriptDisplayer : MonoBehaviour {
   void OnTriggerEnter2D(Collider2D other) {
     if (other.tag == "ControlPlayer" && 
         GameManager.instance.saveDataManager.saveData.progress == progress) {
+          other.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
           GameManager.instance.scriptManager.PlayScript(scriptName);
     }
   }

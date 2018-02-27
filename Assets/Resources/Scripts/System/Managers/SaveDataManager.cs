@@ -10,6 +10,7 @@ public class SaveDataManager {
   [System.Serializable]
   public class SaveData {
     public int progress = 0;
+    public string lastSceneName = "scene_3-1";
     public CreatureInfo[] creatureInfos = new CreatureInfo[3] { null, null, null };
     public PlayerRoleType playerRoleType = PlayerRoleType.Slarm;
   }
@@ -67,10 +68,22 @@ public class SaveDataManager {
         Debug.Log("Error: read old data");
         Clear();
       }
-
     } else {
       Clear();
     }
+  }
+
+  public void Save(string lastSceneName, GameObject obj) {
+    saveData.lastSceneName = lastSceneName;
+    var type = saveData.playerRoleType;
+    saveData.creatureInfos[(int)type] = new CreatureInfo(obj);
+    saveData.creatureInfos[(int)type].idName = Enum.GetName(type.GetType(), type);
+    Save();
+  }
+
+  public void Save(string lastSceneName) {
+    saveData.lastSceneName = lastSceneName;
+    Save();
   }
 
   public void Save(GameObject obj) {

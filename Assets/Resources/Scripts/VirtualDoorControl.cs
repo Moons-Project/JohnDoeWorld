@@ -16,7 +16,8 @@ public class VirtualDoorControl : MonoBehaviour {
   public int progreess = 0;
   public enum ScriptType {
     None,
-    ChangeToScene1ToJohn
+    ChangeToScene1ToJohn,
+    PleaseGoNextWay
   }
   public ScriptType scriptType = ScriptType.None;
 
@@ -34,7 +35,13 @@ public class VirtualDoorControl : MonoBehaviour {
 
   void ChangeToScene1ToJohn() {
     manager.SwitchScene("scene_1");
+    manager.lastVDoorName = doorName;
     manager.saveDataManager.saveData.playerRoleType = SaveDataManager.PlayerRoleType.John;
+    manager.saveDataManager.Save("scene_1");
+  }
+
+  void PleaseGoNextWay() {
+    manager.scriptManager.PlayScript("next_way");
   }
 
   void OnTriggerEnter2D(Collider2D other) {
@@ -50,6 +57,11 @@ public class VirtualDoorControl : MonoBehaviour {
           ChangeToScene1ToJohn();
           ToDefault();
           break;
+        case ScriptType.PleaseGoNextWay:
+          if (manager.saveDataManager.saveData.playerRoleType == SaveDataManager.PlayerRoleType.Slarm)
+            PleaseGoNextWay();
+          else { Default(other); ToDefault(); }
+          break;
       }
     }
   }
@@ -60,7 +72,7 @@ public class VirtualDoorControl : MonoBehaviour {
       // Debug.Log("<color=red>Fatal error:</color>" + nextSceneName);
       manager.SwitchScene(nextSceneName);
       // save data
-      GameManager.instance.saveDataManager.Save(other.gameObject);
+      GameManager.instance.saveDataManager.Save(nextSceneName, other.gameObject);
     }
   }
 

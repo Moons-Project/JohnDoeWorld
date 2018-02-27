@@ -10277,6 +10277,8 @@ MonoBehaviour:
   vDoorNameToSpawnPos:
   - lastVDoorName: scene_2_right
     pos: {x: -35, y: -8, z: 0}
+  - lastVDoorName: scene_3-1
+    pos: {x: 0.92, y: -11.05, z: 0}
   defaultSpawnPos: {x: -35, y: -8, z: 0}
 --- !u!4 &1851772127
 Transform:
@@ -11172,7 +11174,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2141761450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.006910324, y: -6.2318354, z: 0}
+  m_LocalPosition: {x: -0.006911278, y: -6.231846, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

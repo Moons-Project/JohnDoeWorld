@@ -42,7 +42,7 @@ public class InputManager : MonoBehaviour {
     }
     if (Input.GetButtonDown("Console")) {
         manager.sysUIManager.ToggleCheat();
-      }
+    }
     if (Input.GetButtonDown("Cancel")) {
         manager.sysUIManager.ToggleTab();
     }
