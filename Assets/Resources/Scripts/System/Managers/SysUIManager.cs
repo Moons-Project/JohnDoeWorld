@@ -25,7 +25,7 @@ public class SysUIManager : MonoBehaviour {
   public Text rightPartText;
   public Image[] skillIcons;
 
-  private ItemManager itemManager;
+  private JsonManager itemManager;
   private GameManager manager;
 
   public static SysUIManager instance;
@@ -40,7 +40,7 @@ public class SysUIManager : MonoBehaviour {
   void Start() {
     itemDescriptionRectTransform = itemDescription.transform as RectTransform;
     manager = GameManager.instance;
-    itemManager = manager.itemManager;
+    itemManager = manager.jsonManager;
   }
 
   public void GenerateInventoryUI(int inventorySize) {

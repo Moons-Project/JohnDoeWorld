@@ -42,7 +42,7 @@ public class SaveDataManager {
 
   public GameObject GetPlayerObj(PlayerRoleType type, GameObject obj) {
     CreatureInfo info = saveData.creatureInfos[(int) type] == null || saveData.creatureInfos[(int) type].idName == "Test" ? 
-                        GameManager.instance.creatureInfoDict.itemDict[Enum.GetName(type.GetType(), type)] :
+                        GameManager.instance.jsonManager.creatureInfoDict[Enum.GetName(type.GetType(), type)] :
                         saveData.creatureInfos[(int) type];
     return info.ApplyTo(obj);
   }

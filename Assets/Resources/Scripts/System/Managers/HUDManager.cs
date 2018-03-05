@@ -42,7 +42,7 @@ public class HUDManager : MonoBehaviour {
     // 更新技能图标、冷却
     for (int i = 0; i < skillIcons.Length; ++i) {
       var cSkill = controllingCreature.cSkillList[i];
-      var sprite = ItemManager.instance.spriteDict[cSkill.skill.idName];
+      var sprite = JsonManager.instance.spriteDict[cSkill.skill.idName];
       if (skillIcons[i].sprite != sprite) {
         skillIcons[i].sprite = sprite;
       }

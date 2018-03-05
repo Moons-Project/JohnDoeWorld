@@ -19,9 +19,7 @@ public class GameManager : MonoBehaviour {
 
   public SaveDataManager saveDataManager { get { return SaveDataManager.instance; } }
   public InputManager inputManager { get { return InputManager.instance; } }
-  public CreatureInfoDict creatureInfoDict { get { return CreatureInfoDict.instance; } }
-  public SkillDict skillDict { get { return SkillDict.instance; } }
-  public ItemManager itemManager { get { return ItemManager.instance; } }
+  public JsonManager jsonManager {get {return JsonManager.instance;}}
   public InventoryManager inventoryManager { get { return InventoryManager.instance; } }
   public SysUIManager sysUIManager { get { return SysUIManager.instance; } }
   public TilemapManager tilemapManager { get { return TilemapManager.instance; } }

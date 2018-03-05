@@ -50,7 +50,7 @@ public class InventoryItemBehavior : MonoBehaviour {
       }
     }
     Sprite sprite = null;
-    ItemManager.instance.spriteDict.TryGetValue(invItem.item.idName, out sprite);
+    JsonManager.instance.spriteDict.TryGetValue(invItem.item.idName, out sprite);
     icon.sprite = sprite;
     if (icon.sprite == null) {
       icon.color = new Color(1f, 1f, 1f, 0f);

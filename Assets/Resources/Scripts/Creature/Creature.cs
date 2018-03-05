@@ -375,7 +375,7 @@ public class Creature : MonoBehaviour {
 
   public void AddEquipment(Equipment equipment) {
     // TODO: 现在人物只有一个装备位置，日后需要改动
-    attack.GetComponentInChildren<SpriteRenderer>().sprite = ItemManager.instance.spriteDict[equipment.idName];
+    attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict[equipment.idName];
     equippingItem = equipment;
     UpdateCurrentInfo(equipment.addition);
   }
@@ -449,7 +449,7 @@ public class Creature : MonoBehaviour {
     int len = Mathf.Min(skills.Length, skillExps.Length);
     cSkillList = new CreatureSkill[len];
     for (int i = 0; i < len; ++i) {
-      cSkillList[i] = new CreatureSkill(SkillDict.instance.itemDict[skills[i]], skillExps[i]);
+      cSkillList[i] = new CreatureSkill(JsonManager.instance.skillDict[skills[i]], skillExps[i]);
     }
   }
 

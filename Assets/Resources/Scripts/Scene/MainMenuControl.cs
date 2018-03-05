@@ -24,12 +24,12 @@ public class MainMenuControl : MonoBehaviour {
 
   IEnumerator AddItems() {
     yield return new WaitForSeconds(1f);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["SimpleSword"]);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["DarkSword"]);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["Excalibur"]);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["Branch"]);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["TableKnife"]);
-    manager.inventoryManager.AddItem(manager.itemManager.itemDict["SimplePotion"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["SimpleSword"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["DarkSword"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["Excalibur"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["Branch"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["TableKnife"]);
+    manager.inventoryManager.AddItem(manager.jsonManager.itemDict["SimplePotion"]);
   }
 
   // private int count = 0;
