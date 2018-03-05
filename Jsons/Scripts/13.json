@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "speaker": "John",
+      "content": "(喘气)呼…呼……?",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "(激动)啊？在别人家门口打什么架啊！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "哎呀……人族？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "好不容易在这么偏僻的找块地建个房子，我容易吗？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "打仗还要打到这里来？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "唉……好吧好吧，姑且问问那边的人族，也是来找我的吗？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "是的，无双法师！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "别再叫我无双法师了！",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "无双法师",
+      "content": "唉……说吧说吧什么事？",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "人……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "如果说让我加入你们然后给我什么好处之类的，就免谈了",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "呃……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "既然无双……Singleton法师都这么说了，你我就不必在这浪费时间了吧",
+      "leftOrRight": 1
+    },
+    {
+      "speaker": "John",
+      "content": "别想跑！……呃！(力竭倒下)",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "呵，你也还是乖乖回去好了。",
+      "leftOrRight": 1
+    }
+  ]
+}

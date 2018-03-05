@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "idName": "Slarm",
+      "info": {
+        "sword": 50,
+        "magic": 30,
+        "rigidity": 20,
+        "life": 100,
+        "talent": 5.0
+      },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "TopDownChop",
+        "ThreeTimesChop",
+        "Stab",
+        "Battojutsu"
+      ],
+      "color": {
+        "r": 0.0,
+        "g": 50.0,
+        "b": 0.0,
+        "a": 255.0
+      }
+    },
+    {
+      "idName": "John",
+      "info": {
+        "sword": 80,
+        "magic": 50,
+        "rigidity": 15,
+        "life": 80,
+        "talent": 5.0
+      },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "Stab",
+        "ThreeTimesChop",
+        "Battojutsu",
+        "Battojutsu"
+      ],
+      "color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 255.0,
+        "a": 255.0
+      }
+    },
+    {
+      "idName": "Jane",
+      "info": {
+        "sword": 70,
+        "magic": 70,
+        "rigidity": 15,
+        "life": 80,
+        "talent": 5.0
+      },
+      "equement": {
+        "idName": "",
+        "name": "",
+        "description": "",
+        "addition": {
+          "sword": 0.0,
+          "magic": 0.0,
+          "rigidity": 0.0,
+          "life": 0.0,
+          "talent": 0.0
+        }
+      },
+      "skillList": [
+        "BasicAttack",
+        "Battojutsu",
+        "ThreeTimesChop",
+        "FireBall",
+        "FireBall"
+      ],
+      "color": {
+        "r": 255.0,
+        "g": 0.0,
+        "b": 255.0,
+        "a": 255.0
+      }
+    }
+  ]
+}

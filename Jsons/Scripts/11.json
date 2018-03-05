@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "speaker": "魔族士兵A",
+      "content": "队…队长！?",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "魔族士兵A",
+      "content": "发现有人族部队也向这边前进，恐怕……也是来找无双法师的！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "人族……居然也来了？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "人数呢？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "魔族士兵A",
+      "content": "是一个小部队，不确定具体有多少人，但恐怕与我队接近",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "加紧警戒，拦住他们！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "虽然无双法师说他不打算帮助任何一方，但是也绝不能留下这一隐患！",
+      "leftOrRight": 0
+    }
+  ]
+}

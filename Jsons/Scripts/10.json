@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "speaker": "Jane",
+      "content": "(敲门)无双法师在吗？？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "(激动地)别再叫我无双法师了！我叫Singleton！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "(稍微平静地)唉……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "魔族，竟然还真的来了……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "所以呢，你是来干啥的？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "啊……失礼了",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "我是魔族部队的队长，奉魔王之令来请您帮助我军！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "嗯？你军？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "哈，你们魔族跟谁杠上了？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "……人族无中生有挑起事端，先是指责我族袭击人族冒险者，又以派去谈判的特使被刺杀为借口向我族宣战",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "而如今与人族的战争一直僵持，因此希望您可以助我们一臂之力！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "……就算如你所说，这场战争你们占理，我也不能帮你们",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "我本就是为了脱离世俗来到这里，现在又去插上一脚，怕不是反了吗？",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "无……Singleton法师不再考虑一下吗！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "Jane",
+      "content": "我族必定不会亏待您，若能帮助我们，日后有什么需求尽管提出来，我族必不会怠慢！",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "(小声)也只有史莱姆能帮我了吧……",
+      "leftOrRight": 0
+    },
+    {
+      "speaker": "无双法师",
+      "content": "总之我并不打算帮你们任何一方，快回去吧！",
+      "leftOrRight": 0
+    }
+  ]
+}
