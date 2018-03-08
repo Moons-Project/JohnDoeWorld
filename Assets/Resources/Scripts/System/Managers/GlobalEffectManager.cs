@@ -23,13 +23,13 @@ public class GlobalEffectManager : MonoBehaviour {
     // effectCanvasGObj = effectGObj.transform.parent.gameObject;
 
     // Add an event to all the clips
-    // foreach (var clip in effectAnimator.runtimeAnimatorController.animationClips) {
-    //   AnimationEvent evt = new AnimationEvent();
-    //   evt.time = clip.length;
-    //   evt.functionName = "EffectEnd";
-    //   evt.messageOptions = SendMessageOptions.DontRequireReceiver;
-    //   clip.AddEvent(evt);
-    // }
+    foreach (var clip in effectAnimator.runtimeAnimatorController.animationClips) {
+      var evt = new  UnityEngine.AnimationEvent();
+      evt.time = clip.length;
+      evt.functionName = "EffectEnd";
+      evt.messageOptions = SendMessageOptions.DontRequireReceiver;
+      clip.AddEvent(evt);
+    }
   }
 
   public void Flash() {
@@ -55,13 +55,13 @@ public class GlobalEffectManager : MonoBehaviour {
       }
     }
 
-    AnimationEvent evt = new AnimationEvent();
-    // evt.stringParameter = sceneName;
-    // evt.objectReferenceParameter = clip;
-    // evt.time = 0.83f;
-    // evt.functionName = "__SwitchScene";
+    var evt = new UnityEngine.AnimationEvent();
+    evt.stringParameter = sceneName;
+    evt.objectReferenceParameter = clip;
+    evt.time = 0.83f;
+    evt.functionName = "__SwitchScene";
     
-    // Debug.Log(clip);
-    // clip.AddEvent(evt);
+    Debug.Log(clip);
+    clip.AddEvent(evt);
   }
 }
