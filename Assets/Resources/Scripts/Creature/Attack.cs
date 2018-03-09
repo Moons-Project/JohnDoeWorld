@@ -8,13 +8,13 @@ public class Attack : MonoBehaviour {
   // protected float damage;
   public float damage;
 
-  protected Creature.CreatureSkill cSkill;
+  protected CreatureSkill cSkill;
   protected Creature attackSource;
 
   public bool destroyGObjOnTriggerEnter = false;
   public bool disableScriptOnTriggerEnter = false;
 
-  public virtual void UseSkill(Creature.CreatureSkill skill, Creature attackSource) {
+  public virtual void UseSkill(CreatureSkill skill, Creature attackSource) {
     // skillIndex = index;
     this.attackSource = attackSource;
     // this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];

@@ -193,12 +193,12 @@ public class SysUIManager : MonoBehaviour {
     "<color='black'>动作速度: {7}</color><color='white'> {8}%</color>\n" +
     "<color='black'>平衡值: {9} (此值为0才可确认)</color>";
 
-  private Creature.CreatureSkill edittingSkill;
-  private Creature.CreatureSkill.ProgramInfo edittingProgramInfo;
+  private CreatureSkill edittingSkill;
+  private CreatureSkill.ProgramInfo edittingProgramInfo;
 
-  public void SetSkill(Creature.CreatureSkill cSkill) {
+  public void SetSkill(CreatureSkill cSkill) {
     edittingSkill = cSkill;
-    edittingProgramInfo = new Creature.CreatureSkill.ProgramInfo(cSkill.programInfo);
+    edittingProgramInfo = new CreatureSkill.ProgramInfo(cSkill.programInfo);
     
     string leftPartTextText = string.Format(
       leftPartTextTemplate,
@@ -214,14 +214,14 @@ public class SysUIManager : MonoBehaviour {
     string rightPartTextText = string.Format(
       rightPartTextTemplate,
       cSkill.originDamage.ToString("f1"),
-      (cSkill.programInfo.damageDelta * Creature.CreatureSkill.ProgramInfo.damageDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (cSkill.programInfo.damageDelta * CreatureSkill.ProgramInfo.damageDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.originCDTime.ToString("f1"),
-      (cSkill.programInfo.cdTimeDelta * Creature.CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (cSkill.programInfo.cdTimeDelta * CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.originBulletForceNorm.ToString("f1"),
-      (cSkill.programInfo.bulletForceNormDelta * Creature.CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (cSkill.programInfo.bulletForceNormDelta * CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.originBulletAngle.ToString("f1"),
       cSkill.originActionSpeedMultiplier.ToString("f1"),
-      (cSkill.programInfo.actionSpeedDelta * Creature.CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (cSkill.programInfo.actionSpeedDelta * CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.programInfo.balanceValue
     );
 
@@ -270,18 +270,18 @@ public class SysUIManager : MonoBehaviour {
     OpenSkillDetail();
   }
 
-  public void UpdateRightPartWithProgramInfo(Creature.CreatureSkill.ProgramInfo info) {
+  public void UpdateRightPartWithProgramInfo(CreatureSkill.ProgramInfo info) {
     string rightPartTextText = string.Format(
       rightPartTextTemplate,
       edittingSkill.originDamage.ToString("f1"),
-      (info.damageDelta * Creature.CreatureSkill.ProgramInfo.damageDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (info.damageDelta * CreatureSkill.ProgramInfo.damageDeltaPercent  * 100f).ToString("+#;-#;0"),
       edittingSkill.originCDTime.ToString("f1"),
-      (info.cdTimeDelta * Creature.CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (info.cdTimeDelta * CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
       edittingSkill.originBulletForceNorm.ToString("f1"),
-      (info.bulletForceNormDelta * Creature.CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (info.bulletForceNormDelta * CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
       edittingSkill.originBulletAngle.ToString("f1"),
       edittingSkill.originActionSpeedMultiplier.ToString("f1"),
-      (info.actionSpeedDelta * Creature.CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
+      (info.actionSpeedDelta * CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
       info.balanceValue
     );
 
@@ -290,7 +290,7 @@ public class SysUIManager : MonoBehaviour {
 
   public void ModifyDamageDelta(bool up) {
     var delta = edittingProgramInfo.damageDelta + (up ? 1 : -1);
-    var rate = delta * Creature.CreatureSkill.ProgramInfo.damageDeltaPercent;
+    var rate = delta * CreatureSkill.ProgramInfo.damageDeltaPercent;
     if (rate < -1f) return;
 
     edittingProgramInfo.damageDelta = delta;
@@ -300,7 +300,7 @@ public class SysUIManager : MonoBehaviour {
 
   public void ModifyCDDelta(bool up) {
     var delta = edittingProgramInfo.cdTimeDelta + (up ? 1 : -1);
-    var rate = delta * Creature.CreatureSkill.ProgramInfo.cdTimeDeltaPercent;
+    var rate = delta * CreatureSkill.ProgramInfo.cdTimeDeltaPercent;
     if (rate < -1f) return;
 
     edittingProgramInfo.cdTimeDelta = delta;
@@ -310,7 +310,7 @@ public class SysUIManager : MonoBehaviour {
 
   public void ModifyBulletForceNormDelta(bool up) {
     var delta = edittingProgramInfo.bulletForceNormDelta + (up ? 1 : -1);
-    var rate = delta * Creature.CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent;
+    var rate = delta * CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent;
     if (rate < -1f) return;
 
     edittingProgramInfo.bulletForceNormDelta = delta;
@@ -320,7 +320,7 @@ public class SysUIManager : MonoBehaviour {
 
   public void ModifyActionSpeedDelta(bool up) {
     var delta = edittingProgramInfo.actionSpeedDelta + (up ? 1 : -1);
-    var rate = delta * Creature.CreatureSkill.ProgramInfo.actionSpeedDeltaPercent;
+    var rate = delta * CreatureSkill.ProgramInfo.actionSpeedDeltaPercent;
     if (rate < -1f) return;
 
     edittingProgramInfo.actionSpeedDelta = delta;

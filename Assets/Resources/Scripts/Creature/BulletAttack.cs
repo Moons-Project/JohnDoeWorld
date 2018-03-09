@@ -10,7 +10,7 @@ public class BulletAttack : Attack {
     rb = GetComponent<Rigidbody2D>();
   }
   
-  public override void UseSkill(Creature.CreatureSkill skill, Creature attackSource) {
+  public override void UseSkill(CreatureSkill skill, Creature attackSource) {
     base.UseSkill(skill, attackSource);
     Animator animator = GetComponent<Animator>();
     animator.runtimeAnimatorController = BulletDict.instance.animatorControllerDict[skill.skill.idName];
