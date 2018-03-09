@@ -33,6 +33,9 @@ public class InputManager : MonoBehaviour {
     disableInput = false;
   }
 
+  public delegate void KeyHandler();
+  public event KeyHandler PressSubmit;
+  public event KeyHandler PressJump;
 
   void FixedUpdate() {
     if (!disableInput) {
@@ -45,6 +48,18 @@ public class InputManager : MonoBehaviour {
     }
     if (Input.GetButtonDown("Cancel")) {
         manager.sysUIManager.ToggleTab();
+    }
+    if (Input.GetButtonDown("Submit")) {
+      if (PressSubmit != null) {
+        PressSubmit();
+      }
+      manager.dialogManager.OnDialogPress();
+    }
+    if (Input.GetButtonDown("Jump")) {
+      if (PressJump != null) {
+        PressJump();
+      }
+      manager.scriptManager.SkipScript();
     }
   }
 }

@@ -80,6 +80,12 @@ public class ScriptManager : MonoBehaviour {
     manager.dialogManager.ShowDialog(script.speaker, script.content, script.leftOrRight);
   }
 
+  public void SkipScript() {
+    isPlaying = false;
+    manager.dialogManager.HideDialog();
+    FinishedEvent();
+  }
+
   void OnDisable() {
     manager.dialogManager.DialogEnd -= NextScript;
   }
