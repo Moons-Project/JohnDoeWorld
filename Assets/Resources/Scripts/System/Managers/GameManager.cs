@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour {
   public HUDManager hudManager { get { return HUDManager.instance; } }
 
   public string lastVDoorName = "";
+  public bool gamePause = false;
 
   void Awake() {
     if (instance == null) {

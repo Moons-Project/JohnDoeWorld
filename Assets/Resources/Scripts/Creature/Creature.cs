@@ -99,9 +99,8 @@ public class Creature : MonoBehaviour {
   }
 
   public void Act(InputInfo inputInfo) {
-    if (isDead) return;
     // TODO: 日后应使用自身的动画来控制isAttacking
-    if (isAttacking) return;
+    if (isDead || isAttacking || GameManager.instance.gamePause) return;
     // test can climb
     bool canClimb = inputInfo.verticalAxis != 0 && GameManager.instance.tilemapManager.FindLadderPosition(gameObject,
       inputInfo.verticalAxis > 0 ? TilemapManager.Direction.Up : TilemapManager.Direction.Down).Count > 0;
