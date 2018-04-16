@@ -89,9 +89,11 @@ public class ScriptManager : MonoBehaviour {
   }
 
   public void SkipScript() {
-    isPlaying = false;
-    manager.dialogManager.HideDialog();
-    FinishedEvent();
+    if (isPlaying) {
+      isPlaying = false;
+      manager.dialogManager.HideDialog();
+      FinishedEvent();
+    }
   }
 
   void OnDisable() {

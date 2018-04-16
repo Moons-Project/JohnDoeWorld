@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour {
     DontDestroyOnLoad(gameObject.transform.parent.gameObject);
     scriptManager.FinishedEvent += () => {
       saveDataManager.saveData.progress++;
+      Debug.Log("Current progress: " + saveDataManager.saveData.progress);
       saveDataManager.Save();
     };
     // creatureInfoDict.ToJson();
