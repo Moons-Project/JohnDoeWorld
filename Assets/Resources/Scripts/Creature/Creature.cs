@@ -237,8 +237,13 @@ public class Creature : MonoBehaviour {
     deadHandled = true;
     if (GameManager.instance.controllingCreature == this) {
       DialogManager.instance.SystemDialog("<color='red'>YOU DIED</color>");
-      GameManager.instance.SwitchScene("main_menu_scene");
-      HUDManager.instance.CloseHUD();
+      DialogManager.DialogEndHandler handler = null;
+      handler = ()=>{
+        GameManager.instance.SwitchScene("main_menu_scene");
+        HUDManager.instance.CloseHUD();
+        DialogManager.instance.DialogEnd -= handler;
+      };
+      DialogManager.instance.DialogEnd += handler;
     } else {
       StartCoroutine(GoToDestroy());
     }
