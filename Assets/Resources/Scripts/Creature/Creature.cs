@@ -232,6 +232,15 @@ public class Creature : MonoBehaviour {
     Debug.Log(finalDamage);
   }
 
+  public void Regenerate(float regenLife) {
+    var res = currentHP + regenLife;
+    if (res > currentInfo.life) {
+      currentHP = currentInfo.life;
+    } else {
+      currentHP = res;
+    }
+  }
+
   public void Dead() {
     Debug.Log("DEAD");
     deadHandled = true;
