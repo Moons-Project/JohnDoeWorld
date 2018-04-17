@@ -121,4 +121,8 @@ public class DialogManager : MonoBehaviour {
     this.DialogEnd -= SystemDialogHide;
     this.HideDialog();
   }
+
+  public void SetTypeWriterDelay(float delay) {
+    dialogTypewriter.delay = delay;
+  }
 }
