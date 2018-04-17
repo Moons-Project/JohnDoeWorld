@@ -25,4 +25,9 @@ public class WeaponAttack : Attack {
     GetComponent<Animator>().speed = 1;
     attackSource.isAttacking = false;
   }
+
+  protected override void HitCollider(Collider2D other) {
+    base.HitCollider(other);
+    var weaponEffect = Instantiate(weaponEffectPrefab, other.transform.position, Quaternion.identity);
+  }
 }

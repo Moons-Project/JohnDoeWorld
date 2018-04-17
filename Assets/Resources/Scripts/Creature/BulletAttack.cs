@@ -28,4 +28,9 @@ public class BulletAttack : Attack {
   public void ImmediateDestroyMe() {
     Destroy(gameObject);
   }
+
+  public void SpawnEffect(Object obj) {
+    var effect = obj as GameObject;
+    Instantiate(effect, gameObject.transform.position, Quaternion.identity);
+  }
 }
