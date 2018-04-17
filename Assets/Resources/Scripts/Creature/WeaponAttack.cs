@@ -29,5 +29,7 @@ public class WeaponAttack : Attack {
   protected override void HitCollider(Collider2D other) {
     base.HitCollider(other);
     var weaponEffect = Instantiate(weaponEffectPrefab, other.transform.position, Quaternion.identity);
+    var main =weaponEffect.GetComponent<ParticleSystem>().main;
+    main.startColor = Color.yellow;
   }
 }
