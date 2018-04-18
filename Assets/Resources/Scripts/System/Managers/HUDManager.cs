@@ -50,7 +50,7 @@ public class HUDManager : MonoBehaviour {
       if (cSkill.isCooling) {
         cdHint[i].gameObject.SetActive(true);
         cdHint[i].fillAmount = cSkill.cumulateTime / cSkill.calCDTime;
-        cdHint[i].GetComponentInChildren<Text>().text = (cSkill.calCDTime - cSkill.cumulateTime).ToString("f1");
+        // cdHint[i].GetComponentInChildren<Text>().text = (cSkill.calCDTime - cSkill.cumulateTime).ToString("f1");
       } else {
         cdHint[i].gameObject.SetActive(false);
       }
