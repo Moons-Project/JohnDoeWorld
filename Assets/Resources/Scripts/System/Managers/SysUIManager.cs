@@ -361,6 +361,8 @@ public class SysUIManager : MonoBehaviour {
   public void ToggleTab() {
     isTabOpen = !isTabOpen;
     tabPanel.SetActive(isTabOpen);
+    if (!isTabOpen)
+      CloseSkillDetail();
   }
 
   public void OpenTab() {
@@ -371,5 +373,6 @@ public class SysUIManager : MonoBehaviour {
   public void CloseTabTab() {
     isTabOpen = false;
     tabPanel.SetActive(false);
+    CloseSkillDetail();
   }
 }

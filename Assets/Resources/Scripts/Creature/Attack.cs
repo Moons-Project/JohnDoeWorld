@@ -15,6 +15,7 @@ public class Attack : MonoBehaviour {
   public bool disableScriptOnTriggerEnter = false;
 
   public virtual void UseSkill(CreatureSkill skill, Creature attackSource) {
+    skill.exp += 10f;
     // skillIndex = index;
     this.attackSource = attackSource;
     // this.skill = GameManager.instance.skillDict.itemDict[creature.skillList[skillIndex]];
