@@ -219,7 +219,7 @@ public class SysUIManager : MonoBehaviour {
       (cSkill.programInfo.cdTimeDelta * CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.originBulletForceNorm.ToString("f1"),
       (cSkill.programInfo.bulletForceNormDelta * CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
-      cSkill.originBulletAngle.ToString("f1"),
+      (cSkill.originBulletAngle + cSkill.programInfo.bulletAngle).ToString("f1"),
       cSkill.originActionSpeedMultiplier.ToString("f1"),
       (cSkill.programInfo.actionSpeedDelta * CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
       cSkill.programInfo.balanceValue
@@ -279,7 +279,7 @@ public class SysUIManager : MonoBehaviour {
       (info.cdTimeDelta * CreatureSkill.ProgramInfo.cdTimeDeltaPercent  * 100f).ToString("+#;-#;0"),
       edittingSkill.originBulletForceNorm.ToString("f1"),
       (info.bulletForceNormDelta * CreatureSkill.ProgramInfo.bulletForceNormDeltaPercent  * 100f).ToString("+#;-#;0"),
-      edittingSkill.originBulletAngle.ToString("f1"),
+      (info.bulletAngle).ToString("f1"),
       edittingSkill.originActionSpeedMultiplier.ToString("f1"),
       (info.actionSpeedDelta * CreatureSkill.ProgramInfo.actionSpeedDeltaPercent  * 100f).ToString("+#;-#;0"),
       info.balanceValue
@@ -314,6 +314,15 @@ public class SysUIManager : MonoBehaviour {
     if (rate < -1f) return;
 
     edittingProgramInfo.bulletForceNormDelta = delta;
+    // Update UI
+    UpdateRightPartWithProgramInfo(edittingProgramInfo);
+  }
+
+  public void ModifyAngle(bool up) {
+    var angle = edittingProgramInfo.bulletAngle + (up ? 5 : -5);
+    if (angle > 180 || angle < -180) angle = angle % 180;
+
+    edittingProgramInfo.bulletAngle = angle;
     // Update UI
     UpdateRightPartWithProgramInfo(edittingProgramInfo);
   }
