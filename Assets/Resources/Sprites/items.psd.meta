@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca9fbf58af9f77542ae7804d622967b5
-timeCreated: 1519724451
+timeCreated: 1524036693
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -29,7 +29,7 @@ TextureImporter:
     21300044: items_6
     21300046: FireBall
     21300048: PoisonBall
-    21300050: SlimeBall
+    21300050: WaterBall
     21300052: Stab
     21300054: ThreeTimesChop
     21300056: Battojutsu
@@ -273,7 +273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SlimeBall
+      name: WaterBall
       rect:
         serializedVersion: 2
         x: 900

@@ -10,6 +10,17 @@
         "mass": 0.01,
         "gravityScale": 0
       }
+    },
+    {
+      "idName": "WaterBall",
+      "name": "水球子弹",
+      "description": "水球子弹",
+      "force": 3,
+      "angle": 0,
+      "rigidbodyPara": {
+        "mass": 0.01,
+        "gravityScale": 0
+      }
     }
   ]
 }
