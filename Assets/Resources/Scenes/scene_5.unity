@@ -5020,6 +5020,11 @@ Prefab:
       propertyPath: weaponEffectPrefab
       value: 
       objectReference: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 2}
+    - target: {fileID: 114945507041325454, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: skillList.Array.data[1]
+      value: ThunderBall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
   m_IsPrefabParent: 0
@@ -9674,6 +9679,11 @@ Prefab:
       propertyPath: weaponEffectPrefab
       value: 
       objectReference: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 2}
+    - target: {fileID: 114945507041325454, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: skillList.Array.data[1]
+      value: Tornado
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
   m_IsPrefabParent: 0

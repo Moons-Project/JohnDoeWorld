@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FireBall
+  m_Name: ThunderBall
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: destroy
@@ -13,11 +13,11 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: 1107732555920606904}
+    m_StateMachine: {fileID: 1107797563869703352}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -27,7 +27,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &1101446178141836808
+--- !u!1101 &1101052577808558142
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -38,30 +38,30 @@ AnimatorStateTransition:
     m_ConditionEvent: destroy
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102331884753719220}
+  m_DstState: {fileID: 1102386889754226066}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 0.75409836
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &1102234352732602140
+--- !u!1102 &1102157233727547724
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Flying
+  m_Name: ThunderBallFlying
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 1101446178141836808}
+  - {fileID: 1101052577808558142}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -71,19 +71,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7ed4518c5e6088a41821b8f5e951f085, type: 2}
+  m_Motion: {fileID: 7400000, guid: cb491c9d7293ca147bdef91fedc373df, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102331884753719220
+--- !u!1102 &1102386889754226066
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Destroying
+  m_Name: ThunderBallDestroying
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -96,13 +96,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c4356aa15656b7a4683394bdaa73cfbe, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1edb311ee029bba4ab75b9b09d797f70, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1107 &1107732555920606904
+--- !u!1107 &1107797563869703352
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -111,11 +111,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1102234352732602140}
-    m_Position: {x: 240, y: 120, z: 0}
+    m_State: {fileID: 1102157233727547724}
+    m_Position: {x: 264, y: 24, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102331884753719220}
-    m_Position: {x: 240, y: 216, z: 0}
+    m_State: {fileID: 1102386889754226066}
+    m_Position: {x: 312, y: 144, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -125,4 +125,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1102234352732602140}
+  m_DefaultState: {fileID: 1102157233727547724}

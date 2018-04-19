@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2b3368d34e2b0ed4eaa746064548051b
-timeCreated: 1519547447
+timeCreated: 1524114777
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,8 @@ TextureImporter:
     21300006: magic_items_3
     21300008: magic_items_4
     21300010: magic_items_5
+    21300012: magic_items_6
+    21300014: magic_items_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -185,6 +187,34 @@ TextureImporter:
         height: 100
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: magic_items_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 823
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: magic_items_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 726
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

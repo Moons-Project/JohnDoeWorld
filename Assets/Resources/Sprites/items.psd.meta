@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca9fbf58af9f77542ae7804d622967b5
-timeCreated: 1524036693
+timeCreated: 1524113745
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -51,6 +51,13 @@ TextureImporter:
     21300088: items_28
     21300090: SimpleArmor
     21300092: items_30
+    21300094: items_0
+    21300096: items_1
+    21300098: items_2
+    21300100: Tornado
+    21300102: ThunderBall
+    21300104: items_3
+    21300106: items_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -150,12 +157,12 @@ TextureImporter:
       name: SimpleSword
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1100
-        width: 100
-        height: 100
+        x: 8
+        y: 1104
+        width: 69
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,12 +171,12 @@ TextureImporter:
       name: Excalibur
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1100
-        width: 100
-        height: 100
+        x: 104
+        y: 1107
+        width: 88
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,12 +185,12 @@ TextureImporter:
       name: Branch
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1100
-        width: 100
-        height: 100
+        x: 197
+        y: 1105
+        width: 86
+        height: 83
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,12 +199,12 @@ TextureImporter:
       name: TableKnife
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1100
-        width: 100
-        height: 100
+        x: 306
+        y: 1105
+        width: 90
+        height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +213,12 @@ TextureImporter:
       name: SimplePotion
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1100
-        width: 100
-        height: 100
+        x: 424
+        y: 1115
+        width: 38
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,10 +229,10 @@ TextureImporter:
         serializedVersion: 2
         x: 500
         y: 1100
-        width: 100
+        width: 200
         height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,12 +255,12 @@ TextureImporter:
       name: FireBall
       rect:
         serializedVersion: 2
-        x: 700
-        y: 1100
-        width: 100
-        height: 100
+        x: 726
+        y: 1127
+        width: 51
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,12 +269,12 @@ TextureImporter:
       name: PoisonBall
       rect:
         serializedVersion: 2
-        x: 800
-        y: 1100
-        width: 100
-        height: 100
+        x: 828
+        y: 1128
+        width: 44
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +283,12 @@ TextureImporter:
       name: WaterBall
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1100
-        width: 100
-        height: 100
+        x: 926
+        y: 1126
+        width: 50
+        height: 51
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,12 +297,12 @@ TextureImporter:
       name: Stab
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1100
-        width: 100
-        height: 100
+        x: 1024
+        y: 1119
+        width: 69
+        height: 57
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,12 +311,12 @@ TextureImporter:
       name: ThreeTimesChop
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1100
-        width: 100
-        height: 100
+        x: 1168
+        y: 1133
+        width: 16
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +325,12 @@ TextureImporter:
       name: Battojutsu
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1100
-        width: 100
-        height: 100
+        x: 1215
+        y: 1127
+        width: 83
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -332,12 +339,12 @@ TextureImporter:
       name: TopDownChop
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 1100
-        width: 100
-        height: 100
+        x: 1328
+        y: 1148
+        width: 40
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,12 +353,12 @@ TextureImporter:
       name: BasicAttack
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 1100
-        width: 100
-        height: 100
+        x: 1424
+        y: 1128
+        width: 53
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,12 +367,12 @@ TextureImporter:
       name: ManaSlay
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1100
-        width: 100
-        height: 100
+        x: 1520
+        y: 1097
+        width: 66
+        height: 99
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,12 +381,12 @@ TextureImporter:
       name: items_16
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1621
         y: 1100
-        width: 100
-        height: 100
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,12 +395,12 @@ TextureImporter:
       name: items_17
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 1100
-        width: 100
-        height: 100
+        x: 1724
+        y: 1132
+        width: 52
+        height: 53
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,12 +409,12 @@ TextureImporter:
       name: items_18
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1100
-        width: 100
-        height: 100
+        x: 1838
+        y: 1140
+        width: 26
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,12 +423,12 @@ TextureImporter:
       name: items_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1000
-        width: 100
-        height: 100
+        x: 4
+        y: 1003
+        width: 84
+        height: 93
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,12 +437,12 @@ TextureImporter:
       name: DarkSword
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1000
-        width: 100
-        height: 100
+        x: 102
+        y: 1001
+        width: 78
+        height: 93
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,12 +451,12 @@ TextureImporter:
       name: items_21
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1000
-        width: 100
-        height: 100
+        x: 208
+        y: 1003
+        width: 72
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,12 +465,12 @@ TextureImporter:
       name: items_22
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1000
-        width: 100
-        height: 100
+        x: 305
+        y: 1008
+        width: 89
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,12 +479,12 @@ TextureImporter:
       name: items_23
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1000
-        width: 100
-        height: 100
+        x: 422
+        y: 1030
+        width: 42
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -500,12 +507,12 @@ TextureImporter:
       name: items_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 900
-        width: 100
-        height: 100
+        x: 4
+        y: 904
+        width: 86
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,12 +521,12 @@ TextureImporter:
       name: items_26
       rect:
         serializedVersion: 2
-        x: 100
-        y: 900
-        width: 100
-        height: 100
+        x: 103
+        y: 906
+        width: 83
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,12 +535,12 @@ TextureImporter:
       name: items_27
       rect:
         serializedVersion: 2
-        x: 200
-        y: 900
-        width: 100
-        height: 100
+        x: 204
+        y: 903
+        width: 88
+        height: 89
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,12 +549,12 @@ TextureImporter:
       name: items_28
       rect:
         serializedVersion: 2
-        x: 300
-        y: 900
-        width: 100
-        height: 100
+        x: 304
+        y: 903
+        width: 91
+        height: 86
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,12 +563,12 @@ TextureImporter:
       name: SimpleArmor
       rect:
         serializedVersion: 2
-        x: 400
-        y: 900
-        width: 100
-        height: 100
+        x: 423
+        y: 935
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,12 +577,110 @@ TextureImporter:
       name: items_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 35
+        y: 14
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: items_0
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: items_1
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1112
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: items_2
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1116
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tornado
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1012
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThunderBall
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1029
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: items_3
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1025
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: items_7
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1010
+        width: 107
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -21,6 +21,28 @@
         "mass": 0.01,
         "gravityScale": 0
       }
+    },
+    {
+      "idName": "Tornado",
+      "name": "风暴子弹",
+      "description": "风暴子弹",
+      "force": 3,
+      "angle": 0,
+      "rigidbodyPara": {
+        "mass": 0.01,
+        "gravityScale": 0
+      }
+    },
+    {
+      "idName": "ThunderBall",
+      "name": "闪电球子弹",
+      "description": "闪电球子弹",
+      "force": 3,
+      "angle": 0,
+      "rigidbodyPara": {
+        "mass": 0.01,
+        "gravityScale": 0
+      }
     }
   ]
 }
