@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875d4d71fdfbdf34d8eb83c521382ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1164456572}
 --- !u!1 &100229393
 GameObject:
   m_ObjectHideFlags: 0
@@ -8024,11 +8023,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e206d5a83cd33a458b771d0e584992c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1164456572 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1457792525}
 --- !u!1 &1311865188
 GameObject:
   m_ObjectHideFlags: 0
@@ -8100,6 +8094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8f5a1351329ed45bccd8a4b134a700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   destroyGObjOnTriggerEnter: 1
   disableScriptOnTriggerEnter: 0
 --- !u!212 &1330026814
@@ -8144,7 +8139,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &1330026815
 Transform:
@@ -8248,6 +8243,16 @@ Prefab:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
+      propertyPath: m_Name
+      value: SlarmCreature
+      objectReference: {fileID: 0}
+    - target: {fileID: 212426615919173456, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8aab89b664bcb6449a0250d651240599,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 785321f66182ba04ebf576cb4f6fb4f6, type: 2}
   m_IsPrefabParent: 0
@@ -8370,7 +8375,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1586233459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.17, y: -13.59, z: -10}
+  m_LocalPosition: {x: -19.157476, y: -11.438553, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2730868}
