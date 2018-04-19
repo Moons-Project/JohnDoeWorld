@@ -19,9 +19,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300004, guid: 2b3368d34e2b0ed4eaa746064548051b, type: 3}
+      value: {fileID: 0}
     - time: 1
-      value: {fileID: 21300004, guid: 2b3368d34e2b0ed4eaa746064548051b, type: 3}
+      value: {fileID: 0}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -41,8 +41,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300004, guid: 2b3368d34e2b0ed4eaa746064548051b, type: 3}
-    - {fileID: 21300004, guid: 2b3368d34e2b0ed4eaa746064548051b, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -74,6 +74,13 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 1687118924408352, guid: 77c69ec12208c4c4380d15e30b6f8f68,
       type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
+    functionName: ImmediateDestroyMe
+    data: 
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
