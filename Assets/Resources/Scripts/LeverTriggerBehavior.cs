@@ -5,21 +5,15 @@ using UnityEngine.Tilemaps;
 
 public class LeverTriggerBehavior : MonoBehaviour {
 
+  bool triggered = false;
+
   public Tilemap LeftLadderTilemap, RightLadderTilemap;
   public string SoundEffect;
   public Sprite spriteToChange;
 
-  // Use this for initialization
-  void Start () {
-    
-  }
-  
-  // Update is called once per frame
-  void Update () {
-    
-  }
-
   void OnTriggerEnter2D(Collider2D collider) {
+    if (triggered) return;
+    triggered = true;
     if (collider.CompareTag("ControlPlayer")) {
       if (SoundEffect != null) GameManager.instance.musicManager.PlaySE(SoundEffect);
       LeftLadderTilemap.gameObject.SetActive(false);
