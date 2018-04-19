@@ -13,8 +13,9 @@ public class LeverTriggerBehavior : MonoBehaviour {
 
   void OnTriggerEnter2D(Collider2D collider) {
     if (triggered) return;
-    triggered = true;
+    Debug.Log(collider.gameObject.name);
     if (collider.CompareTag("ControlPlayer")) {
+      triggered = true;
       if (SoundEffect != null) GameManager.instance.musicManager.PlaySE(SoundEffect);
       LeftLadderTilemap.gameObject.SetActive(false);
       RightLadderTilemap.gameObject.SetActive(true);
