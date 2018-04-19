@@ -8,6 +8,8 @@ TagManager:
   - Body
   - Weapon
   - ControlPlayer
+  - FxTemporaire
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Global Effect
   - Ground
   - Creature
-  - 
+  - Interactable
   - 
   - 
   - 
