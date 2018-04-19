@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212426615919173456}
   - component: {fileID: 50133778280931668}
   - component: {fileID: 114227746332760308}
-  - component: {fileID: 61934094007690436}
   - component: {fileID: 95544876573463650}
+  - component: {fileID: 70005654699185700}
   m_Layer: 10
   m_Name: Jane
   m_TagString: Untagged
@@ -104,7 +104,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1106618509802152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.442, y: -13.303, z: 0}
+  m_LocalPosition: {x: -26.595879, y: -12.008374, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 4861683575460748}
@@ -177,7 +177,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.69635856
+  m_Mass: 0.6447021
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -227,7 +227,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0040602684}
+  m_Offset: {x: -0.059033394, y: 0.057619333}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -238,10 +238,10 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49650192, y: 0.4883814}
+  m_Size: {x: 1.2002087, y: 3.541553}
   m_EdgeRadius: 0
---- !u!61 &61934094007690436
-BoxCollider2D:
+--- !u!70 &70005654699185700
+CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -252,19 +252,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08456135, y: -0.00000023841858}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.64, y: 3.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1430836, y: 3.8074565}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.053880215, y: 0.09878069}
+  m_Size: {x: 1.167283, y: 3.7024384}
+  m_Direction: 0
 --- !u!95 &95544876573463650
 Animator:
   serializedVersion: 3
