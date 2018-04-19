@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoxBehavior : MonoBehaviour, Interactable {
+public class BoxBehavior : Interactable {
   public string itemToGetIdName;
   public string SoundEffect;
   bool triggered = false;
   
-  public void Interact(Creature source) {
+  public override void Interact(Creature source) {
     if (triggered) return;
     if (source.CompareTag("ControlPlayer")) {
       triggered = true;
       GameManager.instance.musicManager.PlaySE(SoundEffect);
-      GameManager.instance.inventoryManager.AddItem(
-        GameManager.instance.jsonManager.itemDict[itemToGetIdName]
-        );
+      var item = GameManager.instance.jsonManager.itemDict[itemToGetIdName];
+      GameManager.instance.inventoryManager.AddItem(item);
+      DialogManager.instance.SystemDialog("获得道具 " + item.name + " ！");
+      Destroy(gameObject);
     }
   }
 }

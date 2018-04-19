@@ -68,7 +68,7 @@ public class InputManager : MonoBehaviour {
 
         if (collider) {
           Debug.Log(collider.name);
-          var inter = collider.GetComponent<SignBehavior>();
+          var inter = collider.GetComponent<Interactable>();
           if (inter != null)
             inter.Interact(player.GetComponent<Creature>());
           else

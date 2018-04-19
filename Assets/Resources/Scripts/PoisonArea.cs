@@ -8,6 +8,7 @@ public class PoisonArea : MonoBehaviour {
 
   void OnTriggerStay2D(Collider2D other) {
     Creature creature = other.GetComponent<Creature>();
-    creature.Damage(poisonDamage);
+    if (creature)
+      creature.Damage(poisonDamage);
   }
 }
