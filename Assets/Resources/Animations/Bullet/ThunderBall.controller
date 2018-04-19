@@ -57,7 +57,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ThunderBallFlying
+  m_Name: Flying
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -83,7 +83,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ThunderBallDestroying
+  m_Name: Destroying
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

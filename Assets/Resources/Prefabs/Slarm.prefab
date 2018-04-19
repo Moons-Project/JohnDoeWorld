@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 60537736266121212}
   - component: {fileID: 114227746332760308}
   m_Layer: 10
-  m_Name: Creature
+  m_Name: Slarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

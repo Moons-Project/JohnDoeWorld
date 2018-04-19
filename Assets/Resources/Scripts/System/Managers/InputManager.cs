@@ -61,5 +61,22 @@ public class InputManager : MonoBehaviour {
       }
       manager.scriptManager.SkipScript();
     }
+    if (Input.GetButtonDown("Interact")) {
+      if (player) {
+        // 搜索Interactable
+        var collider = Physics2D.OverlapCircle(player.transform.position, 1f, LayerMask.GetMask("Interactable"));
+
+        if (collider) {
+          Debug.Log(collider.name);
+          var inter = collider.GetComponent<SignBehavior>();
+          if (inter != null)
+            inter.Interact(player.GetComponent<Creature>());
+          else
+            Debug.Log("No inter");
+        } else {
+          Debug.Log("No collider");
+        }
+      }
+    }
   }
 }
