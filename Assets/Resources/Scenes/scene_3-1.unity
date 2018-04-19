@@ -3272,7 +3272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ladderTilemap: {fileID: 863842056}
   platformTilemap: {fileID: 1370106749}
-  creaturePrefab: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
+  creaturePrefab: {fileID: 1545698367963844, guid: d95432d4d6c123c48ae51e39b4255a59,
     type: 2}
   virtualCamera: {fileID: 2145011682}
   vDoorNameToSpawnPos:

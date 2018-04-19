@@ -10,7 +10,7 @@ public class SceneInitializer : MonoBehaviour {
 
   public Tilemap ladderTilemap;
   public Tilemap platformTilemap;
-  public GameObject creaturePrefab;
+  // public GameObject creaturePrefab;
   public Cinemachine.CinemachineVirtualCamera virtualCamera;
 
   [System.Serializable]
@@ -32,7 +32,9 @@ public class SceneInitializer : MonoBehaviour {
     manager.tilemapManager.platformTilemap = platformTilemap;
 
     // 创建creature GameObject
-    GameObject creature = Instantiate(creaturePrefab);
+    // GameObject creature = Instantiate(creaturePrefab);
+    string creature_type = GameManager.instance.saveDataManager.saveData.playerRoleType.ToString();
+    GameObject creature = Instantiate(Resources.Load("Prefabs/" + creature_type, typeof(GameObject))) as GameObject;
     creature = GameManager.instance.saveDataManager.GetPlayerObj(creature);
     creature.tag = "ControlPlayer";
     Vector3 newPos = defaultSpawnPos;
