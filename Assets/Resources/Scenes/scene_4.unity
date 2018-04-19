@@ -3553,6 +3553,11 @@ Prefab:
       propertyPath: weaponEffectPrefab
       value: 
       objectReference: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 2}
+    - target: {fileID: 50056748369662828, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.04113805
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
   m_IsPrefabParent: 0
@@ -5193,6 +5198,10 @@ MonoBehaviour:
     pos: {x: -33.98, y: -8, z: 0}
   - lastVDoorName: scene_5_left
     pos: {x: 35.47, y: -8, z: 0}
+  - lastVDoorName: scene_4-5_left_sign
+    pos: {x: -1.6, y: -8, z: 0}
+  - lastVDoorName: scene_4-5_right_sign
+    pos: {x: 12.5, y: -8, z: 0}
   defaultSpawnPos: {x: -35, y: -8, z: 0}
 --- !u!4 &840583233
 Transform:
@@ -5259,7 +5268,7 @@ Prefab:
     - target: {fileID: 114735674587591264, guid: 68d1690739101f54fa381e634f93ee02,
         type: 2}
       propertyPath: nextSceneName
-      value: scene_4_5
+      value: scene_4-5
       objectReference: {fileID: 0}
     - target: {fileID: 114735674587591264, guid: 68d1690739101f54fa381e634f93ee02,
         type: 2}
@@ -5278,6 +5287,11 @@ Prefab:
     - target: {fileID: 1303512782938290, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114735674587591264, guid: 68d1690739101f54fa381e634f93ee02,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
@@ -5298,7 +5312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50431505302692c4ca05de8c20c80532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: scene_4_5
+  nextSceneName: scene_4-5
   doorName: scene_4_left_sign
   doorType: 0
   progreess: 0
@@ -6116,6 +6130,11 @@ Prefab:
       propertyPath: weaponEffectPrefab
       value: 
       objectReference: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 2}
+    - target: {fileID: 50056748369662828, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.04113805
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fec8ef2cc4e1bd43b8854b9291f5fa5, type: 2}
   m_IsPrefabParent: 0
@@ -9649,7 +9668,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -5.3058233, y: 0.33161473}
