@@ -10938,6 +10938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851772127}
   - component: {fileID: 1851772126}
+  - component: {fileID: 1851772128}
   m_Layer: 0
   m_Name: Scene Control
   m_TagString: Untagged
@@ -10958,8 +10959,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ladderTilemap: {fileID: 863842056}
   platformTilemap: {fileID: 1370106749}
-  creaturePrefab: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
-    type: 2}
   virtualCamera: {fileID: 2145011682}
   vDoorNameToSpawnPos:
   - lastVDoorName: scene_2_right
@@ -10982,6 +10981,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851772128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851772125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec2c4e53471b62449c374457f0e254b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JohnBGM: John
+  JaneBGM: Jane
+  SlarmBGM: slarm_go_away
 --- !u!1 &1954759710
 GameObject:
   m_ObjectHideFlags: 0

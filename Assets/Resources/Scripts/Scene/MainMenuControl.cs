@@ -16,7 +16,7 @@ public class MainMenuControl : MonoBehaviour {
   // Use this for initialization
   void Start() {
     manager = GameManager.instance;
-    manager.musicManager.PlayBGM("title_bgm");
+    manager.musicManager.PlayBGM("title");
 
     // Add items to inventory
     StartCoroutine(AddItems());

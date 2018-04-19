@@ -3877,7 +3877,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 536938495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007885933, y: -3.3159947, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4090,6 +4090,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &700345216 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1315971874957390, guid: 13b6b3ebf1fe2db40b00d8151ddbfccf,
+    type: 2}
+  m_PrefabInternal: {fileID: 700345215}
+--- !u!114 &700345217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700345216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec2c4e53471b62449c374457f0e254b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JohnBGM: John
+  JaneBGM: Jane
+  SlarmBGM: slarm_go_away
 --- !u!1 &779389763
 GameObject:
   m_ObjectHideFlags: 0

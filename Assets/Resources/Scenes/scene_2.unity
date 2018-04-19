@@ -15840,6 +15840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1378855932}
   - component: {fileID: 1378855931}
+  - component: {fileID: 1378855933}
   m_Layer: 0
   m_Name: Scene Control
   m_TagString: Untagged
@@ -15880,6 +15881,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1378855933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1378855930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec2c4e53471b62449c374457f0e254b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JohnBGM: John
+  JaneBGM: Jane
+  SlarmBGM: slarm_go_away
 --- !u!1001 &1434441340
 Prefab:
   m_ObjectHideFlags: 0

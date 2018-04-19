@@ -10,6 +10,7 @@ public class MusicManager : MonoBehaviour {
 
   private GameObject BGMSource;
   private AudioSource BGMAudioSource;
+  private string currentBGM = null;
 
   private List<AudioSource> SEAudioSourceList;
 
@@ -45,8 +46,11 @@ public class MusicManager : MonoBehaviour {
   }
 
   public void PlayBGM(string name) {
-    BGMAudioSource.clip = BGMDict[name];
-    BGMAudioSource.Play();
+    if (currentBGM != name) {
+      currentBGM = name;
+      BGMAudioSource.clip = BGMDict[name];
+      BGMAudioSource.Play();
+    }
   }
 
   public void StopBGM() {
