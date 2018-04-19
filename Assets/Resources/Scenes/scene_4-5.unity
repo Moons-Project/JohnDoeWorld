@@ -246,8 +246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ladderTilemap: {fileID: 1547732203}
   platformTilemap: {fileID: 1800870708}
-  creaturePrefab: {fileID: 1106618509802152, guid: 785321f66182ba04ebf576cb4f6fb4f6,
-    type: 2}
   virtualCamera: {fileID: 817336716}
   vDoorNameToSpawnPos:
   - lastVDoorName: scene_3_right
@@ -916,9 +914,36 @@ Prefab:
       propertyPath: doorType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114735674587591264, guid: 68d1690739101f54fa381e634f93ee02,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &516842610 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1303512782938290, guid: 68d1690739101f54fa381e634f93ee02,
+    type: 2}
+  m_PrefabInternal: {fileID: 516842609}
+--- !u!114 &516842611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516842610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50431505302692c4ca05de8c20c80532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: scene_4
+  doorName: scene_4-5_left_sign
+  doorType: 0
+  progreess: 0
+  isDoor: 1
+  scriptType: 0
 --- !u!1 &579483332
 GameObject:
   m_ObjectHideFlags: 0
@@ -7232,6 +7257,33 @@ Prefab:
       propertyPath: doorType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114735674587591264, guid: 68d1690739101f54fa381e634f93ee02,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68d1690739101f54fa381e634f93ee02, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2021766799 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1303512782938290, guid: 68d1690739101f54fa381e634f93ee02,
+    type: 2}
+  m_PrefabInternal: {fileID: 2021766798}
+--- !u!114 &2021766800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2021766799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50431505302692c4ca05de8c20c80532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: scene_4
+  doorName: scene_4-5_right_sign
+  doorType: 0
+  progreess: 0
+  isDoor: 1
+  scriptType: 0
