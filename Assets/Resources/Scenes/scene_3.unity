@@ -3888,6 +3888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jane: {fileID: 1049950117}
   scene3Control: {fileID: 1851772129}
+  talker: {fileID: 1207444789}
   progress: 12
 --- !u!1 &1370106746
 GameObject:

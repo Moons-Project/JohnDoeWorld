@@ -5,6 +5,7 @@ using UnityEngine;
 public class AddJane : MonoBehaviour {
   public GameObject jane;
   public Scene3Control scene3Control;
+  public GameObject talker;
 
   public int progress;
 
@@ -20,6 +21,7 @@ public class AddJane : MonoBehaviour {
     GameManager.instance.scriptManager.FinishedEvent -= showJane;
     jane.GetComponent<Creature>().OnDead += scene3Control.OnJaneDead;
     SaveDataManager.instance.saveData.progress--;
+    talker.SetActive(false);
     SaveDataManager.instance.Save();
   }
 }
