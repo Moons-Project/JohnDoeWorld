@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocityX: 5
-  maxVelocityY: 5
+  maxVelocityY: 7
   groundMask:
     serializedVersion: 2
     m_Bits: 512

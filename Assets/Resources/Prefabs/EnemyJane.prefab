@@ -158,15 +158,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1863295222103284}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9982848, w: 0.058545}
-  m_LocalPosition: {x: -0.467, y: 0.146, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8964297, w: -0.44318593}
+  m_LocalPosition: {x: -1.16, y: -0.81, z: -1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4248364368291838}
   - {fileID: 4322076533196318}
   m_Father: {fileID: 4772713049766510}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -173.287}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -232.61499}
 --- !u!50 &50916678086580758
 Rigidbody2D:
   serializedVersion: 4
@@ -327,11 +327,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _basicInfo:
-    sword: 100
-    magic: 100
-    rigidity: 80
-    life: 100
-    talent: 100
+    sword: 20
+    magic: 30
+    rigidity: 10
+    life: 70
+    talent: 60
   currentInfo:
     sword: 0
     magic: 0

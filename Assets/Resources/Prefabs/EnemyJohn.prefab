@@ -342,11 +342,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _basicInfo:
-    sword: 100
-    magic: 100
-    rigidity: 80
-    life: 100
-    talent: 100
+    sword: 30
+    magic: 20
+    rigidity: 10
+    life: 65
+    talent: 60
   currentInfo:
     sword: 0
     magic: 0

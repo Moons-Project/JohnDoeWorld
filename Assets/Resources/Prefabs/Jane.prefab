@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocityX: 5
-  maxVelocityY: 5
+  maxVelocityY: 7
   groundMask:
     serializedVersion: 2
     m_Bits: 512
@@ -321,9 +321,9 @@ MonoBehaviour:
   skillExps: 0000000000000000000000000000000000000000
   skillList:
   - BasicAttack
-  - ThreeTimesChop
+  - ThunderBall
   - Stab
-  - FireBall
+  - TornadoBall
   - FireBall
   equippingItem:
     idName: SimpleSword
