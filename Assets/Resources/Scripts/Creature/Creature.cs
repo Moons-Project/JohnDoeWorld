@@ -66,6 +66,7 @@ public class Creature : MonoBehaviour {
     animator = GetComponent<Animator>();
     currentInfo = basicInfo;
     currentHP = currentInfo.life;
+    UpdateCurrentInfo(equippingItem.addition);
   }
 
   // Update is called once per frame
@@ -210,9 +211,13 @@ public class Creature : MonoBehaviour {
 
   public void AddEquipment(Equipment equipment) {
     // TODO: 现在人物只有一个装备位置，日后需要改动
-    attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict[equipment.idName];
+    if (equipment.idName != "" && equipment.idName != null) {
+      attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict[equipment.idName];
+    } else {
+      attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict["SimpleSword"];
+    }
     equippingItem = equipment;
-    UpdateCurrentInfo(equipment.addition);
+    UpdateCurrentInfo(equippingItem.addition);
   }
 
   public void RemoveEquipment(Equipment equipment) {
@@ -222,7 +227,10 @@ public class Creature : MonoBehaviour {
   }
 
   private void UpdateCurrentInfo(BasicInfo addition) {
+    Debug.Log(addition.life);
+    Debug.Log(currentInfo.life);
     currentInfo = currentInfo + addition;
+    Debug.Log(currentInfo.life);
   }
 
   public void Damage(float finalDamage) {

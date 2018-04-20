@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 95925075013446308}
   - component: {fileID: 114580566647508136}
   - component: {fileID: 70655544258858272}
-  - component: {fileID: 114518102254807858}
   - component: {fileID: 114338998133077136}
   m_Layer: 10
   m_Name: EnemyJohn
@@ -307,26 +306,6 @@ MonoBehaviour:
   disableScriptOnTriggerEnter: 0
   weaponEffectPrefab: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 2}
 --- !u!114 &114338998133077136
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1475066001879606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f5f055c4fb3b89469dcc03387842eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyTag: ControlPlayer
-  viewDistance: 5
-  attackDistance: 1
-  longAttackDistance: 5
-  idleTime: 0
-  lockingMaxDistance: 6
-  escapeTime: 1.5
-  attackFreezeTime: 0.5
-  patrolMoveMaxTime: 2
---- !u!114 &114518102254807858
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
