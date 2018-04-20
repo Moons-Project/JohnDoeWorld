@@ -326,7 +326,7 @@ MonoBehaviour:
   - FireBall
   - FireBall
   equippingItem:
-    idName: 
+    idName: SimpleSword
     name: 
     description: 
     addition:

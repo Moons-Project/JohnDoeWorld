@@ -70,6 +70,8 @@ public class JsonManager {
     foreach (var i in infos.equipmentData) {
       itemDict.Add(i.idName, i);
     }
+    // TODO: Hard coded
+    itemDict.Add("", itemDict["SimpleSword"]);
   }
 
   private void LoadSpriteDict(string path) {

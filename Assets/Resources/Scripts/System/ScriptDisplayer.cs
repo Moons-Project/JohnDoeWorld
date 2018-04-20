@@ -6,6 +6,10 @@ public class ScriptDisplayer : MonoBehaviour {
   public int progress = 0;
   public string scriptName = "";
 
+  public delegate void ScriptDisplayHandler(int progress);
+
+  public static event ScriptDisplayHandler OnScriptDisplay;
+
   // Use this for initialization
   void Start () {
     
@@ -21,6 +25,9 @@ public class ScriptDisplayer : MonoBehaviour {
         GameManager.instance.saveDataManager.saveData.progress == progress) {
           other.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
           GameManager.instance.scriptManager.PlayScript(scriptName);
+        if (OnScriptDisplay != null) {
+          OnScriptDisplay(progress);
+        }
     }
   }
 }

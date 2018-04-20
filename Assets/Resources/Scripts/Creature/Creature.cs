@@ -211,7 +211,11 @@ public class Creature : MonoBehaviour {
 
   public void AddEquipment(Equipment equipment) {
     // TODO: 现在人物只有一个装备位置，日后需要改动
-    attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict[equipment.idName];
+    if (equipment.idName != "" && equipment.idName != null) {
+      attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict[equipment.idName];
+    } else {
+      attack.GetComponentInChildren<SpriteRenderer>().sprite = JsonManager.instance.spriteDict["SimpleSword"];
+    }
     equippingItem = equipment;
     UpdateCurrentInfo(equippingItem.addition);
   }
