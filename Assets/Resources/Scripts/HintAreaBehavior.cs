@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HintAreaBehavior : MonoBehaviour {
+  [TextArea]
   public string hint = "Hint here";
   
   void OnTriggerEnter2D(Collider2D other) {
