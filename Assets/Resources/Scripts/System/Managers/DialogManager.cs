@@ -113,7 +113,7 @@ public class DialogManager : MonoBehaviour {
   }
 
   public void SystemDialog(string content) {
-    ShowDialog(null, "<b>" + content + "</b>");
+    ShowDialog(null, content);
     DialogEnd += SystemDialogHide;
   }
 

@@ -33,10 +33,12 @@ public class PrologueControl : MonoBehaviour {
     }
   }
 
+  void SkipToScene() {
+    GameManager.instance.SwitchScene("scene_3-1");    
+  }
+
   void Awake() {
-    InputManager.instance.PressJump += ()=>{
-      GameManager.instance.SwitchScene("scene_3-1");
-    };
+    InputManager.instance.PressJump += SkipToScene;
     string json = (Resources.Load("Jsons/Scripts/prologue", typeof(TextAsset)) as TextAsset).text;
     scripts = JsonUtility.FromJson<PrologueScripts>(json);
     Debug.Log("Awake");
@@ -56,5 +58,6 @@ public class PrologueControl : MonoBehaviour {
 
   void OnDisable() {
     InputManager.instance.PressSubmit -= SkipOrNext;
+    InputManager.instance.PressJump -= SkipToScene;
   }
 }

@@ -1731,6 +1731,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &750129058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 750129060}
+  - component: {fileID: 750129059}
+  - component: {fileID: 750129061}
+  m_Layer: 0
+  m_Name: AirWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &750129059
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750129058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.6910267, y: 2.0221639}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3820534, y: 6.615506}
+  m_EdgeRadius: 0
+--- !u!4 &750129060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750129058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.82, y: -9.518226, z: 0.009533725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750129061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750129058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2864a1b5bcec060449eb376720eaa083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hint: "\u524D\u9762\u6709\u4E00\u53EA\u5F3A\u5927\u7684\u9B54\u7269\uFF0C\u73B0\u5728\u7684\u4F60\u8FD8\u65E0\u6CD5\u6253\u8D25\u5B83"
 --- !u!1 &817336714
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,9 +5623,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -13.359781, y: 4.689623}
-      - {x: -37.30608, y: 4.3719854}
-      - {x: -37.111507, y: -9.483313}
-      - {x: -37.07988, y: -6.928451}
+      - {x: -36.796947, y: 4.5286417}
+      - {x: -36.83736, y: -5.997724}
+      - {x: -36.68824, y: -6.9676156}
       - {x: -12.096139, y: -7.15321}
       - {x: 25.703981, y: -7.1035523}
       - {x: 34.93812, y: -7.153937}
