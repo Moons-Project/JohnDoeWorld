@@ -344,7 +344,7 @@ MonoBehaviour:
   _basicInfo:
     sword: 30
     magic: 20
-    rigidity: 10
+    rigidity: 40
     life: 65
     talent: 60
   currentInfo:

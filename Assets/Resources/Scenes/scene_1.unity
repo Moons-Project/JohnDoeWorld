@@ -14249,6 +14249,11 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.9044118
       objectReference: {fileID: 0}
+    - target: {fileID: 114904388587456186, guid: b4b60e50a99c10c41a905dba77fb1c23,
+        type: 2}
+      propertyPath: isFacingRight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4b60e50a99c10c41a905dba77fb1c23, type: 2}
   m_IsPrefabParent: 0
