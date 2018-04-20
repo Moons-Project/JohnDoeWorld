@@ -10506,22 +10506,22 @@ Prefab:
     - target: {fileID: 61006392593092784, guid: 388319e2b0d5aec4f9f3f1e98d77d536,
         type: 2}
       propertyPath: m_Offset.x
-      value: -0.46694803
+      value: 2.0370748
       objectReference: {fileID: 0}
     - target: {fileID: 61006392593092784, guid: 388319e2b0d5aec4f9f3f1e98d77d536,
         type: 2}
       propertyPath: m_Size.x
-      value: 12.713738
+      value: 4.387489
       objectReference: {fileID: 0}
     - target: {fileID: 61006392593092784, guid: 388319e2b0d5aec4f9f3f1e98d77d536,
         type: 2}
       propertyPath: m_Offset.y
-      value: -5.616721
+      value: -9.211449
       objectReference: {fileID: 0}
     - target: {fileID: 61006392593092784, guid: 388319e2b0d5aec4f9f3f1e98d77d536,
         type: 2}
       propertyPath: m_Size.y
-      value: 12.233442
+      value: 5.0439873
       objectReference: {fileID: 0}
     - target: {fileID: 114927206258265926, guid: 388319e2b0d5aec4f9f3f1e98d77d536,
         type: 2}
@@ -11032,7 +11032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec2c4e53471b62449c374457f0e254b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JohnBGM: John
+  JohnBGM: Fight
   JaneBGM: Jane
   SlarmBGM: slarm_go_away
 --- !u!114 &1851772129
