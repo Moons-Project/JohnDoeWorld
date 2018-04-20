@@ -2568,7 +2568,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8FD9\u91CC\u662F\u6E38\u620F\u5E2E\u52A9"
+  m_Text: "AD: \u79FB\u52A8\nJKLU: \u653B\u51FB\nWS: \u5728\u68AF\u5B50\u4E0A\u4E0B\u79FB\u52A8\nH:
+    \u5728\u8DEF\u724C\u5904\u79FB\u52A8/\u5F00\u542F\u5B9D\u7BB1"
 --- !u!222 &1424665001
 CanvasRenderer:
   m_ObjectHideFlags: 0
