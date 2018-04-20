@@ -27,7 +27,9 @@ public class CreatureInfo {
     var creature = creatureObj.GetComponent<Creature>();
     var sprite = creatureObj.GetComponent<SpriteRenderer>();
     creature.basicInfo = info;
-    creature.equippingItem = equement;
+    creature.AddEquipment(equement);
+    // 防止装备武器后，初始生命不满
+    creature.currentHP = creature.currentInfo.life;
     creature.skillList = skillList;
     sprite.color = color;
     return creatureObj;

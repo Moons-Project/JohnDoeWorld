@@ -78,8 +78,10 @@ public class InventoryManager : MonoBehaviour {
 
   private void Equip(Equipment item) {
     // TODO: 现在人物只有一个装备位置，日后需要改动
+    Debug.Log(manager.controllingCreature.gameObject.name);
     manager.controllingCreature.RemoveEquipment(manager.controllingCreature.equippingItem);
     manager.controllingCreature.AddEquipment(item);
+    SaveDataManager.instance.Save(manager.controllingCreature.gameObject);
     
     DialogManager.instance.SystemDialog("已更换装备！");
   }
