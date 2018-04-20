@@ -3731,6 +3731,21 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114152969622952022, guid: 464e8f28e136291499864ddae3ff8598,
+        type: 2}
+      propertyPath: _basicInfo.sword
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114152969622952022, guid: 464e8f28e136291499864ddae3ff8598,
+        type: 2}
+      propertyPath: _basicInfo.magic
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114152969622952022, guid: 464e8f28e136291499864ddae3ff8598,
+        type: 2}
+      propertyPath: skillList.Array.data[1]
+      value: Tornado
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 464e8f28e136291499864ddae3ff8598, type: 2}
   m_IsPrefabParent: 0
