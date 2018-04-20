@@ -28,6 +28,8 @@ public class TilemapManager : MonoBehaviour {
   public List<Vector3> FindLadderPosition(GameObject gObj, Direction direction) {
     List<Vector3> posList = new List<Vector3>();
 
+    if (!ladderTilemap) return posList;
+
     Collider2D collider = gObj.GetComponent<Collider2D>();
 
     if (collider == null) return posList;

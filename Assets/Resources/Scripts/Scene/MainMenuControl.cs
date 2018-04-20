@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuControl : MonoBehaviour {
 
@@ -12,6 +13,14 @@ public class MainMenuControl : MonoBehaviour {
   // public string firstScene = "scene_3-1";
 
   GameManager manager;
+
+  public void ChangeBGMVolume(float a) {
+    GameManager.instance.musicManager.ChangeBGMVolume(a);
+  }
+
+  public void ChangeSEVolume(float a) {
+    GameManager.instance.musicManager.ChangeSEVolume(a);
+  }
 
   // Use this for initialization
   void Start() {
