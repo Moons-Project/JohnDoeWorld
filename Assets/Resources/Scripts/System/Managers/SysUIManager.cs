@@ -30,6 +30,8 @@ public class SysUIManager : MonoBehaviour {
 
   public static SysUIManager instance;
 
+  public Canvas HintCanvas;
+
   void Awake() {
     if (instance == null) {
       instance = this;
@@ -374,5 +376,21 @@ public class SysUIManager : MonoBehaviour {
     isTabOpen = false;
     tabPanel.SetActive(false);
     CloseSkillDetail();
+  }
+
+  bool isHintOpen = false;
+
+  public void ShowHint() {
+    isHintOpen = true;
+    HintCanvas.gameObject.SetActive(isHintOpen);
+  }
+
+  public void HideHint() {
+    isHintOpen = false;
+    HintCanvas.gameObject.SetActive(isHintOpen);
+  }
+
+  public void ChangeHint(string hintText) {
+    HintCanvas.GetComponentInChildren<Text>().text = hintText;
   }
 }
