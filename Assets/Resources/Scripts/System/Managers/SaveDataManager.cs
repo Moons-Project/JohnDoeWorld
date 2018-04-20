@@ -11,7 +11,7 @@ public class SaveDataManager {
   public class SaveData {
     public int progress = 0;
     public string lastVDoorName = "";
-    public string lastSceneName = "scene_3-1";
+    public string lastSceneName = "prologue_scene";
     public CreatureInfo[] creatureInfos = new CreatureInfo[3] { null, null, null };
     public PlayerRoleType playerRoleType = PlayerRoleType.Slarm;
   }

@@ -32,3 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/scene_3-1.unity
     guid: 33193a72ca208a54282609f10156b9b3
+  - enabled: 1
+    path: Assets/Resources/Scenes/prologue_scene.unity
+    guid: f73c1abba89170b41a762cffedcd599a
