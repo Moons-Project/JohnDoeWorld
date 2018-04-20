@@ -49,5 +49,6 @@ public class GameManager : MonoBehaviour {
 
   public void SwitchScene(string sceneName) {
     globalEffectManager._SwitchScene(sceneName);
+    SysUIManager.instance.HideHint();
   }
 }
