@@ -66,8 +66,9 @@ public class VirtualDoorControl : MonoBehaviour {
 
   void OnTriggerEnter2D(Collider2D other) {
     if (doorType != VDoorType.Hit) return;
-    if (other.gameObject.tag == "ControlPlayer")
-      other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+    if (other.gameObject.tag != "ControlPlayer") return;
+
+    other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
 
     if (manager.saveDataManager.saveData.progress != progreess) {
       if (isDoor) Default(other);
