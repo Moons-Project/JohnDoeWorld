@@ -4,17 +4,9 @@ using UnityEngine;
 
 public class AddJane : MonoBehaviour {
   public GameObject jane;
+  public Scene3Control scene3Control;
 
   public int progress;
-  // Use this for initialization
-  void Start() {
-
-  }
-
-  // Update is called once per frame
-  void Update() {
-
-  }
 
   void OnTriggerEnter2D(Collider2D other) {
     if (other.tag == "ControlPlayer" &&
@@ -26,5 +18,8 @@ public class AddJane : MonoBehaviour {
   void showJane() {
     jane.SetActive(true);
     GameManager.instance.scriptManager.FinishedEvent -= showJane;
+    jane.GetComponent<Creature>().OnDead += scene3Control.OnJaneDead;
+    SaveDataManager.instance.saveData.progress--;
+    SaveDataManager.instance.Save();
   }
 }

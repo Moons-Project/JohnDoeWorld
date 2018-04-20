@@ -52,6 +52,9 @@ public class Creature : MonoBehaviour {
 
   private bool deadHandled = false;
 
+  public delegate void OnDeadHandler(Creature creature);
+  public event OnDeadHandler OnDead;
+
   // Use this for initialization
   void Start() {
     // attack = transform.GetChild(0).gameObject.GetComponent<Attack>();
@@ -251,6 +254,8 @@ public class Creature : MonoBehaviour {
 
   public void Dead() {
     Debug.Log("DEAD");
+    if (OnDead != null)
+      OnDead(this);
     deadHandled = true;
     if (GameManager.instance.controllingCreature == this) {
       DialogManager.instance.SystemDialog("<color='red'>YOU DIED</color>");
