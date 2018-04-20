@@ -342,11 +342,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _basicInfo:
-    sword: 100
-    magic: 100
-    rigidity: 80
-    life: 100
-    talent: 100
+    sword: 15
+    magic: 35
+    rigidity: 10
+    life: 80
+    talent: 60
   currentInfo:
     sword: 0
     magic: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   skillExps: 0000000000000000000000000000000000000000
   skillList:
   - BasicAttack
-  - FireBall
+  - WaterBall
   equippingItem:
     idName: 
     name: 

@@ -59,7 +59,7 @@
       "skillList": [
         "BasicAttack",
         "Stab",
-        "ThreeTimesChop",
+        "TopDownChop",
         "FireBall",
         "Battojutsu"
       ],
@@ -94,9 +94,9 @@
       "skillList": [
         "BasicAttack",
         "WaterBall",
-        "ThreeTimesChop",
-        "FireBall",
-        "FireBall"
+        "Stab",
+        "Tornado",
+        "Tornado"
       ],
       "color": {
         "r": 255.0,
