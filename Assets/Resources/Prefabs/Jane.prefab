@@ -323,7 +323,7 @@ MonoBehaviour:
   - BasicAttack
   - ThunderBall
   - Stab
-  - TornadoBall
+  - Tornado
   - FireBall
   equippingItem:
     idName: SimpleSword
